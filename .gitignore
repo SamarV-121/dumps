@@ -1,9 +1,9 @@
-vendor/lib64/libMegviiHumBokehPost-mtk.so
-vendor/etc/license.lic
-vendor/etc/camera/license.lic
-.git/objects/pack/pack-d38421aebf29d5155135917fa4403041248515b4.pack
-system/system/product/priv-app/Velvet/Velvet.apk
+.git/objects/pack/pack-12c69ee4c2f42d1751221778d1fa5b899b89d8ad.pack
+system/system/app/OppoCamera/OppoCamera.apk
 system/system/priv-app/Settings/Settings.apk
 system/system/priv-app/Browser/Browser.apk
 system/system/priv-app/OppoGallery2/OppoGallery2.apk
-system/system/app/OppoCamera/OppoCamera.apk
+system/system/product/priv-app/Velvet/Velvet.apk
+vendor/etc/camera/license.lic
+vendor/etc/license.lic
+vendor/lib64/libMegviiHumBokehPost-mtk.so

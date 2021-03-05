@@ -48,6 +48,7 @@
     <app-link package="com.google.android.talk" />
     <app-link package="com.google.android.apps.photos" />
     <app-link package="com.google.android.music" />
+    <app-link package="com.google.android.apps.youtube.music" />
 
     <!-- Apps below are optional on GMS devices -->
     <app-link package="com.google.android.apps.tycho" />

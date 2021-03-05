@@ -229,7 +229,8 @@ description=$(grep -m1 -oP "(?<=^ro.build.description=).*" -hs {system,system/sy
 [[ -z ${description} ]] && description="$flavor $release $id $incremental $tags"
 is_ab=$(grep -m1 -oP "(?<=^ro.build.ab_update=).*" -hs {system,system/system,vendor}/build*.prop)
 [[ -z ${is_ab} ]] && is_ab="false"
-branch=$(echo "$description" | tr ' ' '-')
+branch=$(grep ro.build.version.ota oppo_product/build.prop | cut -d'=' -f2)
+[[ -z ${branch} ]] && branch=$(echo "$description" | tr ' ' '-')
 repo_subgroup=$(echo "$brand" | tr '[:upper:]' '[:lower:]')
 [[ -z $repo_subgroup ]] && repo_subgroup=$(echo "$manufacturer" | tr '[:upper:]' '[:lower:]')
 repo_name=$(echo "$codename" | tr '[:upper:]' '[:lower:]')
@@ -265,14 +266,15 @@ sudo chmod -R u+rwX ./*
 
 # Generate all_files.txt
 find . -type f -printf '%P\n' | sort | grep -v ".git/" >./all_files.txt
+git config --global user.name "SamarV-121"
+git config --global user.email "samarvispute121@gmail.com"
 
 gpush() {
-	git config user.name "SamarV-121"
-	git config user.email "samarvispute121@gmail.com"
 	find . -size +97M -printf '%P\n' -o -name '*sensetime*' -printf '%P\n' -o -iname '*Megvii*' -printf '%P\n' -o -name '*.lic' -printf '%P\n' -o -name '*zookhrs*' -printf '%P\n' -printf '%P\n' -o -name 'extract_and_push.sh' >.gitignore
 	editTGmsg "Dumped, now Committing and pushing"
 	git add . ':!system/system/app' ':!system/system/priv-app'
 	git commit -m "Add $branch"
+	[[ $BRANCH ]] && branch=$BRANCH
 	git push "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}" "$branch" || {
 		editTGmsg "Pushing failed!"
 		echo "Pushing failed!"

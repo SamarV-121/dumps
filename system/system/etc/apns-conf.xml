@@ -8893,6 +8893,36 @@
   />
 <!-- ODM_HQ_EDIT -->
 
+  <!-- Yanzhou.Chen@RM.NW.DATA.149756, 2020/12/23, for Russia operator 25027 APN. start -->
+   <apn carrier="Letai Internet"
+      mcc="250"
+      mnc="27"
+      apn="internet.letai.ru"
+      type="default"
+      protocol="IP"
+      roaming_protocol="IP"
+   />
+   <apn carrier="Letai MMS"
+      mcc="250"
+      mnc="27"
+      apn="mms"
+      type="mms"
+      mmsc="http://mmsc:8002"
+      mmsproxy="mmsc"
+      mmsport="8080"
+      protocol="IP"
+      roaming_protocol="IP"
+   />
+   <apn carrier="IMS"
+      mcc="250"
+      mnc="27"
+      apn="ims"
+      type="ims"
+      protocol="IP"
+      roaming_protocol="IP"
+   />
+  <!-- Yanzhou.Chen@RM.NW.DATA.149756, 2020/12/23, for Russia operator 25027 APN. end -->
+
   <apn carrier="Megafon internet"
       mcc="250"
       mnc="30"
@@ -24131,6 +24161,35 @@
       mmsport="8080"
       type="mms"
   />
+   <!-- Junfeng.Gao@ODM_WT.NW.IMS.2802669, 2020/08/20, add Philippines Dito ims config-->
+   <!--Philippines Dito -->
+   <apn carrier="Internet"
+       mcc="515"
+       mnc="66"
+       apn="internet.dito.ph"
+       type="default,supl,xcap"
+       protocol="IPV4V6"
+       roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="MMS"
+       mcc="515"
+       mnc="66"
+       apn="mms.dito.ph"
+       type="mms"
+       protocol="IPV4V6"
+       roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="IMS"
+        mcc="515"
+        mnc="66"
+        apn="ims"
+        type="ims"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+  />
+  <!-- #endif ODM_WT_EDIT -->
 
   <apn carrier="Singtel (Postpaid)"
       mcc="525"

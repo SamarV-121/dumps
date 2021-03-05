@@ -1,9 +1,9 @@
 #!/system/bin/sh
-if ! applypatch --check EMMC:/dev/block/platform/bootdevice/by-name/recovery:67108864:3e372a33a8761c19a2cd7a20fc963676401b1645; then
+if ! applypatch --check EMMC:/dev/block/platform/bootdevice/by-name/recovery:67108864:e0dc99bab3b1b5fb15e23382bbe9f926424fb5b5; then
   applypatch  \
           --patch /vendor/recovery-from-boot.p \
-          --source EMMC:/dev/block/platform/bootdevice/by-name/boot:33554432:aca648944d5f5b593fee519a9736a300953d5c66 \
-          --target EMMC:/dev/block/platform/bootdevice/by-name/recovery:67108864:3e372a33a8761c19a2cd7a20fc963676401b1645 && \
+          --source EMMC:/dev/block/platform/bootdevice/by-name/boot:33554432:558ae49ea74c4b49e6f1a16bd421aa2766b738e0 \
+          --target EMMC:/dev/block/platform/bootdevice/by-name/recovery:67108864:e0dc99bab3b1b5fb15e23382bbe9f926424fb5b5 && \
       log -t recovery "Installing new oppo recovery image: succeeded" && \
       setprop ro.recovery.updated true || \
       log -t recovery "Installing new oppo recovery image: failed" && \
