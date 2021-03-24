@@ -1,0 +1,2 @@
+/product/app/yandex.search/yandex.search.apk
+/product/priv-app/appcloud_oobe_samsungGlobal-release_V3.22.4.0/appcloud_oobe_samsungGlobal-release_V3.22.4.0.apk

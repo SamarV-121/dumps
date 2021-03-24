@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-A405FN_SER_CPW_PP_0001</version>
+  <model>
+    <name>SM-A405FN</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0001</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>35</carrierCount>
+    <carrier>
+      <mcc>001</mcc>
+      <mnc>01</mnc>
+      <spn>GCFTest</spn>
+      <networkName>GCFTest</networkName>
+    </carrier>
+    <carrier>
+      <mcc>214</mcc>
+      <mnc>01</mnc>
+      <networkName>vodafone ES</networkName>
+    </carrier>
+    <carrier>
+      <mcc>234</mcc>
+      <mnc>10</mnc>
+      <networkName>O2 UK Pay Monthly</networkName>
+    </carrier>
+    <carrier>
+      <mcc>234</mcc>
+      <mnc>10</mnc>
+      <networkName>TESCO</networkName>
+    </carrier>
+    <carrier>
+      <mcc>234</mcc>
+      <mnc>10</mnc>
+      <networkName>O2 UK Pay &amp; Go</networkName>
+    </carrier>
+    <carrier>
+      <mcc>234</mcc>
+      <mnc>15</mnc>
+      <networkName>BT Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>234</mcc>
+      <mnc>15</mnc>
+      <networkName>Talkmobile Contract</networkName>
+    </carrier>
+    <carrier>
+      <mcc>234</mcc>
+      <mnc>15</mnc>
+      <networkName>Asda</networkName>
+    </carrier>
+    <carrier>
+      <mcc>234</mcc>
+      <mnc>15</mnc>
+      <networkName>Talkmobile PAYG</networkName>
+    </carrier>
+    <carrier>
+      <mcc>234</mcc>
+      <mnc>15</mnc>
+      <networkName>Vodafone PAYG</networkName>
+    </carrier>
+    <carrier>
+      <mcc>234</mcc>
+      <mnc>15</mnc>
+      <networkName>TalkTalk</networkName>
+    </carrier>
+    <carrier>
+      <mcc>234</mcc>
+      <mnc>15</mnc>
+      <networkName>Vodafone Contract</networkName>
+    </carrier>
+    <carrier>
+      <mcc>234</mcc>
+      <mnc>20</mnc>
+      <networkName>Three UK</networkName>
+    </carrier>
+    <carrier>
+      <mcc>234</mcc>
+      <mnc>30</mnc>
+      <networkName>EE/T-Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>234</mcc>
+      <mnc>30</mnc>
+      <networkName>Virgin</networkName>
+    </carrier>
+    <carrier>
+      <mcc>234</mcc>
+      <mnc>33</mnc>
+      <networkName>EE/T-Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>260</mcc>
+      <mnc>01</mnc>
+      <networkName>Plus</networkName>
+    </carrier>
+    <carrier>
+      <mcc>260</mcc>
+      <mnc>02</mnc>
+      <networkName>T-Mobile.pl</networkName>
+    </carrier>
+    <carrier>
+      <mcc>260</mcc>
+      <mnc>02</mnc>
+      <networkName>Heyah</networkName>
+    </carrier>
+    <carrier>
+      <mcc>260</mcc>
+      <mnc>03</mnc>
+      <networkName>Orange</networkName>
+    </carrier>
+    <carrier>
+      <mcc>260</mcc>
+      <mnc>06</mnc>
+      <networkName>PLAY</networkName>
+    </carrier>
+    <carrier>
+      <mcc>260</mcc>
+      <mnc>12</mnc>
+      <networkName>Cyfrowy Polsat</networkName>
+    </carrier>
+    <carrier>
+      <mcc>262</mcc>
+      <mnc>01</mnc>
+      <networkName>Telekom.de</networkName>
+    </carrier>
+    <carrier>
+      <mcc>262</mcc>
+      <mnc>02</mnc>
+      <networkName>Vodafone.de</networkName>
+    </carrier>
+    <carrier>
+      <mcc>262</mcc>
+      <mnc>07</mnc>
+      <networkName>o2 - de</networkName>
+    </carrier>
+    <carrier>
+      <mcc>272</mcc>
+      <mnc>01</mnc>
+      <networkName>Vodafone IE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>272</mcc>
+      <mnc>02</mnc>
+      <networkName>O2 IRL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>272</mcc>
+      <mnc>03</mnc>
+      <networkName>Meteor</networkName>
+    </carrier>
+    <carrier>
+      <mcc>272</mcc>
+      <mnc>05</mnc>
+      <networkName>H3G IE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>272</mcc>
+      <mnc>11</mnc>
+      <networkName>Tesco Mobile Ireland</networkName>
+    </carrier>
+    <carrier>
+      <mcc>450</mcc>
+      <mnc>01</mnc>
+      <spn>TestBed</spn>
+      <networkName>TestBed</networkName>
+    </carrier>
+    <carrier>
+      <mcc>450</mcc>
+      <mnc>05</mnc>
+      <networkName>SK Telecom</networkName>
+    </carrier>
+    <carrier>
+      <mcc>450</mcc>
+      <mnc>06</mnc>
+      <networkName>LG U+</networkName>
+    </carrier>
+    <carrier>
+      <mcc>450</mcc>
+      <mnc>08</mnc>
+      <networkName>KT</networkName>
+    </carrier>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>02</mnc>
+      <networkName>YES OPTUS</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

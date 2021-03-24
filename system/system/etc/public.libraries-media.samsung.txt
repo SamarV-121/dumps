@@ -1,0 +1,4 @@
+libheifcapture_jni.media.samsung.so
+libjpegsq.media.samsung.so
+libsimgp_jni.media.samsung.so
+libsemimagecrop_jni.media.samsung.so

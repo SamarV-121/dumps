@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<permissions>
+    <permission name="com.sec.android.galaxylabs.permission.MANAGE_MEDIA_STORAGE">
+        <group gid="media_rw"/>
+    </permission>
+</permissions>

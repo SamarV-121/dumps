@@ -1,0 +1,2 @@
+libneural.snap.samsung.so
+libsnap_hidl.snap.samsung.so

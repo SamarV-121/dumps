@@ -1,0 +1,6 @@
+<permissions>
+    <privapp-permissions package="com.samsung.android.hdmapp">
+        <permission name="com.samsung.android.knox.permission.KPM_OPERATION_REQUEST_INFORM_ACTION_INTERNAL"/>
+        <permission name="com.samsung.android.knox.permission.KNOX_HDM"/>
+    </privapp-permissions>
+</permissions>

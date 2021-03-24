@@ -1,0 +1,25 @@
+#line 1 "vendor/samsung/system/sepolicy/samsung/service_contexts"
+# Due to AIDL HAL introduction, vendors can publish services
+# with servicemanager. vendor_service_contexts is labeled as
+# vendor_service_contexts_file, not nonplat_service_contexts_file.
+# And pack it to vendor partition.
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-3993
+vendor.samsung.hardware.light.ILights/default            u:object_r:hal_light_service:s0
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-3902
+vendor.samsung.hardware.base.ISehBase/default            u:object_r:hal_base_service:s0
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-4117
+vendor.samsung.hardware.hyper.ISehHyPer/default      u:object_r:hal_hyper_service:s0
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-4208
+vendor.samsung.hardware.uwb@1.0::ISehUwb/default      u:object_r:hal_uwb_service:s0
+
+#line 1 "device/samsung/sepolicy/common/service_contexts"
+# SEC_REMOVE : This is not AIDL hal service 
+# sims       u:object_r:sims_service:s0
+#line 1 "system/sepolicy/reqd_mask/service_contexts"
+# empty service_contexts file - this file is used to generate an empty
+# non-platform service_context for devices without any service_contexts
+# customizations.

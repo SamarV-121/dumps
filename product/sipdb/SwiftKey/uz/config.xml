@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config>
+  <LanguageCode>uz</LanguageCode>
+  <CountryCode>uz</CountryCode>
+  <Version>1.0.1</Version>
+  <Engine>swiftkey</Engine>
+</config>

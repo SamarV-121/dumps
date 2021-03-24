@@ -1,0 +1,7 @@
+<permissions>
+    <privapp-permissions package="com.samsung.android.mcfserver">
+        <permission name="android.permission.DUMP" />
+        <permission name="android.permission.INTERACT_ACROSS_USERS" />
+        <permission name="com.samsung.android.security.permission.SAMSUNG_KEYSTORE_PERMISSION" />
+    </privapp-permissions>
+</permissions>

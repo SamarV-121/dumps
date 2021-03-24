@@ -1,0 +1,170 @@
+# bootchecker rc file,
+
+on early-init
+    readahead /system/framework --fully
+	
+    readahead /system/etc/sysconfig --fully
+    readahead /vendor/etc/sysconfig --fully
+    readahead /product/etc/sysconfig --fully
+	
+    readahead /system/etc/permissions --fully
+    readahead /vendor/etc/permissions --fully
+    readahead /product/etc/permissions --fully
+
+service bootchecker /system/bin/bootchecker
+    class late_start
+    user system
+    group system log
+    oneshot
+
+service bootchecker-bootc /system/bin/bootchecker --writebootc
+    user system
+    group system log
+    oneshot
+
+on property:init.svc.zygote=restarting
+    write /dev/freezer/olaf/freezer.state THAWED
+    write /dev/freezer/frozen/freezer.state THAWED
+    write /dev/freezer/abnormal/freezer.state THAWED
+    restart bootchecker
+    
+on property:dev.bootcomplete=1
+    start bootchecker-bootc
+
+on property:sys.readahead.inputmethod=1
+    readahead /system/app/HoneyBoard/HoneyBoard.apk --fully
+    readahead /data/dalvik-cache/arm64/system@app@HoneyBoard@HoneyBoard.apk@classes.dex --fully
+    readahead /data/dalvik-cache/arm64/system@app@HoneyBoard@HoneyBoard.apk@classes.vdex --fully
+    readahead /system/app/HoneyBoard/oat/arm64/HoneyBoard.odex --fully
+    readahead /system/app/HoneyBoard/oat/arm64/HoneyBoard.vdex --fully
+    readahead /system/app/IceCone/IceCone.apk --fully
+    readahead /data/dalvik-cache/arm64/system@app@IceCone@IceCone.apk@classes.dex --fully
+    readahead /data/dalvik-cache/arm64/system@app@IceCone@IceCone.apk@classes.vdex --fully
+    setprop sys.readahead.inputmethod 0
+
+on property:sys.readahead.sbrowser=1
+    readahead /data/app/SBrowser_13.2_Removable/SBrowser_13.2_Removable.apk --fully
+
+on property:sys.readahead.camera=1
+    readahead /vendor/lib/hw/camera.qcom.so --fully
+    readahead /vendor/lib/hw/com.samsung.chi.override.so --fully
+    readahead /vendor/lib/hw/camera.unihal.default.so --fully
+    readahead /vendor/lib/libcamxfdalgov8.so --fully
+    readahead /vendor/lib/camera/components/com.qti.stats.haf.so --fully
+    readahead /vendor/lib/camera/components/com.qti.stats.af.so --fully
+    readahead /vendor/lib/camera/components/com.qti.stats.pdlib.so --fully
+    readahead /vendor/lib/camera/components/com.qti.stats.awb.so --fully
+    readahead /vendor/lib/camera/components/com.wrapper.stats.aec.so --fully
+    readahead /vendor/lib/vendor.samsung.camera.device@5.0-impl.so --fully
+    readahead /vendor/lib/camera.device@3.2-impl.so --fully
+    readahead /vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-qti-display.so --fully
+    readahead /system/lib/libcameraservice.so --fully
+    readahead /system/lib/libgui.so --fully
+    readahead /system/lib/libc++.so --fully
+    readahead /system/lib/libbase.so --fully
+    readahead /system/lib/vendor.samsung.hardware.camera.device@5.0.so --fully
+    readahead /system/lib/libhidlbase.so --fully
+    readahead /system/lib/libedmnativehelper.so --fully
+    readahead /system/lib/android.hardware.camera.provider@2.4.so --fully
+    readahead /system/lib/android.hardware.camera.provider@2.5.so --fully
+    readahead /system/lib/android.hardware.camera.provider@2.6.so --fully
+    readahead /system/lib/vendor.samsung.hardware.camera.provider@4.0.so --fully
+    readahead /system/lib/android.hardware.camera.device@3.2.so --fully
+    readahead /system/lib/android.hardware.camera.device@3.3.so --fully
+    readahead /system/lib/android.hardware.camera.device@3.4.so --fully
+    readahead /system/lib/android.hardware.camera.device@3.5.so --fully
+    readahead /system/lib/android.hardware.camera.device@3.6.so --fully
+    readahead /system/lib/android.hardware.graphics.mapper@4.0.so --fully
+    setprop sys.readahead.camera 0
+
+on property:sys.readahead.camera64=1
+    readahead /vendor/lib64/hw/camera.qcom.so --fully
+    readahead /vendor/lib64/hw/com.samsung.chi.override.so --fully
+    readahead /vendor/lib64/hw/camera.unihal.default.so --fully
+    readahead /vendor/lib64/hw/com.qti.chi.override.so --fully
+    readahead /vendor/lib64/com.qti.feature2.gs.so --fully
+    readahead /vendor/lib64/com.qti.feature2.anchorsync.so --fully
+    readahead /vendor/lib64/com.qti.feature2.demux.so --fully
+    readahead /vendor/lib64/com.qti.feature2.rt.so --fully
+    readahead /vendor/lib64/com.qti.feature2.serializer.so --fully
+    readahead /vendor/lib64/com.qti.feature2.stub.so --fully
+    readahead /vendor/lib64/com.qti.feature2.swmf.so --fully
+    readahead /vendor/lib64/camera/components/com.qti.stats.pdlib.so --fully
+    readahead /vendor/lib64/libswregistrationalgo.so --fully
+    readahead /vendor/lib64/camera/components/com.qti.stats.haf.so --fully
+    readahead /vendor/lib64/camera/components/com.qti.stats.af.so --fully
+    readahead /vendor/lib64/camera/components/com.qti.stats.pdlib.so --fully
+    readahead /vendor/lib64/camera/components/com.qti.stats.awb.so --fully
+    readahead /vendor/lib64/camera/components/com.qti.stats.aec.so --fully
+    readahead /vendor/lib64/vendor.samsung.camera.device@5.0-impl.so --fully
+    readahead /vendor/lib64/camera.device@3.2-impl.so --fully
+    readahead /system/lib64/vendor.samsung.hardware.camera.device@5.0.so --fully
+    readahead /system/lib64/libedmnativehelper.so --fully
+    setprop sys.readahead.camera64 0
+
+on property:sys.readahead.mtkcamera=1
+    readahead /system/fonts/Roboto-Medium.ttf --fully
+    readahead /vendor/lib64/libmtkcam_hwnode.so --fully
+    readahead /vendor/lib64/libmtkcam_pipelinepolicy.so --fully
+    readahead /vendor/lib64/libmtkcam_3rdparty.mtk.so --fully
+    readahead /vendor/lib64/libmtkcam_pipeline.so --fully
+    readahead /vendor/lib64/hw/camera.unihal.default.so --fully
+    readahead /vendor/lib64/libmfllcore.so --fully
+    readahead /vendor/lib64/libmtkcam_device3_utils.so --fully
+    readahead /vendor/lib64/libmtkcam_device3_hal.so --fully
+    readahead /vendor/lib64/libcam.iopipe.so --fully
+    readahead /system/fonts/Roboto-Regular.ttf --fully
+    readahead /vendor/lib64/libmtkcam_ulog.so --fully
+    readahead /vendor/lib64/libmtkcam_metadata.so --fully
+    readahead /vendor/lib64/libmtkcam_3rdparty.core.so --fully
+    readahead /vendor/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so --fully
+    readahead /vendor/lib64/vendor.samsung.hardware.camera.device@5.0.so --fully
+    readahead /vendor/lib64/libmtkcam_streamutils.so --fully
+    readahead /vendor/lib64/libmtkcam_hwutils.so --fully
+    readahead /vendor/lib64/hw/camera.mt6768.so --fully
+    readahead /vendor/lib64/camera.device@3.2-impl.so --fully
+    readahead /vendor/lib64/vendor.samsung.camera.device@5.0-impl.so --fully
+    readahead /vendor/lib64/libmtkcam_sysutils.so --fully
+    readahead /vendor/lib64/libmtkcam_stdutils.so --fully
+    readahead /vendor/lib64/libmtkcam_pipelinemodel_zsl.so --fully
+    readahead /vendor/lib64/libmtkcam_pipelinemodel_session.so --fully
+    readahead /vendor/lib64/libmtkcam_metastore.so --fully
+    readahead /vendor/lib64/libmtkcam_featurepolicy.so --fully
+    readahead /vendor/lib64/libmtkcam_device3_app.so --fully
+    readahead /vendor/lib64/libmtkcam_3rdparty.customer.so --fully
+    readahead /vendor/lib64/libcam.feature_utils.so --fully
+    readahead /vendor/lib64/libsensorndkbridge.so --fully
+    readahead /vendor/lib64/libmtkcam_pipelinemodel_capture.so --fully
+    readahead /vendor/lib64/libmtkcam_pipelinemodel.so --fully
+    readahead /vendor/lib64/libmtkcam_grallocutils.so --fully
+    readahead /vendor/lib64/libmtkcam_device3_legacy.so --fully
+    readahead /vendor/lib64/libseccam_util.so --fully
+    readahead /vendor/lib64/libmtkcam_pipelinepolicy_factory.so --fully
+    readahead /vendor/lib64/libmtkcam_pipelinemodel_adapter.so --fully
+    readahead /vendor/lib64/libmtkcam_modulehelper.so --fully
+    readahead /vendor/lib64/libmtkcam_modulefactory_utils.so --fully
+    readahead /vendor/lib64/libmtkcam_modulefactory_drv.so --fully
+    readahead /vendor/lib64/libmtkcam_modulefactory_aaa.so --fully
+    readahead /vendor/lib64/libmtkcam_featureutils.so --fully
+    readahead /vendor/lib64/libmtkcam_devicesessionpolicy.so --fully
+    readahead /vendor/lib64/libmtkcam_debugutils.so --fully
+    readahead /vendor/lib64/libfeatureiodrv_mem.so --fully
+    readahead /vendor/lib64/libcam.vhdr.so --fully
+    readahead /system/lib64/libfmq.so --fully
+    readahead /system/lib64/libcamera_metadata.so --fully
+    readahead /vendor/lib64/libcam.hal3a.v3.so --fully
+    readahead /vendor/lib64/libmtkcam.logicalmodule.so --fully
+    readahead /vendor/lib64/libcam.halsensor.so --fully
+    readahead /vendor/lib64/libmtkcam_imgbuf.so --fully
+    readahead /vendor/lib64/libfeature.stereo.provider.so --fully
+    readahead /vendor/lib64/libmtkcam_hwnode.so --fully
+    readahead /vendor/lib64/libmtkcam.featurepipe.streaming.so --fully
+    readahead /vendor/lib64/libmtkcam_pipelinemodel_utils.so --fully
+    readahead /vendor/lib64/libmtkcam.featurepipe.capture.so --fully
+    readahead /vendor/lib64/libcamalgo.lmv.so --fully
+    readahead /vendor/lib64/libfeature_lmv.so --fully
+    readahead /vendor/lib64/libfeature.face.so --fully
+    readahead /vendor/lib64/libcamalgo.fdft.so --fully
+    readahead /vendor/lib64/s5kgw3_mipi_raw_tuning.so --fully
+    readahead /vendor/lib64/libcameracustom.so --fully
+    setprop sys.readahead.mtkcamera 0

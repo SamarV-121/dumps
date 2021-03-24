@@ -1,0 +1,2 @@
+
+com.android.sdkextÄ∆ÜèBlibc.soBlibdl.soB	liblog.soBlibm.so

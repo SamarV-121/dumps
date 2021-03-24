@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SW-Configuration>
+    <MobileData>
+        <PublicName>SM-A405FM</PublicName>
+    </MobileData>
+    <OmcYn>Y</OmcYn>
+    <MultiCode>SER</MultiCode>
+    <CustomerDataSet>
+        <CSCName>A405FMSER</CSCName>
+        <CSCVersion>3CUC2</CSCVersion>
+        <NbCustomer>2</NbCustomer>
+        <CustomerData src="/Customer/SER/customer.xml" />
+        <CustomerData src="/Customer/CPW/customer.xml" />
+    </CustomerDataSet>
+    <OmcInfo>
+        <OmcCode>
+            <CustomerCode>CPW</CustomerCode>
+            <Version>SAOMC_SM-A405FN_SER_CPW_PP_0001</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SER</CustomerCode>
+            <Version>SAOMC_SM-A405FM_SER_SER_RR_0005</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+            <Packages>
+                <package name="ru.samsung.catalog" />
+            </Packages>
+        </OmcCode>
+    </OmcInfo>
+</SW-Configuration>

@@ -1,0 +1,12 @@
+# iof
+service iof /system/bin/iof --HOLDER
+    class main
+    user system
+    group system log
+    disabled
+    oneshot
+
+on early-fs
+    check_iof system
+# start iof before vold
+    start iof

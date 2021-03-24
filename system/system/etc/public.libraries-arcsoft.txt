@@ -1,0 +1,3 @@
+libface_landmark.arcsoft.so
+libhigh_dynamic_range.arcsoft.so
+libFacialAttributeDetection.arcsoft.so
