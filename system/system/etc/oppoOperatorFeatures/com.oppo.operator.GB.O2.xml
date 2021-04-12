@@ -1,5 +1,6 @@
 <!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
 <permissions>
+  <feature name="com.oppo.android.feature.PAI" />
   <feature name="oppo.mms.read.report" />
   <feature name="oppo.mms.disable.text.sms.convert.mms" />
   <feature name="oppo.mms.sms.center.edit.disable" />
@@ -8,5 +9,4 @@
   <feature name="oppo.mms.replace.google.mms"/>
   <feature name="oppo.default.sms.application.google.messages"/>
   <feature name="oppo.contacts.speeddial"/>
-  <feature name="com.oppo.android.feature.PAI" />
 </permissions>

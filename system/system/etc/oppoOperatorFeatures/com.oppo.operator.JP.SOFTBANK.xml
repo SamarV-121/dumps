@@ -1,5 +1,11 @@
 <!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
 <permissions>
+  <feature name="oppo.launcher.drawer_mode.default" />
+  <feature name="oppo.settings.mms.emergency.support" />
+  <feature name="oppo.customize.oppo_backup_restore.disable" />
+  <feature name="coloros.customize.settings.gota.update.support" />
+  <feature name="coloros.customize.bootreg.hide_ota_update_preference"/>
+  <feature name="coloros.customize.settings.hide_video_beauty" />
   <feature name="oppo.opposimsettings.forbid.edit.sim.number" />
   <feature name="oppo.phone.forbid.edit.voicemail.number" />
   <feature name="oppo.phone.roam.call.show.dialog" />
@@ -38,12 +44,6 @@
   <feature name="coloros.customize.contacts.hide_sms_menu"/>
   <feature name="oppo.opposimsettings.traffic.not.remind"/>
   <feature name="oppo.phone.not.need.call.immediately"/>
-  <feature name="oppo.launcher.drawer_mode.default" />
-  <feature name="oppo.settings.mms.emergency.support" />
-  <feature name="oppo.customize.oppo_backup_restore.disable" />
-  <feature name="coloros.customize.settings.gota.update.support" />
-  <feature name="coloros.customize.bootreg.hide_ota_update_preference"/>
-  <feature name="coloros.customize.settings.hide_video_beauty" />
   <feature name="oppo.multiuser.entry.unsupport" />
   <feature name="coloros.customize.guardelf.jp.softbank.keepalive" />
   <feature name="coloros.customize.systemui.virtualkey_recent_right_of_home" />

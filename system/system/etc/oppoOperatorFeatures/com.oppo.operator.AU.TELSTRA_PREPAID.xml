@@ -1,5 +1,8 @@
 <!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
 <permissions>
+  <feature name="oppo.settings.hide.networkspeed" />
+  <feature name="oppo.oppo_disaplay_calculate_data_traffic.def.off" />
+  <feature name="oppo.custom.bootreg.default.close.pictorial" />
   <feature name="oppo.phone.hide.2G.mode" />
   <feature name="oppo.simsettings.mobile.data.enable" />
   <feature name="oppo.phone.telstra.default.voicemail" />
@@ -19,9 +22,6 @@
   <feature name="oppo.phone.srvcc.singleline.show.conference" />
   <feature name="oppo.mms.AU.special.message.max.size" />
   <feature name="coloros.customize.simsettings.disable_carrier_location_notification" />
-  <feature name="oppo.settings.hide.networkspeed" />
-  <feature name="oppo.oppo_disaplay_calculate_data_traffic.def.off" />
-  <feature name="oppo.custom.bootreg.default.close.pictorial" />
   <feature name="oppo.ota.specialneeds.telstra" />
   <feature name="oppo.keyguard.show.pinpukremains" />
 </permissions>

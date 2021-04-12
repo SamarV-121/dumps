@@ -1,5 +1,6 @@
 <!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
 <permissions>
+  <feature name="oppo.drm.support" />
   <feature name="oppo.mms.max.size.500k" />
   <feature name="oppo.mms.user.agent.movistar" />
   <feature name="oppo.mms.support.group.mms" />
@@ -18,7 +19,6 @@
   <feature name="oppo.contacts.wifi.calling.customize" />
   <feature name="coloros.customize.mms.user_agent" />
   <feature name="coloros.customize.contacts.preset_contacts_in_origin" />
-  <feature name="oppo.drm.support" />
   <feature name="oppo.ota.specialneeds.movistar" />
   <feature name="oppo.systemui.autoexpand.wifilist.movistar" />
   <feature name="oppo.systemui.tile.order.movistar" />

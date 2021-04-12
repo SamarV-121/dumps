@@ -1,5 +1,6 @@
 <!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
 <permissions>
+  <feature name="oppo.softap.unique.passwd" />
   <feature name="oppo.mms.si.push.low.no.notify" />
   <feature name="oppo.mms.no.need.send.notify.resp.ind" />
   <feature name="oppo.mms.sms.validity.period" />
@@ -24,7 +25,6 @@
   <feature name="oppo.phone.hide.repeat.callsetting" />
   <feature name="oppo.contacts.android.backup.restore.support"/>
   <feature name="coloros.customize.simsettings.grant_location_for_vowifi" />
-  <feature name="oppo.softap.unique.passwd" />
   <feature name="oppo.ota.specialneeds.orange" />
   <feature name="oppo.permission.orange" />
   <feature name="oppo.securitykeyboard.orange" />

@@ -1,5 +1,8 @@
 <!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
 <permissions>
+  <feature name="oppo.softap.unique.passwd" />
+  <feature name="oppo.settings.hide.networkspeed" />
+  <feature name="oppo.oppo_disaplay_calculate_data_traffic.def.off" />
   <feature name="oppo.mms.add.multi.image" />
   <feature name="oppo.oppowirelesssettings.not.editable.apn" />
   <feature name="oppo.mms.wappush.default.disable" />
@@ -19,7 +22,4 @@
   <feature name="oppo.mms.hide.unknow.number" />
   <feature name="oppo.stk.launcher" />
   <feature name="oppo.comm.simsettings.hide.smart.5g.switch" />
-  <feature name="oppo.settings.hide.networkspeed" />
-  <feature name="oppo.oppo_disaplay_calculate_data_traffic.def.off" />
-  <feature name="oppo.softap.unique.passwd" />
 </permissions>

@@ -1,9 +1,6 @@
-all_files.txt
 board-info.txt
+boot.elf
 boot.img
-bootimg/00_kernel
-bootimg/01_dtbdump_MT6785.dtb
-bootimg/02_dtbdump_MT6785.dtb
 bootimg/dt.img
 bootimg/img_info
 bootimg/kernel
@@ -14,8 +11,6 @@ bootimg/ramdisk/avb/s-gsi.avbpubkey
 bootimg/ramdisk/fstab.mt6785
 bootimg/ramdisk/init
 dtbo.img
-dtbo/00_kernel
-dtbo/01_dtbdump_fragment@0.dtb
 extract_and_push.sh
 ikconfig
 kallsyms.txt

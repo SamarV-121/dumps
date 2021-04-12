@@ -1,5 +1,7 @@
 <!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
 <permissions>
+  <feature name="oppo.launcher.download.progress.support" />
+  <feature name="oppo.sdcard.storage.switch.support" />
   <feature name="oppo.common_center.wlan.assistant" />
   <feature name="oppo.coloros.fake.bs" />
   <feature name="oppo.simsettings.daily_not_remind" />
@@ -10,6 +12,4 @@
   <feature name="oppo.comm.smartdrive.not.voice"/>
   <feature name="oppo.common.wifi.choose.auto_reconnect" />
   <feature name="oppo.phone.harass.intercept.off" />
-  <feature name="oppo.launcher.download.progress.support" />
-  <feature name="oppo.sdcard.storage.switch.support" />
 </permissions>

@@ -1,5 +1,5 @@
 <!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
 <permissions>
-  <feature name="oppo.phone.nodisplayrecord" />
     <feature name="oppo.launcher.drawer_mode.default" />
+  <feature name="oppo.phone.nodisplayrecord" />
 </permissions>
