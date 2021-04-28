@@ -41,10 +41,6 @@ on init
     export LD_PRELOAD libdirect-coredump.so
 #endif /* ODM_HQ_EDIT */
 
-#ifdef VENDOR_EDIT
-#zhouhengguo@BSP.Stablity,2019/10/09,enable aee exception for user temporary
-    setprop ro.vendor.aee.enforcing no
-#endif
 
 on property:sys.boot_completed=1
     start aee-reinit

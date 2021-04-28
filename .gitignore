@@ -1,9 +1,9 @@
 system/system/product/priv-app/Velvet/Velvet.apk
-system/system/app/OppoCamera/OppoCamera.apk
+system/system/priv-app/OppoGallery2/OppoGallery2.apk
 system/system/priv-app/Browser/Browser.apk
 system/system/priv-app/Settings/Settings.apk
-system/system/priv-app/OppoGallery2/OppoGallery2.apk
+system/system/app/OppoCamera/OppoCamera.apk
 vendor/etc/camera/license.lic
 vendor/etc/license.lic
 vendor/lib64/libMegviiHumBokehPost-mtk.so
-.git/objects/pack/pack-723b7acdb07ec6299aa0f4cfcd116947e8da7119.pack
+.git/objects/pack/pack-e4af3b4e25efa5da4076c903272ecd6b32cec6b3.pack
