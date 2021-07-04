@@ -1,0 +1,80 @@
+{
+    "version" : 2,
+    "lang" : "fi_FI",
+    "sections" : [
+        {
+            "charRules": [
+                {
+                    "CharRule": {
+                        "id": [
+                            "»"
+                        ],
+                        "actions": [],
+                        "contextRules": [
+                            {
+                                "PairRule": {
+                                    "id": [
+                                        "»"
+                                    ],
+                                    "state": "CLOSE",
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_SPACE"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "id": [
+                            "”"
+                        ],
+                        "actions": [],
+                        "contextRules": [
+                            {
+                                "PairRule": {
+                                    "id": [
+                                        "”"
+                                    ],
+                                    "state": "CLOSE",
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_SPACE"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "id": [
+                            "’"
+                        ],
+                        "actions": [],
+                        "contextRules": [
+                            {
+                                "PairRule": {
+                                    "id": [
+                                        "’"
+                                    ],
+                                    "state": "CLOSE",
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_SPACE"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "dependency" : "default"
+}

@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+<appOrder>
+   
+    <!-- Samsung -->
+    <folder
+        screen="0"
+        title="Samsung" >
+   
+        <!-- Samsung Galaxy -->
+        <favorite
+            className="com.samsung.android.galaxy.MainActivity"
+            packageName="com.samsung.android.galaxy"
+            screen="0"
+        />
+
+        <!-- Phone -->
+        <favorite
+            className="com.samsung.android.dialer.DialtactsActivity"
+            packageName="com.samsung.android.dialer"
+            screen="1"
+        />
+   
+        <!-- Messages -->
+        <favorite
+            className="com.android.mms.ui.ConversationComposer"
+            packageName="com.samsung.android.messaging"
+            screen="2"
+        />
+   
+        <!-- SmartThings -->
+        <favorite
+            className="com.samsung.android.oneconnect.ui.SCMainActivity"
+            packageName="com.samsung.android.oneconnect"
+            screen="3"
+        />
+   
+        <!-- Voice Recorder -->
+        <favorite
+            className="com.sec.android.app.voicenote.main.VNMainActivity"
+            packageName="com.sec.android.app.voicenote"
+            screen="4"
+        />
+   
+        <!-- Email -->
+        <favorite
+            className="com.samsung.android.email.ui.activity.MessageListXL"
+            packageName="com.samsung.android.email.provider"
+            screen="5"
+        />
+   
+        <!-- My Files -->
+        <favorite
+            className="com.sec.android.app.myfiles.external.ui.MainActivity"
+            packageName="com.sec.android.app.myfiles"
+            screen="6"
+        />
+   
+        <!-- Internet -->
+        <favorite
+            className="com.sec.android.app.sbrowser.SBrowserMainActivity"
+            packageName="com.sec.android.app.sbrowser"
+            screen="7"
+        />
+   
+        <!-- S Health -->
+        <favorite
+            className="com.samsung.android.app.shealth.home.HomeMainActivity"
+            packageName="com.sec.android.app.shealth"
+            screen="8"
+        />
+   
+        <!-- Galaxy Wearable -->
+        <favorite
+            className="com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity"
+            packageName="com.samsung.android.app.watchmanager"
+            screen="9"
+        />
+   
+        <!-- AR Zone -->
+        <favorite
+            className="com.samsung.android.arzone.ARZoneLauncher"
+            packageName="com.samsung.android.arzone"
+            screen="10"
+        />
+   
+    </folder>
+   
+    <!-- Google -->
+    <folder
+        screen="0"
+        title="Google" >
+   
+        <!-- Google app -->
+        <favorite
+            className="com.google.android.googlequicksearchbox.SearchActivity"
+            packageName="com.google.android.googlequicksearchbox"
+            screen="0"
+        />
+   
+        <!-- Chrome -->
+        <favorite
+            className="com.google.android.apps.chrome.Main"
+            packageName="com.android.chrome"
+            screen="1"
+        />
+   
+        <!-- Gmail -->
+        <favorite
+            className="com.google.android.gm.ConversationListActivityGmail"
+            packageName="com.google.android.gm"
+            screen="2"
+        />
+   
+        <!-- Maps -->
+        <favorite
+            className="com.google.android.maps.MapsActivity"
+            packageName="com.google.android.apps.maps"
+            screen="3"
+        />
+   
+        <!-- YouTube -->
+        <favorite
+            className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"
+            packageName="com.google.android.youtube"
+            screen="4"
+        />
+   
+        <!-- Drive -->
+        <favorite
+            className="com.google.android.apps.docs.app.NewMainProxyActivity"
+            packageName="com.google.android.apps.docs"
+            screen="5"
+        />
+   
+        <!-- Google Play Movies & TV -->
+        <favorite
+            className="com.google.android.youtube.videos.EntryPoint"
+            packageName="com.google.android.videos"
+            screen="7"
+        />
+   
+        <!-- Duo -->
+        <favorite
+            className="com.google.android.apps.tachyon.MainActivity"
+            packageName="com.google.android.apps.tachyon"
+            screen="8"
+        />
+   
+        <!-- Photos -->
+        <favorite
+            className="com.google.android.apps.photos.home.HomeActivity"
+            packageName="com.google.android.apps.photos"
+            screen="9"
+        />
+   
+    </folder>
+   
+    <!-- Microsoft Apps -->
+    <folder
+        screen="0"
+        title="Microsoft Apps" >
+   
+        <!-- Office Mobile -->
+        <favorite
+            className="com.microsoft.office.officesuite.OfficeSuiteActivity"
+            packageName="com.microsoft.office.officehubrow"
+            screen="0"
+        />
+   
+        <!-- OneDrive -->
+        <favorite
+            className="com.microsoft.skydrive.MainActivity"
+            packageName="com.microsoft.skydrive"
+            screen="1"
+        />
+   
+        <!-- LinkedIn -->
+        <favorite
+            className="com.linkedin.android.authenticator.LaunchActivity"
+            packageName="com.linkedin.android"
+            screen="2"
+        />
+   
+    </folder>
+   
+    <!-- Google Play Store -->
+    <favorite
+        className="com.android.vending.AssetBrowserActivity"
+        packageName="com.android.vending"
+        screen="0"
+    />
+   
+    <!-- Samsung Members -->
+    <favorite
+        className="com.samsung.android.voc.LauncherActivity"
+        packageName="com.samsung.android.voc"
+        screen="0"
+    />
+   
+    <!-- Galaxy Apps -->
+    <favorite
+        className="com.sec.android.app.samsungapps.SamsungAppsMainActivity"
+        packageName="com.sec.android.app.samsungapps"
+        screen="0"
+    />
+   
+    <!-- Facebook -->
+    <favorite
+        className="com.facebook.katana.LoginActivity"
+        packageName="com.facebook.katana"
+        screen="0"
+    />
+   
+    <!-- Spotify -->
+    <favorite
+        className="com.spotify.music.MainActivity"
+        packageName="com.spotify.music"
+        screen="0"
+    />
+   
+    <!-- Camera -->
+    <favorite
+        className="com.sec.android.app.camera.Camera"
+        packageName="com.sec.android.app.camera"
+        screen="0"
+    />
+   
+    <!-- Gallery -->
+    <favorite
+        className="com.samsung.android.gallery.app.activity.GalleryActivity"
+        packageName="com.sec.android.gallery3d"
+        screen="0"
+    />
+   
+    <!-- Clock -->
+    <favorite
+        className="com.sec.android.app.clockpackage.ClockPackage"
+        packageName="com.sec.android.app.clockpackage"
+        screen="0"
+    />
+   
+    <!-- Contacts -->
+    <favorite
+        className="com.samsung.android.contacts.contactslist.PeopleActivity"
+        packageName="com.samsung.android.app.contacts"
+        screen="0"
+    />
+   
+    <!-- Settings -->
+    <favorite
+        className="com.android.settings.Settings"
+        packageName="com.android.settings"
+        screen="0"
+    />
+   
+    <!-- Calendar -->
+    <favorite
+        className="com.samsung.android.app.calendar.activity.MainActivity"
+        packageName="com.samsung.android.calendar"
+        screen="0"
+    />
+   
+    <!-- Calculator -->
+    <favorite
+        className="com.sec.android.app.popupcalculator.Calculator"
+        packageName="com.sec.android.app.popupcalculator"
+        screen="0"
+    />
+   
+    <!-- Google Play Music -->
+    <favorite
+        className="com.android.music.activitymanagement.TopLevelActivity"
+        packageName="com.google.android.music"
+        screen="0"
+    />
+	<!-- Google Play Music New-->
+    <favorite 
+        screen="0" 
+        packageName="com.google.android.music" 
+        className="com.google.android.music.tombstone.LauncherActivity" />
+   
+    <!-- YouTube Music -->
+    <favorite
+        className="com.google.android.apps.youtube.music.activities.MusicActivity"
+        packageName="com.google.android.apps.youtube.music"
+        screen="0"
+    />
+   
+    <!-- Samsung Notes -->
+    <favorite
+        className="com.samsung.android.app.notes.memolist.MemoListActivity"
+        packageName="com.samsung.android.app.notes"
+        screen="0"
+    />
+   
+    <!-- Game Launcher -->
+    <favorite
+        className="com.samsung.android.game.gamehome.activity.StartActivity"
+        packageName="com.samsung.android.game.gamehome"
+        screen="0"
+    />
+   
+    <!-- Fortnite Installer -->
+    <favorite
+        className="com.epicgames.portal.activities.main.MainActivity"
+        packageName="com.epicgames.portal"
+        screen="0"
+    />
+	
+	<!-- Global Goals -->
+	<favorite
+        packageName="com.samsung.sree"
+        className="com.samsung.sree.ui.MainActivity"
+		screen="0"
+        		
+	/>	
+   
+    <!-- Secure Folder -->
+    <favorite
+        className="com.samsung.knox.securefolder.switcher.SecureFolderShortcutActivity"
+        packageName="com.samsung.knox.securefolder"
+        screen="0"
+    />
+   
+    <!-- Noticias -->
+    <favorite
+        className="com.bluebloodapps.news.Splash"
+        packageName="com.bluebloodapps.news"
+        screen="0"
+    />
+   
+    <!-- trendy -->
+    <favorite
+        className="com.bluebloodapps.trendy.Splash"
+        packageName="com.bluebloodapps.trendy"
+        screen="0"
+    />
+   
+    <!-- Voice Search -->
+    <favorite
+        className="com.google.android.googlequicksearchbox.VoiceSearchActivity"
+        hidden="true"
+        packageName="com.google.android.googlequicksearchbox"
+        screen="0"
+    />
+   
+</appOrder>
+   

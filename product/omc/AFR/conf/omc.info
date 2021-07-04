@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_AFR_RR_0005</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0003</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>11</carrierCount>
+    <carrier>
+      <mcc>634</mcc>
+      <mnc>01</mnc>
+      <networkName>Zain Sudan</networkName>
+    </carrier>
+    <carrier>
+      <mcc>634</mcc>
+      <mnc>02</mnc>
+      <networkName>MTN Sudan</networkName>
+    </carrier>
+    <carrier>
+      <mcc>634</mcc>
+      <mnc>07</mnc>
+      <networkName>Sudani One</networkName>
+    </carrier>
+    <carrier>
+      <mcc>636</mcc>
+      <mnc>01</mnc>
+      <networkName>Ethiopia Ethio Telecom</networkName>
+    </carrier>
+    <carrier>
+      <mcc>639</mcc>
+      <mnc>02</mnc>
+      <networkName>Safaricom</networkName>
+    </carrier>
+    <carrier>
+      <mcc>639</mcc>
+      <mnc>03</mnc>
+      <networkName>Airtel</networkName>
+    </carrier>
+    <carrier>
+      <mcc>639</mcc>
+      <mnc>07</mnc>
+      <networkName>Telkom</networkName>
+    </carrier>
+    <carrier>
+      <mcc>639</mcc>
+      <mnc>10</mnc>
+      <networkName>Faiba4G</networkName>
+    </carrier>
+    <carrier>
+      <mcc>640</mcc>
+      <mnc>04</mnc>
+      <networkName>Vodacom</networkName>
+    </carrier>
+    <carrier>
+      <mcc>640</mcc>
+      <mnc>11</mnc>
+      <networkName>Smile TZ</networkName>
+    </carrier>
+    <carrier>
+      <mcc>641</mcc>
+      <mnc>33</mnc>
+      <networkName>Smile UG</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_AUT_RR_0015</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0008</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>yes</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>8</carrierCount>
+    <carrier>
+      <mcc>206</mcc>
+      <mnc>01</mnc>
+      <subsetCode>8012</subsetCode>
+      <codeType>DEC</codeType>
+      <gid>117</gid>
+      <networkName>upc ch</networkName>
+    </carrier>
+    <carrier>
+      <mcc>228</mcc>
+      <mnc>01</mnc>
+      <networkName>Swisscom</networkName>
+    </carrier>
+    <carrier>
+      <mcc>228</mcc>
+      <mnc>02</mnc>
+      <networkName>Sunrise</networkName>
+    </carrier>
+    <carrier>
+      <mcc>228</mcc>
+      <mnc>03</mnc>
+      <networkName>Salt</networkName>
+    </carrier>
+    <carrier>
+      <mcc>228</mcc>
+      <mnc>53</mnc>
+      <codeType>DEC</codeType>
+      <gid>117</gid>
+      <networkName>upc ch</networkName>
+    </carrier>
+    <carrier>
+      <mcc>295</mcc>
+      <mnc>01</mnc>
+      <networkName>Swisscom FL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>295</mcc>
+      <mnc>02</mnc>
+      <networkName>Salt FL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>295</mcc>
+      <mnc>05</mnc>
+      <networkName>Telecom Liechtenstein</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

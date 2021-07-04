@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_KSA_RR_0011</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0007</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>6</carrierCount>
+    <carrier>
+      <mcc>420</mcc>
+      <mnc>01</mnc>
+      <networkName>STC</networkName>
+    </carrier>
+    <carrier>
+      <mcc>420</mcc>
+      <mnc>03</mnc>
+      <networkName>Mobily Prepaid</networkName>
+    </carrier>
+    <carrier>
+      <mcc>420</mcc>
+      <mnc>03</mnc>
+      <networkName>Mobily Postpaid</networkName>
+    </carrier>
+    <carrier>
+      <mcc>420</mcc>
+      <mnc>04</mnc>
+      <networkName>Zain</networkName>
+    </carrier>
+    <carrier>
+      <mcc>420</mcc>
+      <mnc>05</mnc>
+      <networkName>Virgin</networkName>
+    </carrier>
+    <carrier>
+      <mcc>420</mcc>
+      <mnc>06</mnc>
+      <networkName>Lebara</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

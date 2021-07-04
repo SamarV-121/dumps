@@ -1,0 +1,11 @@
+service poweranim /system/bin/poweranimation
+    class core animation
+    user graphics
+    group graphics audio
+    disabled
+    oneshot
+    ioprio rt 0
+    task_profiles MaxPerformance
+
+on property:service.poweranimation.on=ON
+    start poweranim

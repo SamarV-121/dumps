@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_DKR_RR_0005</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0002</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>3</carrierCount>
+    <carrier>
+      <mcc>608</mcc>
+      <mnc>01</mnc>
+      <networkName>Orange SN</networkName>
+    </carrier>
+    <carrier>
+      <mcc>608</mcc>
+      <mnc>03</mnc>
+      <networkName>Expresso Senegal</networkName>
+    </carrier>
+    <carrier>
+      <mcc>610</mcc>
+      <mnc>02</mnc>
+      <networkName>Orange ML</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

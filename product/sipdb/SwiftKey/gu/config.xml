@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config>
+  <LanguageCode>gu</LanguageCode>
+  <CountryCode>in</CountryCode>
+  <Version>1.2.0</Version>
+  <Engine>swiftkey</Engine>
+</config>

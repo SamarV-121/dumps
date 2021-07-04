@@ -1,0 +1,13 @@
+{
+  "update_version": 3,
+  "note": "enable RCS for Telstra_AU",
+  "globalsettings_update": 
+  {
+    "globalsetting": [
+      {
+        "mnoname": "Telstra_AU",
+        "rcs_open_switch_for_eur": true
+      }
+    ]
+  }  
+}

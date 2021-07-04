@@ -1,0 +1,19 @@
+{
+  "update_version": 1,
+  "note": "Enable VoLTE roaming for TDC DK",
+  "imsprofile_update":
+  {
+    "profile": [
+      {
+        "name": "TDC DK VoLTE",
+        "mnoname": "TDC_DK",
+        "support_roaming": true
+      },
+      {
+        "name": "TDC DK E911",
+        "mnoname": "TDC_DK",
+        "support_roaming": true
+      }
+    ]
+  }
+}

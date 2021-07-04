@@ -1,0 +1,4 @@
+<CP_Feature>
+    <CP_Version>1</CP_Version>
+    <CP_UECAPA>1,{{{0x40001f,PLMN_ID_SIGLE},PLMN_ID_END},{LTE_SUPPORTED_ALL_BAND,LTE_BAND_END},CA_NO_LIMIT,0x0D}</CP_UECAPA>
+</CP_Feature> 

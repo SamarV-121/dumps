@@ -1,0 +1,5 @@
+# DualDAR RC
+service dualdard /system/bin/dualdard
+    socket ddar stream 0660 system vendor_knoxcore
+    user vendor_knoxcore
+    group vendor_knoxcore

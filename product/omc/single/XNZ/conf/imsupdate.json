@@ -1,0 +1,20 @@
+{
+  "update_version": 1,
+  "min_swver": "",
+  "note": "Enable IMS service for Bluesky & Astca",
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "Bluesky_NZ",
+        "enableIms": true,
+        "enableServiceVolte": true
+      },
+      {
+        "mnoname": "Astca_NZ",
+        "enableIms": true,
+        "enableServiceVolte": true,
+        "enableServiceSmsip": true
+      }
+    ]
+  }
+}

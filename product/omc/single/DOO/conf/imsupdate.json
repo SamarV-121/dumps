@@ -1,0 +1,20 @@
+{
+    "note": "Add imsupdate for SM-G975F with carrier = DOO",
+    "imsswitch_update": {
+        "imsswitch": [
+            {
+                "mnoname": "Aliv_BS",
+                "enableIms": false,
+                "enableServiceVolte": false,
+                "enableServiceVilte": false,
+                "enableServiceSmsip": false
+            },
+            {
+                "mnoname": "Cable_PA",
+                "enableIms": false,
+                "enableServiceVolte": false,
+                "enableServiceVowifi": false
+            }
+        ]
+    }
+}

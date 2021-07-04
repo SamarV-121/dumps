@@ -1,0 +1,4 @@
+{
+    "default-layout": "azerty",
+    "alternate-layouts": ["qwerty", "qwertz", "qzerty", "bepo", "qwertz_swiss_french"]
+}

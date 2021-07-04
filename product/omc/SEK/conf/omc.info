@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_SEK_RR_0006</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0002</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>6</carrierCount>
+    <carrier>
+      <mcc>255</mcc>
+      <mnc>01</mnc>
+      <networkName>Vodafone</networkName>
+    </carrier>
+    <carrier>
+      <mcc>255</mcc>
+      <mnc>03</mnc>
+      <networkName>Kyivstar</networkName>
+    </carrier>
+    <carrier>
+      <mcc>255</mcc>
+      <mnc>06</mnc>
+      <networkName>Lifecell</networkName>
+    </carrier>
+    <carrier>
+      <mcc>255</mcc>
+      <mnc>07</mnc>
+      <networkName>3Mob</networkName>
+    </carrier>
+    <carrier>
+      <mcc>259</mcc>
+      <mnc>01</mnc>
+      <networkName>Orange MD</networkName>
+    </carrier>
+    <carrier>
+      <mcc>259</mcc>
+      <mnc>02</mnc>
+      <networkName>Moldcell</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

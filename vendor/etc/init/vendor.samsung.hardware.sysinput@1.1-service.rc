@@ -1,0 +1,9 @@
+# file permission
+on early-boot
+    chown system system /dev/tspio
+    chown system system /sys/class/sec/tsp/enable
+
+service sec-sysinput-1-1 /vendor/bin/hw/vendor.samsung.hardware.sysinput@1.1-service
+    class hal
+    user system
+    group system

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_ITV_RR_0011</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0006</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>25</carrierCount>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>15</mnc>
+      <codeType>HEX</codeType>
+      <gid>F003</gid>
+      <networkName>Iliad Int</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>01</mnc>
+      <networkName>TIM</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>01</mnc>
+      <spn>BT Enia</spn>
+      <networkName>BTEnia</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>01</mnc>
+      <spn>BT Italia</spn>
+      <networkName>BTItalia</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>01</mnc>
+      <spn>COOP</spn>
+      <networkName>CoopVoce1</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>01</mnc>
+      <spn>COOP MOBILE</spn>
+      <networkName>CoopVoce3</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>01</mnc>
+      <spn>COOP ¡OBILE</spn>
+      <networkName>CoopVoce2</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>01</mnc>
+      <spn>CoopVoce</spn>
+      <codeType>HEX</codeType>
+      <gid>434F4F50FFFFFFFF</gid>
+      <networkName>CoopVoce IT R</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>01</mnc>
+      <spn>Kena Mobile R</spn>
+      <networkName>Kena Mobile R</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>01</mnc>
+      <spn>tiscali mobile</spn>
+      <networkName>Tiscali</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>07</mnc>
+      <networkName>Kena Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>08</mnc>
+      <networkName>FASTWEB1</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>10</mnc>
+      <networkName>vodafone IT</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>10</mnc>
+      <spn>ho.</spn>
+      <networkName>ho.</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>33</mnc>
+      <networkName>Poste Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>34</mnc>
+      <networkName>British Telecom</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>50</mnc>
+      <codeType>HEX</codeType>
+      <gid>F003</gid>
+      <networkName>Iliad</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>53</mnc>
+      <networkName>CoopVoce IT</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>88</mnc>
+      <codeType>HEX</codeType>
+      <gid>0000000099</gid>
+      <networkName>VERY</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>88</mnc>
+      <networkName>WINDTRE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>99</mnc>
+      <codeType>HEX</codeType>
+      <gid>0000000099</gid>
+      <networkName>VERY</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>99</mnc>
+      <networkName>WINDTRE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>99</mnc>
+      <spn>FASTWEB</spn>
+      <subsetCode>800</subsetCode>
+      <networkName>FASTWEB</networkName>
+    </carrier>
+    <carrier>
+      <mcc>228</mcc>
+      <mnc>01</mnc>
+      <spn>FASTWEB</spn>
+      <networkName>FASTWEB2</networkName>
+    </carrier>
+    <carrier>
+      <mcc>278</mcc>
+      <mnc>01</mnc>
+      <networkName>vodafone MT</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

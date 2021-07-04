@@ -1,0 +1,17 @@
+<permissions>
+    <privapp-permissions package="com.samsung.android.mdx">
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="com.sec.android.diagmonagent.permission.DIAGMON"/>
+        <permission name="com.sec.android.diagmonagent.permission.PROVIDER"/>
+        <permission name="android.permission.READ_SEARCH_INDEXABLES"/>
+        <permission name="android.permission.INJECT_EVENTS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+        <permission name="android.permission.BLUETOOTH_STACK"/>
+        <permission name="android.permission.INTERNAL_SYSTEM_WINDOW"/>
+        <permission name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+    </privapp-permissions>
+</permissions>

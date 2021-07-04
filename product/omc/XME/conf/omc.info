@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_XME_RR_0008</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0004</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>6</carrierCount>
+    <carrier>
+      <mcc>502</mcc>
+      <mnc>12</mnc>
+      <networkName>MAXIS</networkName>
+    </carrier>
+    <carrier>
+      <mcc>502</mcc>
+      <mnc>152</mnc>
+      <networkName>Yes 4G</networkName>
+    </carrier>
+    <carrier>
+      <mcc>502</mcc>
+      <mnc>153</mnc>
+      <networkName>Unifi</networkName>
+    </carrier>
+    <carrier>
+      <mcc>502</mcc>
+      <mnc>16</mnc>
+      <networkName>DIGI</networkName>
+    </carrier>
+    <carrier>
+      <mcc>502</mcc>
+      <mnc>18</mnc>
+      <networkName>U MOBILE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>502</mcc>
+      <mnc>19</mnc>
+      <networkName>CELCOM</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

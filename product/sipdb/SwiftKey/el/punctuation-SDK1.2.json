@@ -1,0 +1,65 @@
+{
+    "version" : 2,
+    "lang" : "el_GR",
+    "sections" : [
+        {
+            "charRules": [
+                {
+                    "CharRule": {
+                        "id": [
+                            ";",
+                            "\u037E"
+                        ],
+                        "actions": [
+                            "BACKSPACE",
+                            "INS_PREDICTION",
+                            "INS_FOCUS",
+                            "INS_SPACE"
+                        ],
+                        "contextRules": [
+                            {
+                                "CatRule": {
+                                    "id": [
+                                      "P*"
+                                    ],
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_SPACE"
+                                    ]
+                                }
+                            },
+                            {
+                                "ContextRule": {
+                                    "id": [
+                                        " $"
+                                    ],
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_SPACE"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "id": [
+                            "\u0387",
+                            "\u00B7"
+                        ],
+                        "actions": [
+                            "BACKSPACE",
+                            "INS_FOCUS",
+                            "INS_SPACE"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "dependency" : "default",
+    "sentenceSeparators" : [";", "\u037E"]
+}

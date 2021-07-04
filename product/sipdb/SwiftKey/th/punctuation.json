@@ -1,0 +1,167 @@
+{
+    "_comment": [
+        "General rules for Thai use zero-width space as the word separator",
+        "and an ASCII space as a sentence separator. An ASCII space is also",
+        "used when quoting text, using parentheses, using commas as list",
+        "separators, and when using ellipses."
+    ],
+    "version" : 2,
+    "lang" : "th_TH",
+    "sections" : [
+        {
+            "charRules": [
+                {
+                    "CharRule": {
+                        "_comment": [
+                            "We would like to insert an ASCII space after any",
+                            "of the following punctuation symbols, as they may",
+                            "be used to end a sentence"
+                        ],
+                        "id": [
+                            ",",
+                            "!",
+                            "?"
+                        ],
+                        "actions": [
+                            "INS_PREDICTION",
+                            "INS_FOCUS",
+                            "INS_SPACE"
+                        ],
+                        "contextRules": [
+                            {
+                                "CatRule": {
+                                    "id": [
+                                      "P*"
+                                    ],
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_SPACE"
+                                    ]
+                                }
+                            },
+                            {
+                                "ContextRule": {
+                                    "_comment": "trailing space and zero-width space",
+                                    "id": [
+                                        "\u200B$",
+                                        " $"
+                                    ],
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_SPACE"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "_comment": [
+                            "Inserting a period will remove any trailing space",
+                            "and add the period, which is used for abbreviations.",
+                            "Multiple periods will be taken as ellipses and",
+                            "an ASCII space will be added after, which can be",
+                            "used as a sentence separator."
+                        ],
+                        "id": [
+                            "."
+                        ],
+                        "actions": [
+                            "INS_PREDICTION",
+                            "INS_FOCUS"
+                        ],
+                        "contextRules": [
+                            {
+                                "CatRule": {
+                                    "id": [
+                                        "P*"
+                                    ],
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_SPACE"
+                                    ]
+                                }
+                            },
+                            {
+                                "ContextRule": {
+                                    "_comment": "trailing space and zero-width space",
+                                    "id": [
+                                        " $",
+                                        "\u200B$"
+                                    ],
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "id": [
+                            "\""
+                        ],
+                        "actions": [],
+                        "contextRules": [
+                            {
+                                "PairRule": {
+                                    "id": [
+                                        "\""
+                                    ],
+                                    "state": "CLOSE",
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_SPACE"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "id": [
+                            "…"
+                        ],
+                        "actions": [
+                            "BACKSPACE",
+                            "INS_FOCUS",
+                            "INS_SPACE"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "catRules": [
+                {
+                    "CatRule": {
+                        "_comment": [
+                            "Unicode categories for Punctuation Close and",
+                            "Final quote."
+                        ],
+                        "id": [
+                            "Pe",
+                            "Pf"
+                        ],
+                        "actions": [
+                            "BACKSPACE",
+                            "INS_FOCUS",
+                            "INS_SPACE"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "defaultSpace" : "\u200B",
+    "dependency" : "default",
+    "sentenceSeparators" : [",", "!", "?"]
+}

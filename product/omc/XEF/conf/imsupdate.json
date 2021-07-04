@@ -1,0 +1,69 @@
+{
+  "update_version": 3,
+  "note": "enable RCS for Bouygues France,SFR FR RCS Jibe setup, Enable VoLTE and VoWifi feature for Coriolis france",
+  "globalsettings_update": {
+    "globalsetting": [
+      {
+        "mnoname": "SFR_FR",
+        "rcs_network_type": "internet,wifi",
+        "rcs_show_main_switch": 1,
+        "support_chat_on_default_mms_app": 2,
+        "rcs_application_server": "jibe",
+        "rcs_botplatform_server": "jibe",
+        "rcs_up_profile": "UP_T-b1",
+        "legacy_latching": true,
+        "rcs_otp_sms_type": "binary",
+        "rcs_otp_sms_port": "37273",
+        "rcs_version" : "7.0",
+        "rcs_client_version" : "7.0"
+      }
+    ]
+  },
+  "imsprofile_update": {
+    "profile": [
+      {
+        "name": "Vodafone France RCS SFR",
+        "mnoname": "SFR_FR",
+        "port": 5060,
+        "rcs_profile": "UP_2.0",
+        "try_reregister_from_keepalive": true,
+        "session_refresher": "uac",
+        "need_ipv4_dns": true,
+        "remote_uri_type": "tel",
+        "network": [
+          {
+            "type": "gsm,umts,hspa,lte,wifi",
+            "services": [
+              "im",
+              "ft_http",
+              "options",
+              "gls",
+              "chatbot-communication"
+            ],
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "SFR_FR",
+        "enableServiceRcs": true,
+        "enableServiceRcschat": true
+      },
+      {
+        "mnoname": "Bouygues_FR",
+        "enableServiceRcs": true,
+        "enableServiceRcschat": true
+      },
+	  {
+        "mnoname": "Coriolis_FR",
+        "enableIms": true,
+        "enableServiceVolte": true,
+        "enableServiceVowifi": true
+      }
+    ]
+  }
+}

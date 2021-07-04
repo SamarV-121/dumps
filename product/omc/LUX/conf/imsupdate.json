@@ -1,0 +1,22 @@
+{
+  "update_version": 2,
+  "note": "POST VoLTE Roaming enable; Proximus_BE RCS enable",
+  "imsprofile_update": {
+    "profile": [
+      {
+        "name": "Post VoLTE",
+        "mnoname": "Post_LU",
+        "support_roaming": true
+      }
+    ]
+  },
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "Proximus_BE",
+        "enableServiceRcs": true,
+        "enableServiceRcschat": true
+      }
+    ]
+  }
+}

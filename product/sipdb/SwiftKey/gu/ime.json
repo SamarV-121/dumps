@@ -1,0 +1,5 @@
+{
+    "default-layout": "gujarati_smart",
+    "alternate-layouts": ["gujarati"],
+    "transliteration-on-latin": true
+}

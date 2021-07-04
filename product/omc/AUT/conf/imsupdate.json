@@ -1,0 +1,19 @@
+{
+  "update_version": 1,
+  "note": "enable IMS for Telecom Liechtenstein, enable VoLTE for UPC_CH",
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "Telecom_LI",
+        "enableIms": true,
+        "enableServiceVolte": true,
+        "enableServiceVowifi": true,
+        "enableServiceSmsip": true
+      },
+      {
+        "mnoname": "UPC_CH",
+        "enableServiceVolte": true
+      }
+    ]
+  }
+}

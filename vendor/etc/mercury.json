@@ -1,0 +1,90 @@
+{
+  "LRF": [
+    {
+      "name": "AP",
+      "coef": 0.153,
+      "scale": 84.21,
+      "mean": 398.4855
+    },
+    {
+      "name": "BAT",
+      "coef": 0.2772,
+      "scale": 41.6994,
+      "mean": 347.7887
+    },
+    {
+      "name": "USB",
+      "coef": 0.1531,
+      "scale": 36.689,
+      "mean": 339.5677
+    },
+    {
+      "name": "CHG",
+      "coef": 0.0534,
+      "scale": 58.1886,
+      "mean": 376.5614
+    },
+    {
+      "name": "PA",
+      "coef": 0.2952,
+      "scale": 48.1774,
+      "mean": 356.5952
+    },
+    {
+      "name": "WIFI",
+      "coef": 0.088,
+      "scale": 50.5307,
+      "mean": 356.7332
+    },
+    {
+      "name": "Y",
+      "scale": 4.1888,
+      "mean": 34.0935,
+      "intercept": 0.0
+    }
+  ],
+  "LRB": [
+    {
+      "name": "AP",
+      "coef": -0.0576,
+      "scale": 77.9732,
+      "mean": 387.0586
+    },
+    {
+      "name": "BAT",
+      "coef": 0.29,
+      "scale": 39.4624,
+      "mean": 337.549
+    },
+    {
+      "name": "USB",
+      "coef": 0.3286,
+      "scale": 35.4516,
+      "mean": 331.8922
+    },
+    {
+      "name": "CHG",
+      "coef": 0.1652,
+      "scale": 53.5125,
+      "mean": 362.2514
+    },
+    {
+      "name": "PA",
+      "coef": 0.2481,
+      "scale": 45.6811,
+      "mean": 347.7885
+    },
+    {
+      "name": "WIFI",
+      "coef": 0.0204,
+      "scale": 53.3354,
+      "mean": 351.4897
+    },
+    {
+      "name": "Y",
+      "scale": 3.849,
+      "mean": 33.4655,
+      "intercept": -0.0
+    }
+  ]
+}

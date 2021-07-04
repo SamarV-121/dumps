@@ -1,0 +1,7 @@
+/product/app/Multi_SKU_MDIP-mshop-android-optus-all-all-all-pre/Multi_SKU_MDIP-mshop-android-optus-all-all-all-pre.apk
+/product/app/MySingtel_v7.4/MySingtel_v7.4.apk
+/product/app/UserManual/UserManual.apk
+/product/app/yandex.search/yandex.search.apk
+/product/priv-app/Ignite-globeIgniteAgent_5.4.037-4583_release/Ignite-globeIgniteAgent_5.4.037-4583_release.apk
+/product/priv-app/Ignite-singtelIgniteAgent_5.7.095-4917_release/Ignite-singtelIgniteAgent_5.7.095-4917_release.apk
+/product/priv-app/MyGalaxy/MyGalaxy.apk

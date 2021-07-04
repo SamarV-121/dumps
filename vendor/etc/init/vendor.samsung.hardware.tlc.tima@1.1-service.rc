@@ -1,0 +1,9 @@
+service timahidlserv /vendor/bin/hw/vendor.samsung.hardware.tlc.tima@1.1-service
+    interface vendor.samsung.hardware.tlc.tima@1.0::ISehTima default
+    interface vendor.samsung.hardware.tlc.tima@1.1::ISehTima default
+    interface vendor.samsung.hardware.tlc.tima@1.1::ISehKeyStore default
+    class hal
+    user system
+    group system
+    oneshot
+    disabled

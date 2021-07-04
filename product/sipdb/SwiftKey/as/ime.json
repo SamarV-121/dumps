@@ -1,0 +1,6 @@
+{
+    "default-layout": "bengali_smart",
+    "alternate-layouts": ["assamese", "assamese_smart"],
+    "transliteration-on-latin": true,
+    "extra-punctuation" : ["।"]
+}

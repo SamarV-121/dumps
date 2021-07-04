@@ -1,0 +1,38 @@
+{
+    "version" : 2,
+    "lang" : "hr_HR",
+    "sections" : [
+        {
+            "charRules": [
+                {
+                    "CharRule": {
+                        "id": [
+                            "»",
+                            "›"
+                        ],
+                        "actions": [
+                            "INS_SPACE",
+                            "INS_FOCUS"
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "id": [
+                            "«",
+                            "‹",
+                            "”",
+                            "’"
+                        ],
+                        "actions": [
+                            "BACKSPACE",
+                            "INS_FOCUS",
+                            "INS_SPACE"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "dependency" : "default"
+}

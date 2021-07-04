@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_CAM_RR_0009</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0006</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>7</carrierCount>
+    <carrier>
+      <mcc>456</mcc>
+      <mnc>01</mnc>
+      <networkName>Cellcard</networkName>
+    </carrier>
+    <carrier>
+      <mcc>456</mcc>
+      <mnc>02</mnc>
+      <networkName>Smart</networkName>
+    </carrier>
+    <carrier>
+      <mcc>456</mcc>
+      <mnc>04</mnc>
+      <networkName>qb</networkName>
+    </carrier>
+    <carrier>
+      <mcc>456</mcc>
+      <mnc>06</mnc>
+      <networkName>Smart</networkName>
+    </carrier>
+    <carrier>
+      <mcc>456</mcc>
+      <mnc>08</mnc>
+      <networkName>Metfone</networkName>
+    </carrier>
+    <carrier>
+      <mcc>456</mcc>
+      <mnc>09</mnc>
+      <networkName>Beeline KH</networkName>
+    </carrier>
+    <carrier>
+      <mcc>456</mcc>
+      <mnc>11</mnc>
+      <networkName>Seatel</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

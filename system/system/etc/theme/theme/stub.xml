@@ -1,0 +1,54 @@
+<!-- stub information for CMF(Color, Material and Finishing) theme and high-contrast theme -->
+
+<stub>
+    <!-- high-contrast theme -->
+    <theme>
+        <packageName>com.samsung.Dream_A11y_lowvision</packageName>
+        <title>High contrast theme1</title>
+        <thumbnail>High_contrast_theme_1_preview.jpg</thumbnail>
+        <feature>hct</feature>
+    </theme>
+    <theme>
+        <packageName>com.samsung.High_contrast_theme_II</packageName>
+        <title>High contrast theme2</title>
+        <thumbnail>High_contrast_theme_2_preview.jpg</thumbnail>
+        <feature>hct</feature>
+    </theme>
+    <!-- CMF theme -->
+    <theme>
+        <packageName>CMF.Black.Beyond</packageName>
+        <title>Black</title>
+        <thumbnail>Black.jpg</thumbnail>
+        <feature>default</feature>
+    </theme>
+    <theme>
+        <packageName>CMF.White.Beyond</packageName>
+        <title>White</title>
+        <thumbnail>White.jpg</thumbnail>
+        <feature>default</feature>
+    </theme>
+    <theme>
+        <packageName>CMF.Green.Beyond</packageName>
+        <title>Green</title>
+        <thumbnail>Green.jpg</thumbnail>
+        <feature>default</feature>
+    </theme>
+    <theme>
+        <packageName>CMF.Yellow.Beyond</packageName>
+        <title>Yellow</title>
+        <thumbnail>Yellow.jpg</thumbnail>
+        <feature>default</feature>
+    </theme>
+    <theme>
+        <packageName>CMF.Blue.Beyond</packageName>
+        <title>Blue</title>
+        <thumbnail>Blue.jpg</thumbnail>
+        <feature>default</feature>
+    </theme>
+    <theme>
+        <packageName>CMF.Pink.Beyond</packageName>
+        <title>Pink</title>
+        <thumbnail>Pink.jpg</thumbnail>
+        <feature>default</feature>
+    </theme>
+</stub>

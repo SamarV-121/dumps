@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_XSP_RR_0009</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0004</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>11</carrierCount>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>01</mnc>
+      <networkName>Singtel (Prepaid)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>01</mnc>
+      <networkName>Singtel (Postpaid)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>02</mnc>
+      <networkName>Singtel (Postpaid)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>02</mnc>
+      <networkName>Singtel (Prepaid)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>03</mnc>
+      <networkName>SGP-M1</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>05</mnc>
+      <networkName>StarHub (Postpaid)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>05</mnc>
+      <networkName>StarHub (Prepaid)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>05</mnc>
+      <spn>giga</spn>
+      <networkName>giga</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>10</mnc>
+      <networkName>TPG</networkName>
+    </carrier>
+    <carrier>
+      <mcc>528</mcc>
+      <mnc>02</mnc>
+      <spn>PCSB</spn>
+      <networkName>PCSB</networkName>
+    </carrier>
+    <carrier>
+      <mcc>528</mcc>
+      <mnc>11</mnc>
+      <spn>DSTCom</spn>
+      <networkName>DSTCom</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

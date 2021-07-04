@@ -1,0 +1,68 @@
+{
+    "note": "Add imsupdate for SM-G975F with carrier = TPA",
+    "imsswitch_update": {
+        "imsswitch": [
+            {
+                "mnoname": "Claro_CR",
+                "enableIms": false,
+                "enableServiceVolte": false,
+                "enableServiceVowifi": false,
+                "enableServiceVilte": false,
+                "enableServiceRcs": false,
+                "enableServiceRcschat": false
+            },
+            {
+                "mnoname": "Claro_GT",
+                "enableIms": false,
+                "enableServiceVolte": false,
+                "enableServiceVowifi": false,
+                "enableServiceVilte": false,
+                "enableServiceRcs": false,
+                "enableServiceRcschat": false
+            },
+            {
+                "mnoname": "Claro_HN",
+                "enableIms": false,
+                "enableServiceVolte": false,
+                "enableServiceVowifi": false,
+                "enableServiceVilte": false,
+                "enableServiceRcs": false,
+                "enableServiceRcschat": false
+            },
+            {
+                "mnoname": "Claro_NI",
+                "enableIms": false,
+                "enableServiceVolte": false,
+                "enableServiceVowifi": false,
+                "enableServiceVilte": false,
+                "enableServiceRcs": false,
+                "enableServiceRcschat": false
+            },
+            {
+                "mnoname": "Claro_PA",
+                "enableIms": false,
+                "enableServiceVolte": false,
+                "enableServiceVowifi": false,
+                "enableServiceVilte": false,
+                "enableServiceRcs": false,
+                "enableServiceRcschat": false
+            },
+            {
+                "mnoname": "Claro_SV",
+                "enableIms": false,
+                "enableServiceVolte": false,
+                "enableServiceVowifi": false,
+                "enableServiceVilte": false,
+                "enableServiceRcs": false,
+                "enableServiceRcschat": false
+            },
+            {
+                "mnoname": "Tigo_GT",
+                "enableIms": false,
+                "enableServiceVolte": false,
+                "enableServiceVilte": false,
+                "enableServiceSmsip": false
+            }
+        ]
+    }
+}

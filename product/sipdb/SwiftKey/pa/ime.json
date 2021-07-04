@@ -1,0 +1,6 @@
+{
+    "default-layout": "punjabi_smart",
+    "alternate-layouts": ["punjabi"],
+    "extra-punctuation" : ["।"],
+    "transliteration-on-latin": true
+}

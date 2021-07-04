@@ -1,0 +1,7 @@
+service perfmond /system/bin/perfmond
+    class core
+    user system
+    group root readproc
+    critical
+    socket perfmond seqpacket 0660 system system
+    socket perfmon_send seqpacket 0660 system system

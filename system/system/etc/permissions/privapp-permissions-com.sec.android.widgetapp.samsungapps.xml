@@ -1,0 +1,6 @@
+<permissions>
+    <privapp-permissions package="com.sec.android.widgetapp.samsungapps">
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+</permissions>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!-- This is meant to be the canonical feature identifying devicesthat support DPS. -->
+    <feature name="com.google.android.feature.DPS" /> 
+</config>

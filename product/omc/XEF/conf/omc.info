@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_XEF_RR_0021</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0013</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>yes</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>46</carrierCount>
+    <carrier>
+      <mcc>206</mcc>
+      <mnc>01</mnc>
+      <codeType>HEX</codeType>
+      <gid>f004</gid>
+      <networkName>Telco OI</networkName>
+    </carrier>
+    <carrier>
+      <mcc>206</mcc>
+      <mnc>01</mnc>
+      <codeType>HEX</codeType>
+      <gid>4E524A31</gid>
+      <networkName>Proximus (NRJ)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>206</mcc>
+      <mnc>01</mnc>
+      <codeType>DEC</codeType>
+      <gid>82</gid>
+      <networkName>Proximus (Virgin)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>01</mnc>
+      <codeType>DEC</codeType>
+      <gid>51</gid>
+      <networkName>Carrefour</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>01</mnc>
+      <codeType>HEX</codeType>
+      <gid>4D433031</gid>
+      <networkName>Monaco Telecom Roaming</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>01</mnc>
+      <codeType>HEX</codeType>
+      <gid>4E524A31</gid>
+      <networkName>NRJ (ORANGE)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>01</mnc>
+      <codeType>DEC</codeType>
+      <gid>82</gid>
+      <networkName>Virgin Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>01</mnc>
+      <spn>Orange F</spn>
+      <networkName>Orange F</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>09</mnc>
+      <codeType>HEX</codeType>
+      <gid>4E524A31</gid>
+      <networkName>NRJ (SFR)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>09</mnc>
+      <spn>Coriolis</spn>
+      <networkName>CORIOLIS</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>09</mnc>
+      <spn>F SFR</spn>
+      <networkName>F SFR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>09</mnc>
+      <spn>SFR REUNION Roaming</spn>
+      <networkName>SFR RU Roaming</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>10</mnc>
+      <codeType>HEX</codeType>
+      <gid>4E524A31</gid>
+      <networkName>NRJ (SFR)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>10</mnc>
+      <networkName>F SFR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>10</mnc>
+      <codeType>DEC</codeType>
+      <gid>82</gid>
+      <networkName>Virgin</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>10</mnc>
+      <subsetCode>255</subsetCode>
+      <networkName>Simplicime</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>10</mnc>
+      <spn>AE</spn>
+      <subsetCode>16709</subsetCode>
+      <networkName>Leclerc</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>10</mnc>
+      <spn>LPM</spn>
+      <codeType>DEC</codeType>
+      <gid>76</gid>
+      <networkName>La Poste Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>11</mnc>
+      <spn>F SFR</spn>
+      <networkName>F SFR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>15</mnc>
+      <codeType>HEX</codeType>
+      <gid>F2330002</gid>
+      <networkName>Free la Réunion Roaming</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>15</mnc>
+      <codeType>HEX</codeType>
+      <gid>F006</gid>
+      <networkName>Telco OI Reunion 4G</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>15</mnc>
+      <codeType>HEX</codeType>
+      <gid>f007</gid>
+      <networkName>Free Caraibes Guadeloupe</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>15</mnc>
+      <codeType>HEX</codeType>
+      <gid>f005</gid>
+      <networkName>Jaguar Network</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>15</mnc>
+      <networkName>Free</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>15</mnc>
+      <codeType>HEX</codeType>
+      <gid>F003</gid>
+      <networkName>Iliad Int</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>15</mnc>
+      <codeType>HEX</codeType>
+      <gid>f008</gid>
+      <networkName>Free Caraibes Martinique Guyanne</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>17</mnc>
+      <spn>Legos</spn>
+      <networkName>Legos</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>20</mnc>
+      <networkName>BOUYGTEL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>23</mnc>
+      <codeType>DEC</codeType>
+      <gid>82</gid>
+      <networkName>Virgin (OMEA)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>26</mnc>
+      <codeType>HEX</codeType>
+      <gid>4E524A31</gid>
+      <networkName>NRJ (FMVNO)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>208</mcc>
+      <mnc>27</mnc>
+      <spn>Coriolis</spn>
+      <networkName>CORIOLIS</networkName>
+    </carrier>
+    <carrier>
+      <mcc>212</mcc>
+      <mnc>10</mnc>
+      <codeType>HEX</codeType>
+      <gid>4D433031</gid>
+      <networkName>Monaco Telecom</networkName>
+    </carrier>
+    <carrier>
+      <mcc>222</mcc>
+      <mnc>50</mnc>
+      <codeType>HEX</codeType>
+      <gid>F003</gid>
+      <networkName>Iliad</networkName>
+    </carrier>
+    <carrier>
+      <mcc>308</mcc>
+      <mnc>03</mnc>
+      <networkName>SPM Telecom (Orange)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>340</mcc>
+      <mnc>01</mnc>
+      <networkName>Orange (340 01)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>340</mcc>
+      <mnc>02</mnc>
+      <networkName>Outremer</networkName>
+    </carrier>
+    <carrier>
+      <mcc>340</mcc>
+      <mnc>04</mnc>
+      <codeType>HEX</codeType>
+      <gid>f008</gid>
+      <networkName>Free Caraibes Martinique Guyanne</networkName>
+    </carrier>
+    <carrier>
+      <mcc>340</mcc>
+      <mnc>09</mnc>
+      <codeType>HEX</codeType>
+      <gid>f007</gid>
+      <networkName>Free Caraibes Guadeloupe</networkName>
+    </carrier>
+    <carrier>
+      <mcc>340</mcc>
+      <mnc>20</mnc>
+      <iccid>895962001</iccid>
+      <networkName>Digicel</networkName>
+    </carrier>
+    <carrier>
+      <mcc>340</mcc>
+      <mnc>20</mnc>
+      <iccid>895962002</iccid>
+      <networkName>Wizzee</networkName>
+    </carrier>
+    <carrier>
+      <mcc>647</mcc>
+      <mnc>00</mnc>
+      <networkName>Orange (647 00)</networkName>
+    </carrier>
+    <carrier>
+      <mcc>647</mcc>
+      <mnc>02</mnc>
+      <codeType>HEX</codeType>
+      <gid>f004</gid>
+      <networkName>Telco OI</networkName>
+    </carrier>
+    <carrier>
+      <mcc>647</mcc>
+      <mnc>03</mnc>
+      <codeType>HEX</codeType>
+      <gid>F2330002</gid>
+      <networkName>Free La Réunion</networkName>
+    </carrier>
+    <carrier>
+      <mcc>647</mcc>
+      <mnc>03</mnc>
+      <codeType>HEX</codeType>
+      <gid>F006</gid>
+      <networkName>Telco OI Reunion 4G</networkName>
+    </carrier>
+    <carrier>
+      <mcc>647</mcc>
+      <mnc>10</mnc>
+      <networkName>SFR RU</networkName>
+    </carrier>
+    <carrier>
+      <mcc>647</mcc>
+      <mnc>10</mnc>
+      <networkName>CORIOLIS</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

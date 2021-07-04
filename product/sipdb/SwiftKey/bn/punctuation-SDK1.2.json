@@ -1,0 +1,51 @@
+{
+    "version" : 2,
+    "lang" : "bn_IN",
+    "sections" : [
+        {
+            "charRules": [
+                {
+                    "CharRule": {
+                        "id": [
+                            "।"
+                        ],
+                        "actions": [
+                            "BACKSPACE",
+                            "INS_PREDICTION",
+                            "INS_FOCUS",
+                            "INS_SPACE"
+                        ],
+                        "contextRules": [
+                            {
+                                "CatRule": {
+                                    "id": [
+                                      "P*"
+                                    ],
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_SPACE"
+                                    ]
+                                }
+                            },
+                            {
+                                "ContextRule": {
+                                    "id": [
+                                        " $"
+                                    ],
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_SPACE"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "dependency" : "default",
+    "sentenceSeparators" : ["।"]
+}

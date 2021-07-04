@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_XSA_RR_0015</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0006</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>yes</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>5</carrierCount>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>01</mnc>
+      <networkName>Telstra</networkName>
+    </carrier>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>01</mnc>
+      <subsetCode>56</subsetCode>
+      <networkName>TelstraMVNO</networkName>
+    </carrier>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>02</mnc>
+      <networkName>YES OPTUS</networkName>
+    </carrier>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>03</mnc>
+      <networkName>vodafone AU</networkName>
+    </carrier>
+    <carrier>
+      <mcc>505</mcc>
+      <mnc>06</mnc>
+      <networkName>vodafone AU</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

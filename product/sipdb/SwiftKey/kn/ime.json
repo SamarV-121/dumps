@@ -1,0 +1,5 @@
+{
+    "default-layout": "kannada_smart",
+    "alternate-layouts": ["kannada"],
+    "transliteration-on-latin": true
+}

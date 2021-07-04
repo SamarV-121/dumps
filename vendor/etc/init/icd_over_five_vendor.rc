@@ -1,0 +1,12 @@
+# iof_vendor
+service iof_vendor /vendor/bin/iof_vendor --HOLDER
+    class main
+    user system
+    group system log
+    disabled
+    oneshot
+
+on early-fs
+    check_iof vendor
+# start iof before vold
+    start iof_vendor

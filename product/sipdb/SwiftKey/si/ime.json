@@ -1,0 +1,5 @@
+{
+    "default-layout": "sinhala_smart",
+    "alternate-layouts": ["sinhala"],
+    "transliteration-on-latin": true
+}

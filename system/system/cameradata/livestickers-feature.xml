@@ -1,0 +1,13 @@
+<?xml version= "1.0" encoding= "UTF-8"?>
+<resources>
+    <!-- Thermistor Temperature - Only JPN used -->
+    <local name="OVERHEAT_LIMITATION_TEMP" value="640" />
+    <local name="OVERHEAT_AVAILABLE_TEMP" value="550" />
+
+    <!-- Full preview size -->
+    <local name="MAIN_FULL_PREVIEW_SIZE" value="2288x1080" />
+	
+    <!-- Display Cutout animation -->
+    <local name="DISPLAY_CUTOUT_ANIMATION_INFO" num-of-display-cutout="1" display-cutout-0-type="1" display-cutout-0-left="271" display-cutout-0-top="2" display-cutout-0-right="348" display-cutout-0-bottom="41" display-cutout-0-inner-left="275.2" display-cutout-0-inner-top="5.2" display-cutout-0-inner-right="343.8" display-cutout-0-inner-bottom="37.8"/>
+
+</resources>

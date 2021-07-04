@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_BRI_RR_0013</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0003</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>12</carrierCount>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>01</mnc>
+      <networkName>Far EasTone</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>02</mnc>
+      <networkName>Far EasTone</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>03</mnc>
+      <networkName>Far EasTone</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>05</mnc>
+      <networkName>GT 4G</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>11</mnc>
+      <networkName>Chunghwa</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>88</mnc>
+      <networkName>Far EasTone</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>89</mnc>
+      <networkName>T Star</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>92</mnc>
+      <networkName>Chunghwa</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>93</mnc>
+      <networkName>TW Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>97</mnc>
+      <networkName>TW Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>466</mcc>
+      <mnc>99</mnc>
+      <networkName>TW Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>525</mcc>
+      <mnc>05</mnc>
+      <codeType>HEX</codeType>
+      <gid>0A</gid>
+      <networkName>GT 4G Roaming</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

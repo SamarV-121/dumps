@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0002</CSCEdition>
+    <Country>Ukraine</Country>
+    <CountryISO>UA</CountryISO>
+    <Region>CIS</Region>
+    <SalesCode>SEK</SalesCode>
+    <NbNetworkInfo>6</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25501</MCCMNC>
+      <NetworkName>Vodafone</NetworkName>
+      <NWID>NW01476</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25503</MCCMNC>
+      <NetworkName>Kyivstar</NetworkName>
+      <NWID>NW00651</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25506</MCCMNC>
+      <NetworkName>Lifecell</NetworkName>
+      <NWID>NW00665</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25507</MCCMNC>
+      <NetworkName>3Mob</NetworkName>
+      <NWID>NW00027</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25901</MCCMNC>
+      <NetworkName>Orange MD</NetworkName>
+      <NWID>NW00989</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>25902</MCCMNC>
+      <NetworkName>Moldcell</NetworkName>
+      <NWID>NW00769</NWID>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>none</SeparateLock>
+      </Security>
+      <Network>
+        <NbWbAmr>1</NbWbAmr>
+        <WbAmr>
+          <NetworkName>Kyivstar</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+        <NbSOSNumber>1</NbSOSNumber>
+        <SOSNumber>112</SOSNumber>
+        <NbSOSNumberNoSIM>1</NbSOSNumberNoSIM>
+        <SOSNumberNoSIM>112</SOSNumberNoSIM>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>on</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Sound>
+        <RngToneAlertType>vibmelody</RngToneAlertType>
+        <ExtraSound>
+          <ConnectTone>on</ConnectTone>
+          <CallEndTone>on</CallEndTone>
+        </ExtraSound>
+      </Sound>
+      <Phone>
+        <DefLanguage>uk_UA</DefLanguage>
+        <DefLanguageNoSIM>uk_UA</DefLanguageNoSIM>
+        <T9Enabling>disable</T9Enabling>
+        <ContinuousInput>enable</ContinuousInput>
+        <DateTimeFormat>
+          <TimeFormat>24h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+        <WeekendSetting>satsun</WeekendSetting>
+        <VisiblePassword>on</VisiblePassword>
+        <Motion>
+          <SmartAlert>on</SmartAlert>
+        </Motion>
+      </Phone>
+      <CountryCert>
+        <CertCountryName>Ukraine</CertCountryName>
+      </CountryCert>
+    </Main>
+    <Contact>
+      <SavePosition>ask</SavePosition>
+      <ContactSort>firstname</ContactSort>
+    </Contact>
+    <Calendar>
+      <StartDay>monday</StartDay>
+    </Calendar>
+    <Messages>
+      <SMS>
+        <DeliveryReport>on</DeliveryReport>
+        <MsgTypeThreshold>
+          <ThresholdValue>10</ThresholdValue>
+        </MsgTypeThreshold>
+        <CharSupport>automatic</CharSupport>
+        <DeleteOldMessage>off</DeleteOldMessage>
+        <DeleteOldMessageCntSms>200</DeleteOldMessageCntSms>
+        <DeleteOldMessageCntMms>20</DeleteOldMessageCntMms>
+        <PreviewMessage>on</PreviewMessage>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>on</ReqDeliveryRep>
+          <ReqReadRep>on</ReqReadRep>
+          <MessageSize>1m</MessageSize>
+          <CreationMode>warning</CreationMode>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Wifi>
+      <CheckInternet>on</CheckInternet>
+    </Wifi>
+    <Multimedia>
+      <Camera>
+        <ShutterSound>off</ShutterSound>
+        <FlashSetting>auto</FlashSetting>
+      </Camera>
+      <Video>
+        <VideoResolution>hd1080</VideoResolution>
+      </Video>
+      <DefMMStorage>phone</DefMMStorage>
+    </Multimedia>
+    <ActiveSync>
+      <UseSSL>on</UseSSL>
+      <AcceptAllSSLCert>on</AcceptAllSSLCert>
+      <SyncCalendar>on</SyncCalendar>
+      <SyncContacts>on</SyncContacts>
+      <SyncTasks>on</SyncTasks>
+      <SyncSms>on</SyncSms>
+      <RoamingSetting>manual</RoamingSetting>
+      <SyncSchedule>
+        <PeakDuration>manual</PeakDuration>
+        <OffPeakDuration>manual</OffPeakDuration>
+      </SyncSchedule>
+    </ActiveSync>
+    <Browser>
+      <NbBookmark>2</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>no</Editable>
+        <BookmarkName>Samsung</BookmarkName>
+        <URL>http://www.samsung.com/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>6</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Vodafone</NetworkName>
+        <ProfBrowser>Vodafone Internet</ProfBrowser>
+        <ProfMMS>Vodafone MMS</ProfMMS>
+        <ProfEmail>Vodafone Internet</ProfEmail>
+        <ProfIM>Vodafone Internet</ProfIM>
+        <ProfStreaming>Vodafone Internet</ProfStreaming>
+        <ProfSyncDS>Vodafone Internet</ProfSyncDS>
+        <ProfActiveSync>Vodafone Internet</ProfActiveSync>
+        <ProfSyncDM>Vodafone Internet</ProfSyncDM>
+        <ProfAGPS>Vodafone Internet</ProfAGPS>
+        <ProfSGPS>Vodafone Internet</ProfSGPS>
+        <ProfWidget>Vodafone Internet</ProfWidget>
+        <ProfIntSharing>Vodafone Internet</ProfIntSharing>
+        <ProfRCS>Vodafone Internet</ProfRCS>
+        <ProfIMS>Vodafone Internet</ProfIMS>
+        <ProfFOTA>Vodafone Internet</ProfFOTA>
+        <ProfCBS>Vodafone Internet</ProfCBS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Kyivstar</NetworkName>
+        <ProfBrowser>Kyivstar Internet</ProfBrowser>
+        <ProfMMS>Kyivstar MMS</ProfMMS>
+        <ProfEmail>Kyivstar Internet</ProfEmail>
+        <ProfIM>Kyivstar Internet</ProfIM>
+        <ProfStreaming>Kyivstar Internet</ProfStreaming>
+        <ProfSyncDS>Kyivstar Internet</ProfSyncDS>
+        <ProfActiveSync>Kyivstar Internet</ProfActiveSync>
+        <ProfSyncDM>Kyivstar Internet</ProfSyncDM>
+        <ProfAGPS>Kyivstar Internet</ProfAGPS>
+        <ProfSGPS>Kyivstar Internet</ProfSGPS>
+        <ProfWidget>Kyivstar Internet</ProfWidget>
+        <ProfIntSharing>Kyivstar Internet</ProfIntSharing>
+        <ProfRCS>Kyivstar Internet</ProfRCS>
+        <ProfIMS>Kyivstar Internet</ProfIMS>
+        <ProfFOTA>Kyivstar Internet</ProfFOTA>
+        <ProfCBS>Kyivstar Internet</ProfCBS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Lifecell</NetworkName>
+        <ProfBrowser>Lifecell Internet</ProfBrowser>
+        <ProfMMS>Lifecell MMS</ProfMMS>
+        <ProfEmail>Lifecell Internet</ProfEmail>
+        <ProfIM>Lifecell Internet</ProfIM>
+        <ProfStreaming>Lifecell Internet</ProfStreaming>
+        <ProfSyncDS>Lifecell Internet</ProfSyncDS>
+        <ProfActiveSync>Lifecell Internet</ProfActiveSync>
+        <ProfSyncDM>Lifecell Internet</ProfSyncDM>
+        <ProfAGPS>Lifecell Internet</ProfAGPS>
+        <ProfSGPS>Lifecell Internet</ProfSGPS>
+        <ProfWidget>Lifecell Internet</ProfWidget>
+        <ProfIntSharing>Lifecell Internet</ProfIntSharing>
+        <ProfRCS>Lifecell Internet</ProfRCS>
+        <ProfIMS>Lifecell Internet</ProfIMS>
+        <ProfFOTA>Lifecell Internet</ProfFOTA>
+        <ProfCBS>Lifecell Internet</ProfCBS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>3Mob</NetworkName>
+        <ProfBrowser>3Mob Internet</ProfBrowser>
+        <ProfMMS>3Mob MMS</ProfMMS>
+        <ProfEmail>3Mob Internet</ProfEmail>
+        <ProfIM>3Mob Internet</ProfIM>
+        <ProfStreaming>3Mob Internet</ProfStreaming>
+        <ProfSyncDS>3Mob Internet</ProfSyncDS>
+        <ProfActiveSync>3Mob Internet</ProfActiveSync>
+        <ProfSyncDM>3Mob Internet</ProfSyncDM>
+        <ProfAGPS>3Mob Internet</ProfAGPS>
+        <ProfSGPS>3Mob Internet</ProfSGPS>
+        <ProfWidget>3Mob Internet</ProfWidget>
+        <ProfIntSharing>3Mob Internet</ProfIntSharing>
+        <ProfRCS>3Mob Internet</ProfRCS>
+        <ProfIMS>3Mob Internet</ProfIMS>
+        <ProfFOTA>3Mob Internet</ProfFOTA>
+        <ProfCBS>3Mob Internet</ProfCBS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Orange MD</NetworkName>
+        <ProfBrowser>Orange Internet</ProfBrowser>
+        <ProfMMS>Orange MMS</ProfMMS>
+        <ProfEmail>Orange Internet</ProfEmail>
+        <ProfIM>Orange Internet</ProfIM>
+        <ProfStreaming>Orange Internet</ProfStreaming>
+        <ProfSyncDS>Orange Internet</ProfSyncDS>
+        <ProfActiveSync>Orange Internet</ProfActiveSync>
+        <ProfSyncDM>Orange Internet</ProfSyncDM>
+        <ProfAGPS>Orange Internet</ProfAGPS>
+        <ProfIMS>Orange IMS</ProfIMS>
+        <ProfXCAP>Orange XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Moldcell</NetworkName>
+        <ProfBrowser>Moldcell Internet</ProfBrowser>
+        <ProfMMS>Moldcell MMS</ProfMMS>
+        <ProfEmail>Moldcell Internet</ProfEmail>
+        <ProfIM>Moldcell Internet</ProfIM>
+        <ProfStreaming>Moldcell Internet</ProfStreaming>
+        <ProfSyncDS>Moldcell Internet</ProfSyncDS>
+        <ProfActiveSync>Moldcell Internet</ProfActiveSync>
+        <ProfSyncDM>Moldcell Internet</ProfSyncDM>
+        <ProfAGPS>Moldcell Internet</ProfAGPS>
+        <ProfSGPS>Moldcell Internet</ProfSGPS>
+        <ProfWidget>Moldcell Internet</ProfWidget>
+        <ProfIntSharing>Moldcell Internet</ProfIntSharing>
+        <ProfRCS>Moldcell Internet</ProfRCS>
+      </ProfileHandle>
+      <NbProfile>14</NbProfile>
+      <Profile>
+        <NetworkName>Vodafone</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Vodafone MMS</ProfileName>
+        <URL>http://mmsc:8002/</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.10.10</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodafone</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Vodafone Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Kyivstar</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Kyivstar MMS</ProfileName>
+        <URL>http://mms.kyivstar.net</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.10.10.10</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+          <UserId>mms</UserId>
+          <Password>mms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Kyivstar</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Kyivstar Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Lifecell</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Lifecell MMS</ProfileName>
+        <URL>http://mms.life</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.10.10.10</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Lifecell</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Lifecell Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>3Mob</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>3Mob MMS</ProfileName>
+        <URL>http://10.212.1.4/mms/wapenc</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.212.3.148</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>3g.utel.ua</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>3Mob</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>3Mob Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>3g.utel.ua</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange MD</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Orange Internet</ProfileName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>wap.orange.md</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange MD</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Orange MMS</ProfileName>
+        <URL>http://mms/mms</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>192.168.127.125</ServAddr>
+          <Port>3128</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms.orange.md</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange MD</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Orange IMS</ProfileName>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Orange MD</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Orange XCAP</ProfileName>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Moldcell</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Moldcell Internet</ProfileName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Moldcell</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>Moldcell MMS</ProfileName>
+        <URL>http://mms.moldcell.md/cmmsc/post</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.0.10.10</ServAddr>
+          <Port>9201</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+  <Main>
+    <Phone>
+      <PowerSavingMode>off</PowerSavingMode>
+    </Phone>
+  </Main>
+</CustomerData>

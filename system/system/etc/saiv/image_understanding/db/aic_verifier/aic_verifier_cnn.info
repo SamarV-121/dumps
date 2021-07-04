@@ -1,0 +1,8 @@
+{
+  "version_id": "v5",
+  "tag": "5.1",
+  "model_type": "cpu",
+  "precision": "float16",
+  "complier": "cpu",
+  "model_path": "/vendor/etc/saiv/image_understanding/db/aic_verifier/aic_verifier_cnn_light.caffemodel"
+}

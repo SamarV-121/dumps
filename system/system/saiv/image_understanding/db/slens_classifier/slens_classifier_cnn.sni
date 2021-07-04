@@ -1,0 +1,12 @@
+{
+    "SERVICE_NAME": "BIXBYVISION",
+    "SERVICE_VERSION": "3.5",
+    "MODEL_TYPE": "classifier",
+    "COMPILER_NAME": "EDEN",
+    "COMPUTE_UNIT": "NPU",
+    "COMPILER_OPTION": "makalu",
+    "COMPILER_VERSION": "1.4.7.f",
+    "MODEL_VERSION": "6.5.1",
+    "MODEL_TYPE_ABBR": "CLS",
+    "MODEL_FILES": "slens_classifier_cnn.tflite"
+}

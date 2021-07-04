@@ -1,0 +1,60 @@
+on init
+    softdog enable
+    softdog chmod 0660
+    softdog chown root system
+    softdog pretimeout 20
+
+on post-fs
+    # set product_name and fingerprint for eea
+    # after /efs is mounted
+    reload_props_for_eea
+
+on post-fs-data
+    mkdir /data/log 0775 system log
+    mkdir /data/log/batterystats 0750 system log
+    mkdir /data/misc/speg 0770 system audio
+
+on post-fs-data && property:ro.boot.debug_level=0x4948
+    setprop persist.systemserver.sa_bindertracker true
+on post-fs-data && property:ro.boot.debug_level=0x494d
+    mkdir /data/log/core 0777 system log
+    setprop persist.systemserver.sa_bindertracker false
+on post-fs-data && property:ro.boot.debug_level=0x4f4c
+    mkdir /data/log/core 0775 system log
+
+on early-init && property:ro.boot.debug_level=0x494d
+    setprop debug.enable true
+    setprop libc.debug.pthread.lock_owner 1
+on early-init && property:ro.boot.debug_level=0x4948
+    setprop debug.enable true
+    setprop libc.debug.pthread.lock_owner 1
+on early-init && property:ro.product_ship=false
+    setprop debug.enable true
+on early-init && property:ro.build.type=userdebug
+    setprop debug.enable true
+on early-init && property:ro.build.type=eng
+    setprop debug.enable true
+on early-init && property:ro.boot.force_upload=0x5
+    setprop debug.enable true
+
+on property:sys.boot_completed=1
+    setprop persist.device_config.runtime_native.usap_refill_threshold 1
+    setprop persist.device_config.runtime_native.usap_pool_size_max 2
+    setprop persist.device_config.runtime_native.usap_pool_size_min 1
+    setprop persist.device_config.runtime_native.usap_pool_enabled true
+
+on property:ro.bootmode=charger  # LPM
+    softdog disable
+on property:persist.vendor.softdog=off
+    softdog disable
+
+on property:sys.boot.is_upgrade=1 && property:persist.sys.rescue_mode=isrb_off
+    setprop persist.sys.rescue_mode ""
+    setprop persist.sys.enable_isrb fasle
+    setprop persist.sys.rescue_level 0
+
+on property:sys.boot.is_upgrade=1 && property:persist.sys.rescue_mode=isrb_boot
+    setprop persist.sys.rescue_mode ""
+    setprop persist.sys.enable_isrb fasle
+    setprop persist.sys.rescue_level 0
+

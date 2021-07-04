@@ -1,0 +1,97 @@
+{
+    "version" : 2,
+    "lang" : "he_IL",
+    "sections" : [
+        {
+            "charRules": [
+                {
+                    "CharRule": {
+                        "id": [
+                            "\u05C3",
+                            ":"
+                        ],
+                        "actions": [
+                            "BACKSPACE",
+                            "INS_PREDICTION",
+                            "INS_FOCUS",
+                            "INS_SPACE"
+                        ],
+                        "contextRules": [
+                            {
+                                "CatRule": {
+                                    "id": [
+                                      "P*"
+                                    ],
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_SPACE"
+                                    ]
+                                }
+                            },
+                            {
+                                "ContextRule": {
+                                    "id": [
+                                        " $"
+                                    ],
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_SPACE"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "id": [
+                            "\u05F3"
+                        ],
+                        "actions": [],
+                        "contextRules": [
+                            {
+                                "PairRule": {
+                                    "id": [
+                                        "\u05F3"
+                                    ],
+                                    "state": "CLOSE",
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_SPACE"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "id": [
+                            "\u05F4"
+                        ],
+                        "actions": [],
+                        "contextRules": [
+                            {
+                                "PairRule": {
+                                    "id": [
+                                        "\u05F4"
+                                    ],
+                                    "state": "CLOSE",
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_SPACE"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "dependency" : "default"
+}

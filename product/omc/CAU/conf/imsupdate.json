@@ -1,0 +1,22 @@
+{
+  "update_version": 1,
+  "min_swver": "",
+  "note": "Disable IMS service for MTS_AM and Bakcell_AZ",
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "MTS_AM",
+        "enableIms": false,
+        "enableServiceVolte": false,
+        "enableServiceVowifi": false,
+        "enableServiceSmsip": false
+      },
+      {
+        "mnoname": "Bakcell_AZ",
+        "enableIms": false,
+        "enableServiceVolte": false,
+        "enableServiceVilte": false
+      }
+    ]
+  }
+}

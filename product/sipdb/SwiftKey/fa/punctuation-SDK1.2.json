@@ -1,0 +1,76 @@
+{
+    "version" : 2,
+    "lang": "fa_IR",
+    "sections": [
+        {
+            "charRules": [
+                {
+                    "CharRule": {
+                        "id": [
+                            "«"
+                        ],
+                        "actions": [
+                            "INS_SPACE",
+                            "INS_FOCUS"
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "id": [
+                            "»"
+                        ],
+                        "actions": [
+                            "BACKSPACE",
+                            "INS_FOCUS",
+                            "INS_SPACE"
+                        ]
+                    }
+                },
+                {
+                    "CharRule": {
+                        "id": [
+                            "\u060C",
+                            "\u061F",
+                            "\u061B"
+                        ],
+                        "actions": [
+                            "BACKSPACE",
+                            "INS_PREDICTION",
+                            "INS_FOCUS",
+                            "INS_SPACE"
+                        ],
+                        "contextRules": [
+                            {
+                                "CatRule": {
+                                    "id": [
+                                        "P*"
+                                    ],
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_SPACE"
+                                    ]
+                                }
+                            },
+                            {
+                                "ContextRule": {
+                                    "id": [
+                                        " $"
+                                    ],
+                                    "actions": [
+                                        "BACKSPACE",
+                                        "INS_FOCUS",
+                                        "INS_SPACE"
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "dependency": "default",
+    "sentenceSeparators" : ["\u061F"]
+}

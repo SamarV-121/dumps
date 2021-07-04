@@ -1,0 +1,17 @@
+service netd /system/bin/netd
+    class main
+    capabilities CHOWN DAC_OVERRIDE DAC_READ_SEARCH FOWNER IPC_LOCK KILL NET_ADMIN NET_BIND_SERVICE NET_RAW SETUID SETGID
+    socket dnsproxyd stream 0660 root inet
+# SEC_PRODUCT_FEATURE_KNOX_SUPPORT_NPA {
+    socket napproxyd stream 0660 root inet
+# SEC_PRODUCT_FEATURE_KNOX_SUPPORT_NPA }
+    socket mdns stream 0660 root system
+    socket fwmarkd stream 0660 root inet
+    socket qosd stream 0660 root radio  # RNTFIX:: QoS
+    socket tcpopd stream 0660 root inet # RNTFIX:: TcpOptimizer
+    onrestart restart zygote
+    onrestart restart zygote_secondary
+    # b/121354779: netd itself is not updatable, but on startup it dlopen()s the resolver library
+    # from the DNS resolver APEX. Mark it as updatable so init won't start it until all APEX
+    # packages are ready.
+    updatable

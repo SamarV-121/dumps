@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_XFV_RR_0009</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0004</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>6</carrierCount>
+    <carrier>
+      <mcc>651</mcc>
+      <mnc>01</mnc>
+      <networkName>Vodacom Lesotho</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>01</mnc>
+      <networkName>Vodacom</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>02</mnc>
+      <networkName>TelkomSA</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <subsetCode>10</subsetCode>
+      <networkName>Virgin</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>07</mnc>
+      <networkName>Cell C</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>10</mnc>
+      <networkName>MTN</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

@@ -1,0 +1,13 @@
+kernel=kernel
+ramdisk=ramdisk
+dt=dt.img
+page_size=2048
+kernel_size=45236236
+ramdisk_size=0
+dtb_size=1
+base_addr=0x10000000
+kernel_offset=0x00008000
+ramdisk_offset=0xf0000000
+tags_offset=0x00000100
+cmd_line='androidboot.selinux=permissive androidboot.selinux=permissive'
+board="SRPRI17C011KU"

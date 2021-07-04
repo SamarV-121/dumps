@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_MID_RR_0014</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0006</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>7</carrierCount>
+    <carrier>
+      <mcc>415</mcc>
+      <mnc>01</mnc>
+      <networkName>Alfa</networkName>
+    </carrier>
+    <carrier>
+      <mcc>415</mcc>
+      <mnc>03</mnc>
+      <networkName>Touch</networkName>
+    </carrier>
+    <carrier>
+      <mcc>416</mcc>
+      <mnc>01</mnc>
+      <networkName>Zain JO</networkName>
+    </carrier>
+    <carrier>
+      <mcc>416</mcc>
+      <mnc>03</mnc>
+      <networkName>Umniah</networkName>
+    </carrier>
+    <carrier>
+      <mcc>416</mcc>
+      <mnc>77</mnc>
+      <networkName>Orange JO</networkName>
+    </carrier>
+    <carrier>
+      <mcc>425</mcc>
+      <mnc>05</mnc>
+      <networkName>Jawwal</networkName>
+    </carrier>
+    <carrier>
+      <mcc>425</mcc>
+      <mnc>06</mnc>
+      <networkName>Ooredoo</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

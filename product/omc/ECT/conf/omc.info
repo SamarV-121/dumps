@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_ECT_RR_0007</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0003</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>7</carrierCount>
+    <carrier>
+      <mcc>618</mcc>
+      <mnc>01</mnc>
+      <networkName>MtnLonestarcell</networkName>
+    </carrier>
+    <carrier>
+      <mcc>621</mcc>
+      <mnc>20</mnc>
+      <networkName>Zain Nigeria</networkName>
+    </carrier>
+    <carrier>
+      <mcc>621</mcc>
+      <mnc>27</mnc>
+      <networkName>Smile NG</networkName>
+    </carrier>
+    <carrier>
+      <mcc>621</mcc>
+      <mnc>30</mnc>
+      <networkName>MTN Nigeria</networkName>
+    </carrier>
+    <carrier>
+      <mcc>621</mcc>
+      <mnc>40</mnc>
+      <networkName>ntel Nigeria</networkName>
+    </carrier>
+    <carrier>
+      <mcc>621</mcc>
+      <mnc>50</mnc>
+      <networkName>Glo Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>621</mcc>
+      <mnc>60</mnc>
+      <networkName>9mobile</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

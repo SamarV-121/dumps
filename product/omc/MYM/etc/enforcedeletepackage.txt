@@ -1,0 +1,4 @@
+3
+SamsungDotCom.apk
+SamsungPayStub.apk
+Spotify.apk

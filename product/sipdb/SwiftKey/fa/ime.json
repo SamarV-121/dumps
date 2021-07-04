@@ -1,0 +1,6 @@
+{
+    "default-layout": "persian (farsi)",
+    "alternate-layouts": ["farsi"],
+    "extra-punctuation" : ["؟", "،"],
+    "transliteration-on-latin": true
+}

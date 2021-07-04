@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config>
+  <LanguageCode>ms</LanguageCode>
+  <CountryCode>my</CountryCode>
+  <Version>1.1.1</Version>
+  <Engine>swiftkey</Engine>
+</config>

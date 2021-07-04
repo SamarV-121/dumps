@@ -1,0 +1,6 @@
+# CP boot daemon
+#service cpboot-daemon /vendor/bin/cbd -d -t ss310 -P sda5 -n /mnt/vendor/efs
+#    class main
+#    user root
+#    group system radio cache inet misc audio sdcard_rw log
+#    seclabel u:r:cbd:s0

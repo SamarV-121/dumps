@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config>
+    <LanguageCode>ko</LanguageCode>
+    <CountryCode>kr</CountryCode>
+    <Version>2.0.1</Version>
+    <Engine>swiftkey</Engine>
+</config>

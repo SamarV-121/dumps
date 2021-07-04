@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_SEE_RR_0014</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0011</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>22</carrierCount>
+    <carrier>
+      <mcc>214</mcc>
+      <mnc>07</mnc>
+      <spn>T-2</spn>
+      <networkName>T-2</networkName>
+    </carrier>
+    <carrier>
+      <mcc>218</mcc>
+      <mnc>03</mnc>
+      <networkName>HT Eronet</networkName>
+    </carrier>
+    <carrier>
+      <mcc>218</mcc>
+      <mnc>05</mnc>
+      <networkName>m:tel</networkName>
+    </carrier>
+    <carrier>
+      <mcc>218</mcc>
+      <mnc>90</mnc>
+      <networkName>BH Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>219</mcc>
+      <mnc>01</mnc>
+      <networkName>HT HR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>219</mcc>
+      <mnc>02</mnc>
+      <networkName>TELE2</networkName>
+    </carrier>
+    <carrier>
+      <mcc>219</mcc>
+      <mnc>10</mnc>
+      <networkName>A1 HR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>220</mcc>
+      <mnc>01</mnc>
+      <networkName>Telenor</networkName>
+    </carrier>
+    <carrier>
+      <mcc>220</mcc>
+      <mnc>03</mnc>
+      <networkName>mt:s</networkName>
+    </carrier>
+    <carrier>
+      <mcc>220</mcc>
+      <mnc>05</mnc>
+      <networkName>Vip SRB</networkName>
+    </carrier>
+    <carrier>
+      <mcc>276</mcc>
+      <mnc>01</mnc>
+      <networkName>Telekom.al</networkName>
+    </carrier>
+    <carrier>
+      <mcc>276</mcc>
+      <mnc>02</mnc>
+      <networkName>Vodafone AL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>293</mcc>
+      <mnc>40</mnc>
+      <subsetCode>013</subsetCode>
+      <networkName>HoT</networkName>
+    </carrier>
+    <carrier>
+      <mcc>293</mcc>
+      <mnc>40</mnc>
+      <networkName>A1 SI</networkName>
+    </carrier>
+    <carrier>
+      <mcc>293</mcc>
+      <mnc>41</mnc>
+      <networkName>Mobitel</networkName>
+    </carrier>
+    <carrier>
+      <mcc>293</mcc>
+      <mnc>64</mnc>
+      <networkName>T-2</networkName>
+    </carrier>
+    <carrier>
+      <mcc>293</mcc>
+      <mnc>70</mnc>
+      <networkName>Telemach</networkName>
+    </carrier>
+    <carrier>
+      <mcc>294</mcc>
+      <mnc>01</mnc>
+      <networkName>Telekom MK</networkName>
+    </carrier>
+    <carrier>
+      <mcc>294</mcc>
+      <mnc>03</mnc>
+      <networkName>A1 MK</networkName>
+    </carrier>
+    <carrier>
+      <mcc>297</mcc>
+      <mnc>01</mnc>
+      <networkName>Telenor MNE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>297</mcc>
+      <mnc>02</mnc>
+      <networkName>Telekom.me</networkName>
+    </carrier>
+    <carrier>
+      <mcc>297</mcc>
+      <mnc>03</mnc>
+      <networkName>m:tel MNE</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

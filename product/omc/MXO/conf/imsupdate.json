@@ -1,0 +1,12 @@
+{
+    "note": "Add imsupdate for SM-G975F with carrier = MXO",
+    "imsswitch_update": {
+        "imsswitch": [
+            {
+                "mnoname": "Movistar_MX",
+                "enableServiceRcs": false,
+                "enableServiceRcschat": false
+            }
+        ]
+    }
+}

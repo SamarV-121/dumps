@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0003</CSCEdition>
+    <Country>Taiwan</Country>
+    <CountryISO>TW</CountryISO>
+    <Region>CHN</Region>
+    <SalesCode>BRI</SalesCode>
+    <NbNetworkInfo>12</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>46611</MCCMNC>
+      <NetworkName>Chunghwa</NetworkName>
+      <NWID>NW00298</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>46692</MCCMNC>
+      <NetworkName>Chunghwa</NetworkName>
+      <NWID>NW00298</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>46697</MCCMNC>
+      <NetworkName>TW Mobile</NetworkName>
+      <NWID>NW01388</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>46693</MCCMNC>
+      <NetworkName>TW Mobile</NetworkName>
+      <NWID>NW01388</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>46699</MCCMNC>
+      <NetworkName>TW Mobile</NetworkName>
+      <NWID>NW01388</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>46601</MCCMNC>
+      <NetworkName>Far EasTone</NetworkName>
+      <NWID>NW00504</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>46602</MCCMNC>
+      <NetworkName>Far EasTone</NetworkName>
+      <NWID>NW00504</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>46603</MCCMNC>
+      <NetworkName>Far EasTone</NetworkName>
+      <NWID>NW00504</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>46688</MCCMNC>
+      <NetworkName>Far EasTone</NetworkName>
+      <NWID>NW00504</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>46689</MCCMNC>
+      <NetworkName>T Star</NetworkName>
+      <NWID>NW01199</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>46605</MCCMNC>
+      <NetworkName>GT 4G</NetworkName>
+      <NWID>NW00549</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>52505</MCCMNC>
+      <NetworkName>GT 4G Roaming</NetworkName>
+      <NWID>NW01607</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>0A</SubsetCode>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>none</SeparateLock>
+      </Security>
+      <Network>
+        <NbSOSNumber>4</NbSOSNumber>
+        <SOSNumber>112</SOSNumber>
+        <SOSNumber>911</SOSNumber>
+        <SOSNumber>119</SOSNumber>
+        <SOSNumber>110</SOSNumber>
+        <NbSOSNumberNoSIM>8</NbSOSNumberNoSIM>
+        <SOSNumberNoSIM>112</SOSNumberNoSIM>
+        <SOSNumberNoSIM>911</SOSNumberNoSIM>
+        <SOSNumberNoSIM>08</SOSNumberNoSIM>
+        <SOSNumberNoSIM>000</SOSNumberNoSIM>
+        <SOSNumberNoSIM>110</SOSNumberNoSIM>
+        <SOSNumberNoSIM>999</SOSNumberNoSIM>
+        <SOSNumberNoSIM>118</SOSNumberNoSIM>
+        <SOSNumberNoSIM>119</SOSNumberNoSIM>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>off</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>off</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>off</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Phone>
+        <DefLanguage>chinese_traditional_taiwan</DefLanguage>
+        <DefLanguageNoSIM>chinese_traditional_taiwan</DefLanguageNoSIM>
+        <DateTimeFormat>
+          <TimeFormat>24h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Contact>
+      <SavePosition>ask</SavePosition>
+    </Contact>
+    <Messages>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <MaxRecipient>100</MaxRecipient>
+        <CharSupport>automatic</CharSupport>
+        <CellBroadcast>on</CellBroadcast>
+        <NbCellBroadcastChannel>2</NbCellBroadcastChannel>
+        <CellBroadcastChannel>911</CellBroadcastChannel>
+        <CellBroadcastChannel>919</CellBroadcastChannel>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MaxRecipientMMS>100</MaxRecipientMMS>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Browser>
+      <NbBookmark>7</NbBookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>Samsung C&amp;S</BookmarkName>
+        <URL>http://content.samsung.com/?cid=QuickAccess</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>YouTube</BookmarkName>
+        <URL>http://www.youtube.com</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>Wikipedia</BookmarkName>
+        <URL>http://m.wikipedia.org</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>Facebook</BookmarkName>
+        <URL>http://www.facebook.com/</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>Amazon</BookmarkName>
+        <URL>https://www.amazon.com/gp/ubp/oneButton/config/redirectHome?tagbase=smsg-ubpl</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>Galaxy Shop</BookmarkName>
+        <URL>https://www.samsung.com/tw/mobile/?cid=tw_ow_app_s-internet_none_none_bookmark_bookmark_202008_none</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/tw</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>6</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Chunghwa</NetworkName>
+        <ProfBrowser>CHT Internet</ProfBrowser>
+        <ProfMMS>CHT MMS</ProfMMS>
+        <ProfIMS>CHT IMS</ProfIMS>
+        <ProfXCAP>CHT XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>TW Mobile</NetworkName>
+        <ProfBrowser>Internet</ProfBrowser>
+        <ProfMMS>TWM MMS</ProfMMS>
+        <ProfIMS>TWM IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Far EasTone</NetworkName>
+        <ProfBrowser>FarEasTone Internet</ProfBrowser>
+        <ProfMMS>FarEasTone MMS</ProfMMS>
+        <ProfIMS>FarEasTone IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>T Star</NetworkName>
+        <ProfBrowser>T Star-internet</ProfBrowser>
+        <ProfMMS>T Star-MMS</ProfMMS>
+        <ProfIMS>T STAR-IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>GT 4G</NetworkName>
+        <ProfBrowser>GT Internet</ProfBrowser>
+        <ProfIMS>GT IMS</ProfIMS>
+        <ProfXCAP>GT Internet</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>GT 4G Roaming</NetworkName>
+        <ProfBrowser>GT Roaming</ProfBrowser>
+        <ProfIMS>GT IMS</ProfIMS>
+      </ProfileHandle>
+      <NbProfile>17</NbProfile>
+      <Profile>
+        <NetworkName>Chunghwa</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>CHT Internet</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Chunghwa</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>CHT MMS</ProfileName>
+        <URL>http://mms.emome.net:8002</URL>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.1.1.1</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>emome</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TW Mobile</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>Internet</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TW Mobile</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>TWM MMS</ProfileName>
+        <URL>http://mms.catch.net.tw/</URL>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.1.1.2</ServAddr>
+          <Port>80</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Far EasTone</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>FarEasTone Internet</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Far EasTone</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>FarEasTone MMS</ProfileName>
+        <URL>http://mms</URL>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>210.241.199.199</ServAddr>
+          <Port>9201</Port>
+        </Proxy>
+        <PSparam>
+          <APN>fetnet01</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>T Star</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>T Star-internet</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>T Star</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>T Star-MMS</ProfileName>
+        <URL>http://mms.vibo.net.tw</URL>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>172.24.128.36</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>GT 4G</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <ProfileName>GT Internet</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>gtnet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Chunghwa</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>CHT IMS</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Chunghwa</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>CHT XCAP</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TW Mobile</NetworkName>
+        <IpVersion>ipv6</IpVersion>
+        <Editable>no</Editable>
+        <ProfileName>TWM IMS</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Far EasTone</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>FarEasTone IMS</ProfileName>
+        <MTUSize>1280</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>T Star</NetworkName>
+        <Editable>no</Editable>
+        <ProfileName>T STAR-IMS</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>GT 4G</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>GT IMS</ProfileName>
+        <MTUSize>1230</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>GT 4G Roaming</NetworkName>
+        <Editable>yes</Editable>
+        <ProfileName>GT Roaming</ProfileName>
+        <MTUSize>1500</MTUSize>
+        <PSparam>
+          <APN>gtnet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>GT 4G Roaming</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>GT IMS</ProfileName>
+        <MTUSize>1230</MTUSize>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

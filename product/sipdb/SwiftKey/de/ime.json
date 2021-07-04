@@ -1,0 +1,4 @@
+{
+	"default-layout": "qwertz",
+	"alternate-layouts": ["qwerty", "qzerty", "azerty", "qwertz_extended"]
+}

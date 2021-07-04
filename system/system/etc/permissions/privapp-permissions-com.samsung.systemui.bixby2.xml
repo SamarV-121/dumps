@@ -1,0 +1,5 @@
+<permissions>
+    <privapp-permissions package="com.samsung.systemui.bixby2">
+		<permission name="com.samsung.systemui.permission.SPLUGIN"/>
+    </privapp-permissions>
+</permissions>

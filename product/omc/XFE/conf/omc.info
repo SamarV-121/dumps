@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_XFE_RR_0007</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0005</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>12</carrierCount>
+    <carrier>
+      <mcc>617</mcc>
+      <mnc>01</mnc>
+      <networkName>my.t</networkName>
+    </carrier>
+    <carrier>
+      <mcc>617</mcc>
+      <mnc>10</mnc>
+      <networkName>EMTEL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>643</mcc>
+      <mnc>03</mnc>
+      <networkName>MOVITEL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>643</mcc>
+      <mnc>04</mnc>
+      <networkName>VodaCom-MZ</networkName>
+    </carrier>
+    <carrier>
+      <mcc>645</mcc>
+      <mnc>05</mnc>
+      <networkName>Vodafone Zambia</networkName>
+    </carrier>
+    <carrier>
+      <mcc>649</mcc>
+      <mnc>01</mnc>
+      <networkName>MTC Namibia</networkName>
+    </carrier>
+    <carrier>
+      <mcc>651</mcc>
+      <mnc>01</mnc>
+      <networkName>Vodacom Lesotho</networkName>
+    </carrier>
+    <carrier>
+      <mcc>652</mcc>
+      <mnc>01</mnc>
+      <networkName>Mascom</networkName>
+    </carrier>
+    <carrier>
+      <mcc>652</mcc>
+      <mnc>02</mnc>
+      <networkName>Orange</networkName>
+    </carrier>
+    <carrier>
+      <mcc>652</mcc>
+      <mnc>04</mnc>
+      <networkName>BTC Mobile</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>01</mnc>
+      <networkName>Vodacom</networkName>
+    </carrier>
+    <carrier>
+      <mcc>655</mcc>
+      <mnc>10</mnc>
+      <networkName>MTN</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

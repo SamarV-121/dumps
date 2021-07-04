@@ -1,0 +1,15 @@
+{
+  "update_version": 1,
+  "min_swver": "",
+  "note": "Enable IMS service for Beeline_KZ",
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "Beeline_KZ",
+        "enableIms": true,
+        "enableServiceVolte": true,
+        "enableServiceSmsip": true
+      }
+    ]
+  }
+}

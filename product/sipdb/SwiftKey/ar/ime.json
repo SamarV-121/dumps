@@ -1,0 +1,4 @@
+{
+    "default-layout": "arabic_2",
+    "alternate-layouts": ["arabic", "arabic_western", "arabic_2_western", "arabic_3", "arabic_3_western"]
+}

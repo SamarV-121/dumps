@@ -1,0 +1,65 @@
+{
+    "update_version": 2,
+    "note": "TEF RCS setup",
+    "imsswitch_update": {
+        "imsswitch": [
+            {
+                "mnoname": "Telefonica_GB",
+                "enableServiceRcs": true,
+                "enableServiceRcschat": true
+            },
+            {
+                "mnoname": "Telefonica_GB:TESCO",
+                "enableIms": true,
+                "enableServiceRcs": true,
+                "enableServiceRcschat": true
+            },
+            {
+                "mnoname": "Telefonica_GB:giffgaff",
+                "enableIms": true,
+                "enableServiceRcs": true,
+                "enableServiceRcschat": true
+            }
+        ]
+    },
+    "mnomap_update": {
+        "remove_mnomap": [
+            {
+                "mccmnc": "23410",
+                "subset": "",
+                "gid1": "0A",
+                "gid2": "",
+                "spname": "",
+                "mnoname": "DEFAULT",
+                "note": "filter out TESCO"
+            },
+            {
+                "mccmnc": "23410",
+                "subset": "",
+                "gid1": "508",
+                "gid2": "",
+                "spname": "",
+                "mnoname": "DEFAULT",
+                "note": "filter out giffgaff"
+            }
+        ],
+        "add_mnomap": [
+            {
+                "mccmnc": "23410",
+                "subset": "",
+                "gid1": "0A",
+                "gid2": "",
+                "spname": "",
+                "mnoname": "Telefonica_GB:TESCO@BLOCKGC"
+            },
+            {
+                "mccmnc": "23410",
+                "subset": "",
+                "gid1": "508",
+                "gid2": "",
+                "spname": "",
+                "mnoname": "Telefonica_GB:giffgaff@BLOCKGC"
+            }
+        ]
+    }
+}

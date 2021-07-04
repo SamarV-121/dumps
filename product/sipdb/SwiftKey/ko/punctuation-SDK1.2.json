@@ -1,0 +1,23 @@
+{
+    "version" : 2,
+    "lang" : "ko_KR",
+    "sections" : [
+        {
+            "charRules": [
+                {
+                    "CharRule": {
+                        "id": [
+                            "\u22EF"
+                        ],
+                        "actions": [
+                            "BACKSPACE",
+                            "INS_FOCUS",
+                            "INS_SPACE"
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "dependency" : "default"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<palmmotion>
+    <palmconfigs deviceName="beyond2lte"
+         thresholdPalmCount="1"
+         thresholdMajorTouch="50.0"
+         thresholdMajorSweepPortrait="100.0"
+         thresholdMajorSweepLandscape="50.0"
+         thresholdEccenSweepPortrait="2.0"
+         thresholdEccenSweepLandscape="2.0"
+         ignoreCheckMajorSweepEntry="false"
+        />
+</palmmotion>

@@ -1,0 +1,7 @@
+/omr(/.*)?	             u:object_r:omr_file:s0
+/prism(/.*)?             u:object_r:system_file:s0
+/optics(/.*)?            u:object_r:vendor_file:s0
+/optics/configs(/.*)?    u:object_r:vendor_configs_file:s0
+/storage/emulated(/.*)?         u:object_r:media_rw_data_file:s0
+/dev/task_integrity                     u:object_r:system_integrity_device:s0
+/system/bin/poweranimation          u:object_r:bootanim_exec:s0

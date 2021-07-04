@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_XEO_RR_0009</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0006</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>6</carrierCount>
+    <carrier>
+      <mcc>260</mcc>
+      <mnc>01</mnc>
+      <networkName>Plus</networkName>
+    </carrier>
+    <carrier>
+      <mcc>260</mcc>
+      <mnc>02</mnc>
+      <networkName>T-Mobile.pl</networkName>
+    </carrier>
+    <carrier>
+      <mcc>260</mcc>
+      <mnc>03</mnc>
+      <spn>Orange</spn>
+      <networkName>Orange</networkName>
+    </carrier>
+    <carrier>
+      <mcc>260</mcc>
+      <mnc>03</mnc>
+      <spn>nju</spn>
+      <networkName>nju</networkName>
+    </carrier>
+    <carrier>
+      <mcc>260</mcc>
+      <mnc>06</mnc>
+      <networkName>PLAY</networkName>
+    </carrier>
+    <carrier>
+      <mcc>260</mcc>
+      <mnc>12</mnc>
+      <networkName>Cyfrowy Polsat</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

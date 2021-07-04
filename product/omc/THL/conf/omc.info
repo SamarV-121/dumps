@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_THL_RR_0009</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0006</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>9</carrierCount>
+    <carrier>
+      <mcc>520</mcc>
+      <mnc>00</mnc>
+      <subsetCode>20</subsetCode>
+      <networkName>True Move H</networkName>
+    </carrier>
+    <carrier>
+      <mcc>520</mcc>
+      <mnc>00</mnc>
+      <subsetCode>21</subsetCode>
+      <networkName>True Move H</networkName>
+    </carrier>
+    <carrier>
+      <mcc>520</mcc>
+      <mnc>00</mnc>
+      <subsetCode>19</subsetCode>
+      <networkName>CAT</networkName>
+    </carrier>
+    <carrier>
+      <mcc>520</mcc>
+      <mnc>01</mnc>
+      <networkName>AIS</networkName>
+    </carrier>
+    <carrier>
+      <mcc>520</mcc>
+      <mnc>03</mnc>
+      <networkName>AIS 3G2100</networkName>
+    </carrier>
+    <carrier>
+      <mcc>520</mcc>
+      <mnc>04</mnc>
+      <networkName>Real Future</networkName>
+    </carrier>
+    <carrier>
+      <mcc>520</mcc>
+      <mnc>05</mnc>
+      <networkName>dtac TriNet</networkName>
+    </carrier>
+    <carrier>
+      <mcc>520</mcc>
+      <mnc>18</mnc>
+      <networkName>dtac</networkName>
+    </carrier>
+    <carrier>
+      <mcc>520</mcc>
+      <mnc>99</mnc>
+      <networkName>True Move</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

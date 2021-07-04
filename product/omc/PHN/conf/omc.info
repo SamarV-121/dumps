@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_PHN_RR_0014</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0008</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>8</carrierCount>
+    <carrier>
+      <mcc>204</mcc>
+      <mnc>04</mnc>
+      <networkName>vodafone NL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>204</mcc>
+      <mnc>08</mnc>
+      <networkName>NL KPN</networkName>
+    </carrier>
+    <carrier>
+      <mcc>204</mcc>
+      <mnc>12</mnc>
+      <networkName>NL Telfort</networkName>
+    </carrier>
+    <carrier>
+      <mcc>204</mcc>
+      <mnc>16</mnc>
+      <networkName>T-Mobile NL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>204</mcc>
+      <mnc>16</mnc>
+      <spn>T-Mobile  NL</spn>
+      <codeType>HEX</codeType>
+      <gid>FF</gid>
+      <networkName>T-Mobile NL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>204</mcc>
+      <mnc>16</mnc>
+      <spn>T-Mobile  NL</spn>
+      <codeType>HEX</codeType>
+      <networkName>T-Mobile NL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>204</mcc>
+      <mnc>16</mnc>
+      <spn>Tele2 NL</spn>
+      <codeType>HEX</codeType>
+      <gid>8F</gid>
+      <networkName>Tele2 NL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>204</mcc>
+      <mnc>16</mnc>
+      <spn>Tele2 NL</spn>
+      <codeType>HEX</codeType>
+      <gid>4E4C</gid>
+      <networkName>Tele2 NL</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

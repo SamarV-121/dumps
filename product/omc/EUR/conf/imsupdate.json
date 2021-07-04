@@ -1,0 +1,28 @@
+{
+  "update_version": 2,
+  "min_swver": "",
+  "note": "Enable IMS service for Epic_CY and EVS for Wind_GR",
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "Epic_CY",
+        "enableIms": true,
+        "enableServiceVolte": true,
+        "enableServiceVilte": true,
+        "enableServiceSmsip": true
+      }
+    ]
+  },
+  "imsprofile_update": {
+    "profile": [
+      {
+        "name": "WIND IMS GREECE",
+        "mnoname": "Wind_GR",
+        "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+        "enable_evs_codec": true,
+        "evs_bit_rate_send": "5.9-24.4",
+        "evs_bit_rate_receive": "5.9-24.4"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_LYS_RR_0006</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0001</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <carrierfeature>no</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>2</carrierCount>
+    <carrier>
+      <mcc>606</mcc>
+      <mnc>00</mnc>
+      <networkName>Libyana</networkName>
+    </carrier>
+    <carrier>
+      <mcc>606</mcc>
+      <mnc>01</mnc>
+      <networkName>Almadar</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

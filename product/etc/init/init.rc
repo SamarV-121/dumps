@@ -1,0 +1,12 @@
+on fs
+    wait /dev/block/by-name/omr
+    mount ext4 /dev/block/by-name/omr /omr nosuid nodev noatime noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic
+    chown root system /omr
+    chmod 0771 /omr
+on property:vendor.security.vaultkeeper.native=1
+    start scs
+on property:mdc.singlesku.activated=*
+    oem_key_update
+on property:persist.sys.omc_etcpath=*
+    mount none ${persist.sys.omc_etcpath}/permissions /product/etc/permissions bind
+    mount none ${persist.sys.omc_etcpath}/sysconfig /product/etc/sysconfig bind

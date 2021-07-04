@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0003</CSCEdition>
+    <Country>SOUTH AFRICA</Country>
+    <CountryISO>ZA</CountryISO>
+    <Region>MEA</Region>
+    <SalesCode>XFA</SalesCode>
+    <NbNetworkInfo>28</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65501</MCCMNC>
+      <NetworkName>Vodacom</NetworkName>
+      <NWID>NW01455</NWID>
+      <CodeType>HEX</CodeType>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65502</MCCMNC>
+      <NetworkName>TelkomSA</NetworkName>
+      <NWID>NW01275</NWID>
+      <CodeType>HEX</CodeType>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65510</MCCMNC>
+      <NetworkName>MTN</NetworkName>
+      <NWID>NW00807</NWID>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65101</MCCMNC>
+      <NetworkName>Vodacom Lesotho</NetworkName>
+      <NWID>NW01472</NWID>
+      <CodeType>HEX</CodeType>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>Cell C</NetworkName>
+      <NWID>NW00198</NWID>
+      <CodeType>HEX</CodeType>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>Virgin</NetworkName>
+      <NWID>NW01433</NWID>
+      <CodeType>HEX</CodeType>
+      <SPCode>10</SPCode>
+      <SPName>Virgin Mobile</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>FNB</NetworkName>
+      <NWID>NW01803</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>FNB</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>ME&amp;YOU</NetworkName>
+      <NWID>NW01804</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>me&amp;you</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>MVNX</NetworkName>
+      <NWID>NW01805</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>MVNX Mobile</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>ADVINNE</NetworkName>
+      <NWID>NW01806</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>Advinne</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>MRP MOBILE</NetworkName>
+      <NWID>NW01807</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>mrp mobile</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>SMART MOBILE</NetworkName>
+      <NWID>NW01808</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>Smart Mobile</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>BokSel</NetworkName>
+      <NWID>NW01809</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>BokSel</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>vivamobile</NetworkName>
+      <NWID>NW01810</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>vivamobile</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>XMOBILE</NetworkName>
+      <NWID>NW01811</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>XMOBILE</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>THE UNLIMITED</NetworkName>
+      <NWID>NW01812</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>THE UNLIMITED</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>PSB NETWORK</NetworkName>
+      <NWID>NW01813</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>PSB NETWORK</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>Van Schaik Mobile</NetworkName>
+      <NWID>NW01814</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>Van Schaik Mobile</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>CALLALL</NetworkName>
+      <NWID>NW01815</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>CallAll-SA</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>OTM Mobile</NetworkName>
+      <NWID>NW01816</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>OTM Mobile</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>SBSA</NetworkName>
+      <NWID>NW01817</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>SBSA</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>MVNX-1</NetworkName>
+      <NWID>NW01818</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>...</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>Next 360</NetworkName>
+      <NWID>NW01819</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>NEXT360 Mobile</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>TRACE Mobile</NetworkName>
+      <NWID>NW01820</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>TRACE Mobile</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>IG Mobile</NetworkName>
+      <NWID>NW01821</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>IG Mobile</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>Pink</NetworkName>
+      <NWID>NW01882</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>Pink</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>Sakeng</NetworkName>
+      <NWID>NW01883</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>Sakeng</SPName>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>65507</MCCMNC>
+      <NetworkName>NC</NetworkName>
+      <NWID>NW01884</NWID>
+      <CodeType>HEX</CodeType>
+      <SPName>NC</SPName>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>none</SeparateLock>
+      </Security>
+      <Network>
+        <NbWbAmr>2</NbWbAmr>
+        <WbAmr>
+          <NetworkName>MTN</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+        <WbAmr>
+          <NetworkName>Vodacom</NetworkName>
+          <WbAmrCodec>on</WbAmrCodec>
+        </WbAmr>
+        <AutoProfile>on</AutoProfile>
+        <AutoVoicemail>on</AutoVoicemail>
+        <AutoEmailAccount>off</AutoEmailAccount>
+        <AutoBookmark>on</AutoBookmark>
+        <AutoLink>off</AutoLink>
+        <AutoSyncML>off</AutoSyncML>
+        <AutoFastDormancy>off</AutoFastDormancy>
+        <AutoWbAmr>on</AutoWbAmr>
+        <AutoFOTA>off</AutoFOTA>
+      </Network>
+      <Sound>
+        <RngToneAlertType>melody</RngToneAlertType>
+        <ExtraSound>
+          <ConnectTone>on</ConnectTone>
+          <CallEndTone>off</CallEndTone>
+        </ExtraSound>
+        <AMRVoiceCodec>on</AMRVoiceCodec>
+      </Sound>
+      <Phone>
+        <DefLanguage>en_ZA</DefLanguage>
+        <DefLanguageNoSIM>en_ZA</DefLanguageNoSIM>
+        <T9Enabling>enable</T9Enabling>
+        <DateTimeFormat>
+          <TimeFormat>24h</TimeFormat>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Calendar>
+      <StartDay>monday</StartDay>
+    </Calendar>
+    <Messages>
+      <NbVoicemail>6</NbVoicemail>
+      <Voicemail>
+        <NetworkName>Vodacom</NetworkName>
+        <VoicemailName>Voicemail</VoicemailName>
+        <TelNum>132</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>TelkomSA</NetworkName>
+        <VoicemailName>Voicemail</VoicemailName>
+        <TelNum>181</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>MTN</NetworkName>
+        <VoicemailName>Voicemail</VoicemailName>
+        <TelNum>132</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Cell C</NetworkName>
+        <VoicemailName>Voicemail</VoicemailName>
+        <TelNum>132</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Virgin</NetworkName>
+        <VoicemailName>Voicemail</VoicemailName>
+        <TelNum>121</TelNum>
+      </Voicemail>
+      <Voicemail>
+        <NetworkName>Vodacom Lesotho</NetworkName>
+        <VoicemailName>Voicemail</VoicemailName>
+        <TelNum>121</TelNum>
+      </Voicemail>
+      <SMS>
+        <DeliveryReport>off</DeliveryReport>
+        <MsgTypeThreshold>
+          <ThresholdValue>5</ThresholdValue>
+          <ThresholdType>pagecount</ThresholdType>
+        </MsgTypeThreshold>
+        <CharSupport>gsmalpha</CharSupport>
+      </SMS>
+      <MMS>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>300</MessageSize>
+        </MmsSending>
+        <MmsReceiving>
+          <Home>auto</Home>
+          <Roaming>manual</Roaming>
+        </MmsReceiving>
+      </MMS>
+    </Messages>
+    <Browser>
+      <NbBookmark>3</NbBookmark>
+      <Bookmark>
+        <NetworkName>MTN</NetworkName>
+        <Editable>no</Editable>
+        <BookmarkName>MTN Play</BookmarkName>
+        <URL>http://www.mtnplay.co.za/portal/defaultx.aspx</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>default</NetworkName>
+        <Editable>yes</Editable>
+        <BookmarkName>Galaxy Shop</BookmarkName>
+        <URL>https://www.samsung.com/za/mobile/?cid=za_ow_app_s-internet_none_none_bookmark_bookmark_202008_none</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/common</URL>
+      </eManual>
+    </Browser>
+    <Connections>
+      <NbProfileHandle>28</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>Vodacom</NetworkName>
+        <ProfBrowser>LTE.Vodacom</ProfBrowser>
+        <ProfMMS>MMS.Vodacom</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Vodacom Lesotho</NetworkName>
+        <ProfBrowser>VCL Internet GPRS</ProfBrowser>
+        <ProfMMS>VCL MMS GPRS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>3</NbNetProfile>
+        <NetworkName>Cell C</NetworkName>
+        <ProfBrowser>Smartdata</ProfBrowser>
+        <ProfMMS>Cell C MMS</ProfMMS>
+        <ProfIMS>Cell C IMS</ProfIMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>MTN</NetworkName>
+        <ProfBrowser>MTN Data</ProfBrowser>
+        <ProfMMS>MTN MMS</ProfMMS>
+        <ProfIMS>MTN IMS</ProfIMS>
+        <ProfXCAP>MTN XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Virgin</NetworkName>
+        <ProfBrowser>virgin_internet</ProfBrowser>
+        <ProfMMS>virgin_mms</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>4</NbNetProfile>
+        <NetworkName>TelkomSA</NetworkName>
+        <ProfBrowser>TelkomSA internet</ProfBrowser>
+        <ProfMMS>TelkomSA mms</ProfMMS>
+        <ProfIMS>IMS</ProfIMS>
+        <ProfXCAP>XCAP</ProfXCAP>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>FNB</NetworkName>
+        <ProfBrowser>FNB Internet</ProfBrowser>
+        <ProfMMS>FNB MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>ME&amp;YOU</NetworkName>
+        <ProfBrowser>ME NEXT Internet</ProfBrowser>
+        <ProfMMS>ME NEXT MMS</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>MVNX</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>ADVINNE</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>BokSel</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>vivamobile</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>XMOBILE</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>THE UNLIMITED</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>PSB NETWORK</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Van Schaik Mobile</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>CALLALL</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>OTM Mobile</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>SBSA</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>MVNX-1</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Next 360</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>TRACE Mobile</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>IG Mobile</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Pink</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>Sakeng</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>NC</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>MRP MOBILE</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>2</NbNetProfile>
+        <NetworkName>SMART MOBILE</NetworkName>
+        <ProfBrowser>Internet setting</ProfBrowser>
+        <ProfMMS>MMS Setting</ProfMMS>
+      </ProfileHandle>
+      <NbProfile>63</NbProfile>
+      <Profile>
+        <NetworkName>Vodacom</NetworkName>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>LTE.Vodacom</ProfileName>
+        <URL>http://live.vodafone.com</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>lte.vodacom.za</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodacom</NetworkName>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodacom</NetworkName>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS.Vodacom</ProfileName>
+        <URL>http://mmsc.vodacom4me.co.za/</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.006.128.013</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>lte.vodacom.za</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodacom Lesotho</NetworkName>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>VCL Internet GPRS</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodacom Lesotho</NetworkName>
+        <RoamingIpVersion>ipv4v6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>VCL MMS GPRS</ProfileName>
+        <URL>http://mmsc.vodacom4me.co.za/</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>10.113.063.012</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cell C</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Smartdata</ProfileName>
+        <URL>http://www.cellc.co.za/wap</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cell C</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Cell C MMS</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MTN Data</ProfileName>
+        <URL>http://www.mtn.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>myMTN</APN>
+          <UserId>mtn</UserId>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MTN MMS</ProfileName>
+        <URL>http://mms.mtn.co.za/mms/wapenc</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.11.240.241</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>myMTN</APN>
+          <UserId>mtnmms</UserId>
+          <Password>mtnmms</Password>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Virgin</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>virgin_internet</ProfileName>
+        <URL>http://www.virginmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>vdata</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Virgin</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>virgin_mms</ProfileName>
+        <URL>http://mms.virginmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.031.116.242</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>vmms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TelkomSA</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>TelkomSA internet</ProfileName>
+        <URL>http://www.telkommobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TelkomSA</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>TelkomSA mms</ProfileName>
+        <URL>http://mms.8ta.com:38090/was</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>41.151.254.162</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Cell C</NetworkName>
+        <Editable>yes</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>Cell C IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TelkomSA</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1300</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TelkomSA</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <Editable>yes</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>XCAP</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1300</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ut</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <ProfileName>MTN IMS</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>ims</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MTN</NetworkName>
+        <IpVersion>ipv4</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MTN XCAP</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <MTUSize>1500</MTUSize>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>hos</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Vodacom</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>hidden</HiddenStatus>
+        <ProfileName>XCAP</ProfileName>
+        <Auth>none</Auth>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>off</EnableFlag>
+        </Proxy>
+        <PSparam>
+          <APN>xcap</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>FNB</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>FNB Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>FNB</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>FNB MMS</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ME&amp;YOU</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>ME NEXT Internet</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ME&amp;YOU</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>ME NEXT MMS</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MVNX</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MVNX</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ADVINNE</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>ADVINNE</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BokSel</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>BokSel</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>vivamobile</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>vivamobile</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>XMOBILE</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>XMOBILE</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>THE UNLIMITED</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>THE UNLIMITED</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>PSB NETWORK</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>PSB NETWORK</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Van Schaik Mobile</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Van Schaik Mobile</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CALLALL</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CALLALL</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>OTM Mobile</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>OTM Mobile</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SBSA</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SBSA</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MVNX-1</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MVNX-1</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Next 360</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Next 360</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TRACE Mobile</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>TRACE Mobile</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>IG Mobile</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>IG Mobile</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Pink</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Pink</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Sakeng</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Sakeng</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>NC</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>NC</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MRP MOBILE</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>MRP MOBILE</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SMART MOBILE</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>Internet setting</ProfileName>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <PSparam>
+          <APN>Internet</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>SMART MOBILE</NetworkName>
+        <Editable>no</Editable>
+        <HiddenStatus>show</HiddenStatus>
+        <ProfileName>MMS Setting</ProfileName>
+        <URL>http://mms.cmobile.co.za</URL>
+        <Auth>normal</Auth>
+        <Bearer>ps</Bearer>
+        <Protocol>http</Protocol>
+        <Proxy>
+          <EnableFlag>on</EnableFlag>
+          <ServAddr>196.31.116.250</ServAddr>
+          <Port>8080</Port>
+        </Proxy>
+        <PSparam>
+          <APN>mms</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

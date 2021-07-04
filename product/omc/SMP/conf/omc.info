@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G975F_OXM_SMP_PP_0001</version>
+  <model>
+    <name>SM-G975F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0003</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>4</carrierCount>
+    <carrier>
+      <mcc>262</mcc>
+      <mnc>01</mnc>
+      <networkName>Telekom.de</networkName>
+    </carrier>
+    <carrier>
+      <mcc>262</mcc>
+      <mnc>02</mnc>
+      <networkName>Vodafone.de</networkName>
+    </carrier>
+    <carrier>
+      <mcc>262</mcc>
+      <mnc>03</mnc>
+      <networkName>o2 - de</networkName>
+    </carrier>
+    <carrier>
+      <mcc>262</mcc>
+      <mnc>07</mnc>
+      <networkName>o2 - de</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>
