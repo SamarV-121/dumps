@@ -1,0 +1,6 @@
+P	gmail.com	@	0
+P	outlook.com	@	0
+P	yahoo.com	@	0
+CP	gmail.com	<email>	0
+CP	outlook.com	<email>	0
+CP	yahoo.com	<email>	0

@@ -1,0 +1,2 @@
+libmaple.filter.thundersoft.so
+libnostalgia.filter.thundersoft.so

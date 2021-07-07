@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-M205FN_OXM_TPH_QQ_0003</version>
+  <model>
+    <name>SM-M205FN</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0002</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>3</carrierCount>
+    <carrier>
+      <mcc>268</mcc>
+      <mnc>01</mnc>
+      <networkName>vodafone P</networkName>
+    </carrier>
+    <carrier>
+      <mcc>268</mcc>
+      <mnc>03</mnc>
+      <networkName>P Optimus</networkName>
+    </carrier>
+    <carrier>
+      <mcc>268</mcc>
+      <mnc>06</mnc>
+      <networkName>P TMN</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

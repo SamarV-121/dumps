@@ -1,0 +1,2 @@
+libcookiencream.filter.candycamera.so
+libeveryday.filter.candycamera.so

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-M205FN_OXM_EUR_QQ_0004</version>
+  <model>
+    <name>SM-M205FN</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0002</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>6</carrierCount>
+    <carrier>
+      <mcc>202</mcc>
+      <mnc>01</mnc>
+      <networkName>COSMOTE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>202</mcc>
+      <mnc>05</mnc>
+      <networkName>vodafone GR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>202</mcc>
+      <mnc>09</mnc>
+      <networkName>Q Telecom</networkName>
+    </carrier>
+    <carrier>
+      <mcc>202</mcc>
+      <mnc>10</mnc>
+      <networkName>WIND GR</networkName>
+    </carrier>
+    <carrier>
+      <mcc>280</mcc>
+      <mnc>01</mnc>
+      <networkName>CYTAVODA</networkName>
+    </carrier>
+    <carrier>
+      <mcc>280</mcc>
+      <mnc>10</mnc>
+      <networkName>epic</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

@@ -1,0 +1,11 @@
+on fs
+    wait /dev/block/by-name/OMR
+    mount ext4 /dev/block/by-name/OMR /omr nosuid nodev noatime noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic
+    chown root system /omr
+    chmod 0771 /omr
+on property:mdc.set_partnerid=init
+    start scs
+on property:ro.boot.activatedid=*
+    oem_key_update
+on property:vendor.ro.security.vaultkeeper.native=1
+    restart scs

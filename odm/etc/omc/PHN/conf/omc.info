@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-M205FN_OXM_PHN_QQ_0002</version>
+  <model>
+    <name>SM-M205FN</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0002</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>6</carrierCount>
+    <carrier>
+      <mcc>204</mcc>
+      <mnc>02</mnc>
+      <spn>Tele2 NL</spn>
+      <networkName>Tele2</networkName>
+    </carrier>
+    <carrier>
+      <mcc>204</mcc>
+      <mnc>04</mnc>
+      <networkName>vodafone NL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>204</mcc>
+      <mnc>08</mnc>
+      <networkName>NL KPN</networkName>
+    </carrier>
+    <carrier>
+      <mcc>204</mcc>
+      <mnc>12</mnc>
+      <networkName>NL Telfort</networkName>
+    </carrier>
+    <carrier>
+      <mcc>204</mcc>
+      <mnc>16</mnc>
+      <networkName>T-Mobile NL</networkName>
+    </carrier>
+    <carrier>
+      <mcc>240</mcc>
+      <mnc>07</mnc>
+      <spn>Tele2 NL</spn>
+      <codeType>DEC</codeType>
+      <gid>78</gid>
+      <networkName>Tele2</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

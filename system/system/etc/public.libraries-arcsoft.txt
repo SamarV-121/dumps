@@ -1,0 +1,3 @@
+libface_landmark.arcsoft.so
+libArcSoftFaceAlignment.arcsoft.so
+libArcSoft3DStickerEngine.arcsoft.so

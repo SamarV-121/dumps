@@ -1,0 +1,22 @@
+AC	D’dorf	Ddorf	0
+AC	D’dorf	ddorf	0
+AC	E’ler	Eler	0
+AC	E’ler	eler	0
+AC	geht's	gehts	0
+AC	Ku’damm	Kudamm	0
+AC	Ku’damm	kudamm	0
+AC	Lu’hafen	Luhafen	0
+AC	Lu’hafen	luhafen	0
+AC	M’gladbach	Mgladbach	0
+AC	M’gladbach	mgladbach	0
+AC	Nimm's	Nimms	0
+AC	Nimm's	nimms	0
+AC	reicht's	reichts	0
+AC	Sag's	sags	0
+AC	Sag's	Sags	0
+AC	So 'n	so n	0
+AC	wäre's	wares	0
+AC	wäre's	wäres	0
+AC	Was 'n	Was n	0
+AC	Wenn's	Wenns	0
+AC	Wenn's	wenns	0

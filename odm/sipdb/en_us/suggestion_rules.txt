@@ -1,0 +1,927 @@
+AC	Aaron's	Aarons	0
+AC	Abraham's	Abrahams	0
+AC	Adam's	Adams	0
+AC	Adrian's	Adrians	0
+AC	ain't	aint	0
+AC	Alan's	Alans	0
+AC	Alberta's	Albertas	0
+AC	Albert's	Alberts	0
+AC	Alexander's	Alexanders	0
+AC	Alexandra's	Alexandras	0
+AC	Alex's	Alexs	0
+AC	Alfred's	Alfreds	0
+AC	Alice's	Alices	0
+AC	Alicia's	Alicias	0
+AC	Alison's	Alisons	0
+AC	Allan's	Allans	0
+AC	Allen's	Allens	0
+AC	Allison's	Allisons	0
+AC	Al's	Als	0
+AC	Alvin's	Alvins	0
+AC	Amanda's	Amandas	0
+AC	Amber's	Ambers	0
+AC	Amelia's	Amelias	0
+AC	Amy's	Amys	0
+AC	Ana's	Anas	0
+AC	Anderson's	Andersons	0
+AC	Andrea's	Andreas	0
+AC	Andre's	Andres	0
+AC	Andrew's	Andrews	0
+AC	Andy's	Andys	0
+AC	Angela's	Angelas	0
+AC	Angelina's	Angelinas	0
+AC	Angelo's	Angelos	0
+AC	Angel's	Angels	0
+AC	Angie's	Angies	0
+AC	Anita's	Anitas	0
+AC	Anna's	Annas	0
+AC	Anne's	Annes	0
+AC	Annie's	Annies	0
+AC	Ann's	Anns	0
+AC	Anthony's	Anthonys	0
+AC	Antonio's	Antonios	0
+AC	April's	Aprils	0
+AC	Archie's	Archies	0
+AC	Arnold's	Arnolds	0
+AC	Arthur's	Arthurs	0
+AC	Ashley's	Ashleys	0
+AC	Audrey's	Audreys	0
+AC	Austin's	Austins	0
+AC	Barbara's	Barbaras	0
+AC	Barry's	Barrys	0
+AC	Becky's	Beckys	0
+AC	Benjamin's	Benjamins	0
+AC	Benny's	Bennys	0
+AC	Ben's	Bens	0
+AC	Bernard's	Bernards	0
+AC	Bert's	Berts	0
+AC	Beth's	Beths	0
+AC	Betsy's	Betsys	0
+AC	Betty's	Bettys	0
+AC	Bill's	Bills	0
+AC	Billy's	Billys	0
+AC	blackmail	blakmail	0
+AC	Blake's	Blakes	0
+AC	Bobby's	Bobbys	0
+AC	Bob's	Bobs	0
+AC	Bonnie's	Bonnies	0
+AC	Boyd's	Boyds	0
+AC	Bradford's	Bradfords	0
+AC	Bradley's	Bradleys	0
+AC	Brad's	Brads	0
+AC	Brandon's	Brandons	0
+AC	Brendan's	Brendans	0
+AC	Brenda's	Brendas	0
+AC	Brent's	Brents	0
+AC	Brett's	Bretts	0
+AC	Brian's	Brians	0
+AC	Bridget's	Bridgets	0
+AC	Brittany's	Brittanys	0
+AC	Brooke's	Brookes	0
+AC	Bruce's	Bruces	0
+AC	Bryan's	Bryans	0
+AC	Bryant's	Bryants	0
+AC	Byron's	Byrons	0
+AC	Caleb's	Calebs	0
+AC	Calvin's	Calvins	0
+AC	Cameron's	Camerons	0
+AC	Carla's	Carlas	0
+AC	Carl's	Carls	0
+AC	Carmen's	Carmens	0
+AC	Caroline's	Carolines	0
+AC	Carol's	Carols	0
+AC	Carolyn's	Carolyns	0
+AC	Carrie's	Carries	0
+AC	Carroll's	Carrolls	0
+AC	Casey's	Caseys	0
+AC	Cassandra's	Cassandras	0
+AC	Catherine's	Catherines	0
+AC	Cathy's	Cathys	0
+AC	Cesar's	Cesars	0
+AC	Chad's	Chads	0
+AC	Charles's	Charless	0
+AC	Charlie's	Charlies	0
+AC	Charlotte's	Charlottes	0
+AC	Chelsea's	Chelseas	0
+AC	Cheryl's	Cheryls	0
+AC	Chester's	Chesters	0
+AC	Chris's	Chriss	0
+AC	Christian's	Christians	0
+AC	Christie's	Christies	0
+AC	Christina's	Christinas	0
+AC	Christine's	Christines	0
+AC	Christopher's	Christophers	0
+AC	Christy's	Christys	0
+AC	Cindy's	Cindys	0
+AC	Claire's	Claires	0
+AC	Clara's	Claras	0
+AC	Clark's	Clarks	0
+AC	Claudia's	Claudias	0
+AC	Clay's	Clays	0
+AC	Clayton's	Claytons	0
+AC	Clifford's	Cliffords	0
+AC	Clinton's	Clintons	0
+AC	Clyde's	Clydes	0
+AC	Cody's	Codys	0
+AC	Colin's	Colins	0
+AC	Connie's	Connies	0
+AC	Conrad's	Conrads	0
+AC	Corey's	Coreys	0
+AC	Cory's	Corys	0
+AC	Courtney's	Courtneys	0
+AC	Craig's	Craigs	0
+AC	Crystal's	Crystals	0
+AC	Cynthia's	Cynthias	0
+AC	Daisy's	Daisys	0
+AC	Dale's	Dales	0
+AC	Damon's	Damons	0
+AC	Dana's	Danas	0
+AC	Danielle's	Danielles	0
+AC	Daniel's	Daniels	0
+AC	Danny's	Dannys	0
+AC	Dan's	Dans	0
+AC	Darren's	Darrens	0
+AC	Dave's	Daves	0
+AC	David's	Davids	0
+AC	Dawn's	Dawns	0
+AC	Dean's	Deans	0
+AC	Debbie's	Debbies	0
+AC	Deborah's	Deborahs	0
+AC	Delia's	Delias	0
+AC	Denise's	Denises	0
+AC	Derek's	Dereks	0
+AC	Dewey's	Deweys	0
+AC	Dexter's	Dexters	0
+AC	Diana's	Dianas	0
+AC	Diane's	Dianes	0
+AC	Dominic's	Dominics	0
+AC	Donald's	Donalds	0
+AC	Donna's	Donnas	0
+AC	Don's	Dons	0
+AC	Dora's	Doras	0
+AC	Dorothy's	Dorothys	0
+AC	Doug's	Dougs	0
+AC	Doyle's	Doyles	0
+AC	Drew's	Drews	0
+AC	Dustin's	Dustins	0
+AC	Dwight's	Dwights	0
+AC	Earl's	Earls	0
+AC	Eddie's	Eddies	0
+AC	Edgar's	Edgars	0
+AC	Edmund's	Edmunds	0
+AC	Edna's	Ednas	0
+AC	Ed's	Eds	0
+AC	Edward's	Edwards	0
+AC	Eileen's	Eileens	0
+AC	Elaine's	Elaines	0
+AC	Elena's	Elenas	0
+AC	Elijah's	Elijahs	0
+AC	Elizabeth's	Elizabeths	0
+AC	Ella's	Ellas	0
+AC	Ellen's	Ellens	0
+AC	Elmer's	Elmers	0
+AC	Emily's	Emilys	0
+AC	Emma's	Emmas	0
+AC	Erica's	Ericas	0
+AC	Eric's	Erics	0
+AC	Erik's	Eriks	0
+AC	Erin's	Erins	0
+AC	Esther's	Esthers	0
+AC	Eugene's	Eugenes	0
+AC	Evan's	Evans	0
+AC	Eva's	Evas	0
+AC	Evelyn's	Evelyns	0
+AC	Faith's	Faiths	0
+AC	Felix's	Felixs	0
+AC	Florence's	Florences	0
+AC	Floyd's	Floyds	0
+AC	Francisco's	Franciscos	0
+AC	Frankie's	Frankies	0
+AC	Franklin's	Franklins	0
+AC	Frank's	Franks	0
+AC	Freddie's	Freddies	0
+AC	Frederick's	Fredericks	0
+AC	Fred's	Freds	0
+AC	Gabriel's	Gabriels	0
+AC	Gail's	Gails	0
+AC	gallop	galop	0
+AC	Garrett's	Garretts	0
+AC	Garry's	Garrys	0
+AC	Gary's	Garys	0
+AC	Gene's	Genes	0
+AC	George's	Georges	0
+AC	Georgia's	Georgias	0
+AC	Gilbert's	Gilberts	0
+AC	Gina's	Ginas	0
+AC	Glenn's	Glenns	0
+AC	Gloria's	Glorias	0
+AC	Gordon's	Gordons	0
+AC	Grace's	Graces	0
+AC	Grant's	Grants	0
+AC	Gregg's	Greggs	0
+AC	Gregory's	Gregorys	0
+AC	Greg's	Gregs	0
+AC	Gretchen's	Gretchens	0
+AC	Gwen's	Gwens	0
+AC	Hannah's	Hannahs	0
+AC	Harold's	Harolds	0
+AC	Harriet's	Harriets	0
+AC	Harry's	Harrys	0
+AC	Harvey's	Harveys	0
+AC	Heather's	Heathers	0
+AC	Heidi's	Heidis	0
+AC	Helen's	Helens	0
+AC	Henry's	Henrys	0
+AC	Herbert's	Herberts	0
+AC	Herman's	Hermans	0
+AC	Holly's	Hollys	0
+AC	Homer's	Homers	0
+AC	Hope's	Hopes	0
+AC	Howard's	Howards	0
+AC	Hugh's	Hughs	0
+AC	Hugo's	Hugos	0
+AC	Ian's	Ians	0
+AC	I'd	i'd	0
+AC	how've	howve	0
+AC	I	i	0
+AC	I'll	i'll	0
+AC	I'll	ill	0
+AC	I'm	i'm	0
+AC	I'm	im	0
+AC	Irene's	Irenes	0
+AC	Irving's	Irvings	0
+AC	Isaac's	Isaacs	0
+AC	Isabel's	Isabels	0
+AC	Israel's	Israels	0
+AC	it's about	its about	1
+AC	it's absolutely	its absolutely	1
+AC	it's acceptable	its acceptable	1
+AC	it's actually	its actually	1
+AC	it's against	its against	1
+AC	it's a	its a	1
+AC	it's all	its all	1
+AC	it's almost	its almost	1
+AC	it's already	its already	1
+AC	it's alright	its alright	1
+AC	it's also	its also	1
+AC	it's always	its always	1
+AC	it's amazing	its amazing	1
+AC	it's an	its an	1
+AC	it's annoying	its annoying	1
+AC	it's another	its another	1
+AC	it's any	its any	1
+AC	it's anything	its anything	1
+AC	it's apparently	its apparently	1
+AC	it's appropriate	its appropriate	1
+AC	it's around	its around	1
+AC	it's as	its as	1
+AC	it's at	its at	1
+AC	it's available	its available	1
+AC	it's awesome	its awesome	1
+AC	it's awful	its awful	1
+AC	it's back	its back	1
+AC	it's bad	its bad	1
+AC	it's barely	its barely	1
+AC	it's based	its based	1
+AC	it's basically	its basically	1
+AC	it's beautiful	its beautiful	1
+AC	it's because	its because	1
+AC	it's become	its become	1
+AC	it's becoming	its becoming	1
+AC	it's been	its been	1
+AC	it's being	its being	1
+AC	it's best	its best	1
+AC	it's better	its better	1
+AC	it's big	its big	1
+AC	it's boring	its boring	1
+AC	it's both	its both	1
+AC	it's broken	its broken	1
+AC	it's bullshit	its bullshit	1
+AC	it's by	its by	1
+AC	it's called	its called	1
+AC	it's certainly	its certainly	1
+AC	it's cheaper	its cheaper	1
+AC	it's cheap	its cheap	1
+AC	it's clear	its clear	1
+AC	it's clearly	its clearly	1
+AC	it's close	its close	1
+AC	it's closer	its closer	1
+AC	it's cold	its cold	1
+AC	it's coming	its coming	1
+AC	it's common	its common	1
+AC	it's completely	its completely	1
+AC	it's considered	its considered	1
+AC	it's cool	its cool	1
+AC	it's crazy	its crazy	1
+AC	it's current	its current	1
+AC	it's currently	its currently	1
+AC	it's cute	its cute	1
+AC	it's damn	its damn	1
+AC	it's dangerous	its dangerous	1
+AC	it's dark	its dark	1
+AC	it's dead	its dead	1
+AC	it's definitely	its definitely	1
+AC	it's delicious	its delicious	1
+AC	it's designed	its designed	1
+AC	it's different	its different	1
+AC	it's difficult	its difficult	1
+AC	it's disgusting	its disgusting	1
+AC	it's doing	its doing	1
+AC	it's done	its done	1
+AC	it's down	its down	1
+AC	it's due	its due	1
+AC	it's easier	its easier	1
+AC	it's easily	its easily	1
+AC	it's easy	its easy	1
+AC	it's either	its either	1
+AC	it's enough	its enough	1
+AC	it's entirely	its entirely	1
+AC	it's especially	its especially	1
+AC	it's essentially	its essentially	1
+AC	it's even	its even	1
+AC	it's ever	its ever	1
+AC	it's exactly	its exactly	1
+AC	it's expensive	its expensive	1
+AC	it's extremely	its extremely	1
+AC	it's fair	its fair	1
+AC	it's fairly	its fairly	1
+AC	it's fake	its fake	1
+AC	it's fantastic	its fantastic	1
+AC	it's far	its far	1
+AC	it's faster	its faster	1
+AC	it's fine	its fine	1
+AC	it's fixed	its fixed	1
+AC	it's for	its for	1
+AC	it's free	its free	1
+AC	it's from	its from	1
+AC	it's frustrating	its frustrating	1
+AC	it's full	its full	1
+AC	it's fun	its fun	1
+AC	it's funny	its funny	1
+AC	it's generally	its generally	1
+AC	it's getting	its getting	1
+AC	it's going	its going	1
+AC	it's gone	its gone	1
+AC	it's good	its good	1
+AC	it's got	its got	1
+AC	it's gotten	its gotten	1
+AC	it's great	its great	1
+AC	it's happened	its happened	1
+AC	it's happening	its happening	1
+AC	it's harder	its harder	1
+AC	it's hard	its hard	1
+AC	it's hardly	its hardly	1
+AC	it's her	its her	1
+AC	it's high	its high	1
+AC	it's highly	its highly	1
+AC	it's hilarious	its hilarious	1
+AC	it's his	its his	1
+AC	it's honestly	its honestly	1
+AC	it's horrible	its horrible	1
+AC	it's hot	its hot	1
+AC	it's how	its how	1
+AC	it's illegal	its illegal	1
+AC	it's important	its important	1
+AC	it's impossible	its impossible	1
+AC	it's incredible	its incredible	1
+AC	it's incredibly	its incredibly	1
+AC	it's in	its in	1
+AC	it's insane	its insane	1
+AC	it's intended	its intended	1
+AC	it's interesting	its interesting	1
+AC	it's ironic	its ironic	1
+AC	it's irrelevant	its irrelevant	1
+AC	it's just	its just	1
+AC	it's kinda	its kinda	1
+AC	it's kind	its kind	1
+AC	it's late	its late	1
+AC	it's legal	its legal	1
+AC	it's legit	its legit	1
+AC	it's less	its less	1
+AC	it's like	its like	1
+AC	it's likely	its likely	1
+AC	it's literally	its literally	1
+AC	it's long	its long	1
+AC	it's looking	its looking	1
+AC	it's made	its made	1
+AC	it's mainly	its mainly	1
+AC	it's making	its making	1
+AC	it's meant	its meant	1
+AC	it's me	its me	1
+AC	it's missing	its missing	1
+AC	it's more	its more	1
+AC	it's most	its most	1
+AC	it's mostly	its mostly	1
+AC	it's much	its much	1
+AC	it's my	its my	1
+AC	it's natural	its natural	1
+AC	it's near	its near	1
+AC	it's nearly	its nearly	1
+AC	it's necessary	its necessary	1
+AC	it's never	its never	1
+AC	it's new	its new	1
+AC	it's nice	its nice	1
+AC	it's no	its no	1
+AC	it's none	its none	1
+AC	it's normal	its normal	1
+AC	it's nothing	its nothing	1
+AC	it's not	its not	1
+AC	it's nowhere	its nowhere	1
+AC	it's now	its now	1
+AC	it's obvious	its obvious	1
+AC	it's obviously	its obviously	1
+AC	it's odd	its odd	1
+AC	it's off	its off	1
+AC	it's of	its of	1
+AC	it's often	its often	1
+AC	it's okay	its okay	1
+AC	it's ok	its ok	1
+AC	it's old	its old	1
+AC	it's one	its one	1
+AC	it's on	its on	1
+AC	it's only	its only	1
+AC	it's open	its open	1
+AC	it's original	its original	1
+AC	it's our	its our	1
+AC	it's out	its out	1
+AC	it's over	its over	1
+AC	it's own	its own	1
+AC	it's part	its part	1
+AC	it's people	its people	1
+AC	it's perfect	its perfect	1
+AC	it's perfectly	its perfectly	1
+AC	it's pointless	its pointless	1
+AC	it's possible	its possible	1
+AC	it's practically	its practically	1
+AC	it's pretty	its pretty	1
+AC	it's probably	its probably	1
+AC	it's pronounced	its pronounced	1
+AC	it's pure	its pure	1
+AC	it's purely	its purely	1
+AC	it's quite	its quite	1
+AC	it's raining	its raining	1
+AC	it's rare	its rare	1
+AC	it's rather	its rather	1
+AC	it's real	its real	1
+AC	it's really	its really	1
+AC	it's reasonable	its reasonable	1
+AC	it's ready	its ready	1
+AC	it's related	its related	1
+AC	it's relatively	its relatively	1
+AC	it's relevant	its relevant	1
+AC	it's ridiculous	its ridiculous	1
+AC	it's right	its right	1
+AC	it's running	its running	1
+AC	it's sad	its sad	1
+AC	it's safe	its safe	1
+AC	it's scary	its scary	1
+AC	it's seriously	its seriously	1
+AC	it's set	its set	1
+AC	it's shit	its shit	1
+AC	it's shitty	its shitty	1
+AC	it's short	its short	1
+AC	it's silly	its silly	1
+AC	it's similar	its similar	1
+AC	it's simple	its simple	1
+AC	it's simply	its simply	1
+AC	it's slightly	its slightly	1
+AC	it's slow	its slow	1
+AC	it's small	its small	1
+AC	it's so	its so	1
+AC	it's some	its some	1
+AC	it's someone	its someone	1
+AC	it's something	its something	1
+AC	it's sometimes	its sometimes	1
+AC	it's somewhat	its somewhat	1
+AC	it's sort	its sort	1
+AC	it's spelled	its spelled	1
+AC	it's starting	its starting	1
+AC	it's still	its still	1
+AC	it's strange	its strange	1
+AC	it's stupid	its stupid	1
+AC	it's such	its such	1
+AC	it's super	its super	1
+AC	it's supposed	its supposed	1
+AC	it's taken	its taken	1
+AC	it's taking	its taking	1
+AC	it's technically	its technically	1
+AC	it's terrible	its terrible	1
+AC	it's that	its that	1
+AC	it's their	its their	1
+AC	it's the	its the	1
+AC	it's there	its there	1
+AC	it's this	its this	1
+AC	it's those	its those	1
+AC	it's time	its time	1
+AC	it's to	its to	1
+AC	it's too	its too	1
+AC	it's totally	its totally	1
+AC	it's tough	its tough	1
+AC	it's TRUE	its TRUE	1
+AC	it's truly	its truly	1
+AC	it's trying	its trying	1
+AC	it's two	its two	1
+AC	it's under	its under	1
+AC	it's understandable	its understandable	1
+AC	it's unfair	its unfair	1
+AC	it's unfortunate	its unfortunate	1
+AC	it's unlikely	its unlikely	1
+AC	it's up	its up	1
+AC	it's used	its used	1
+AC	it's useful	its useful	1
+AC	it's useless	its useless	1
+AC	it's usually	its usually	1
+AC	it's very	its very	1
+AC	it's way	its way	1
+AC	it's weird	its weird	1
+AC	it's well	its well	1
+AC	it's what	its what	1
+AC	it's when	its when	1
+AC	it's where	its where	1
+AC	it's why	its why	1
+AC	it's with	its with	1
+AC	it's worked	its worked	1
+AC	it's working	its working	1
+AC	it's worse	its worse	1
+AC	it's worth	its worth	1
+AC	it's written	its written	1
+AC	it's wrong	its wrong	1
+AC	it's you	its you	1
+AC	it's your	its your	1
+AC	it's yours	its yours	1
+AC	Ivan's	Ivans	0
+AC	I've	i've	0
+AC	I've	ive	0
+AC	Jackie's	Jackies	0
+AC	Jack's	Jacks	0
+AC	Jacob's	Jacobs	0
+AC	Jake's	Jakes	0
+AC	James's	Jamess	0
+AC	Jamie's	Jamies	0
+AC	Jane's	Janes	0
+AC	Janet's	Janets	0
+AC	Janice's	Janices	0
+AC	Jan's	Jans	0
+AC	Jared's	Jareds	0
+AC	Jason's	Jasons	0
+AC	Jay's	Jays	0
+AC	Jean's	Jeans	0
+AC	Jeffrey's	Jeffreys	0
+AC	Jeff's	Jeffs	0
+AC	Jenna's	Jennas	0
+AC	Jennifer's	Jennifers	0
+AC	Jenny's	Jennys	0
+AC	Jeremiah's	Jeremiahs	0
+AC	Jeremy's	Jeremys	0
+AC	Jerome's	Jeromes	0
+AC	Jerry's	Jerrys	0
+AC	Jesse's	Jesses	0
+AC	Jessica's	Jessicas	0
+AC	Jessie's	Jessies	0
+AC	Jesus's	Jesuss	0
+AC	Jill's	Jills	0
+AC	Jimmy's	Jimmys	0
+AC	Jim's	Jims	0
+AC	Joanna's	Joannas	0
+AC	Joanne's	Joannes	0
+AC	Joan's	Joans	0
+AC	Jody's	Jodys	0
+AC	Joel's	Joels	0
+AC	Joe's	Joes	0
+AC	Joe's	Joes	0
+AC	Joey's	Joeys	0
+AC	Johnnie's	Johnnies	0
+AC	Johnny's	Johnnys	0
+AC	John's	Johns	0
+AC	Jonathan's	Jonathans	0
+AC	Jon's	Jons	0
+AC	Jordan's	Jordans	0
+AC	Joseph's	Josephs	0
+AC	Jose's	Joses	0
+AC	Josh's	Joshs	0
+AC	Joshua's	Joshuas	0
+AC	Jo's	Jos	0
+AC	Joyce's	Joyces	0
+AC	Joy's	Joys	0
+AC	Juan's	Juans	0
+AC	Judith's	Judiths	0
+AC	Judy's	Judys	0
+AC	Julian's	Julians	0
+AC	Julia's	Julias	0
+AC	Julie's	Julies	0
+AC	June's	Junes	0
+AC	Justin's	Justins	0
+AC	Kara's	Karas	0
+AC	Karen's	Karens	0
+AC	Karl's	Karls	0
+AC	Kate's	Kates	0
+AC	Katherine's	Katherines	0
+AC	Kathleen's	Kathleens	0
+AC	Kathy's	Kathys	0
+AC	Katie's	Katies	0
+AC	Katrina's	Katrinas	0
+AC	Kay's	Kays	0
+AC	Keith's	Keiths	0
+AC	Kelley's	Kelleys	0
+AC	Kelly's	Kellys	0
+AC	Kenny's	Kennys	0
+AC	Ken's	Kens	0
+AC	Kent's	Kents	0
+AC	Kerry's	Kerrys	0
+AC	Kevin's	Kevins	0
+AC	Kimberly's	Kimberlys	0
+AC	Kim's	Kims	0
+AC	Kirk's	Kirks	0
+AC	knives	a knives	1
+AC	Kristen's	Kristens	0
+AC	Kristin's	Kristins	0
+AC	Kurt's	Kurts	0
+AC	Kyle's	Kyles	0
+AC	Lana's	Lanas	0
+AC	Lance's	Lances	0
+AC	Larry's	Larrys	0
+AC	Laura's	Lauras	0
+AC	Lauren's	Laurens	0
+AC	Laurie's	Lauries	0
+AC	Lawrence's	Lawrences	0
+AC	Leah's	Leahs	0
+AC	Lee's	Lees	0
+AC	Leigh's	Leighs	0
+AC	Lena's	Lenas	0
+AC	Leonard's	Leonards	0
+AC	Leon's	Leons	0
+AC	Leo's	Leos	0
+AC	Leslie's	Leslies	0
+AC	Lester's	Lesters	0
+AC	let's	lets	0
+AC	Levi's	Levis	0
+AC	Lewis's	Lewiss	0
+AC	Linda's	Lindas	0
+AC	Lindsay's	Lindsays	0
+AC	Lindsey's	Lindseys	0
+AC	Lisa's	Lisas	0
+AC	Lloyd's	Lloyds	0
+AC	Lola's	Lolas	0
+AC	Lorenzo's	Lorenzos	0
+AC	Lori's	Loris	0
+AC	Louise's	Louises	0
+AC	Lowell's	Lowells	0
+AC	Lucas's	Lucass	0
+AC	Lucia's	Lucias	0
+AC	Lucy's	Lucys	0
+AC	Luke's	Lukes	0
+AC	Luther's	Luthers	0
+AC	Lydia's	Lydias	0
+AC	Lynne's	Lynnes	0
+AC	Lynn's	Lynns	0
+AC	Mack's	Macks	0
+AC	Mae's	Maes	0
+AC	Maggie's	Maggies	0
+AC	Malcolm's	Malcolms	0
+AC	Mandy's	Mandys	0
+AC	Manuel's	Manuels	0
+AC	Marco's	Marcos	0
+AC	Marc's	Marcs	0
+AC	Margaret's	Margarets	0
+AC	Maria's	Marias	0
+AC	Marie's	Maries	0
+AC	Marilyn's	Marilyns	0
+AC	Marion's	Marions	0
+AC	Mario's	Marios	0
+AC	Mark's	Marks	0
+AC	Marshall's	Marshalls	0
+AC	Martha's	Marthas	0
+AC	Martin's	Martins	0
+AC	Marty's	Martys	0
+AC	Marvin's	Marvins	0
+AC	Mary's	Marys	0
+AC	Mary's	Marys	0
+AC	Matthew's	Matthews	0
+AC	Matt's	Matts	0
+AC	Max's	Maxs	0
+AC	May's	Mays	0
+AC	Megan's	Megans	0
+AC	Melanie's	Melanies	0
+AC	Melinda's	Melindas	0
+AC	Melissa's	Melissas	0
+AC	Meredith's	Merediths	0
+AC	Michael's	Michaels	0
+AC	Michele's	Micheles	0
+AC	Michelle's	Michelles	0
+AC	Miguel's	Miguels	0
+AC	Mike's	Mikes	0
+AC	Milton's	Miltons	0
+AC	Minnie's	Minnies	0
+AC	Miranda's	Mirandas	0
+AC	Misty's	Mistys	0
+AC	Mitchell's	Mitchells	0
+AC	Molly's	Mollys	0
+AC	Monica's	Monicas	0
+AC	Morris's	Morriss	0
+AC	Nancy's	Nancys	0
+AC	Naomi's	Naomis	0
+AC	Natalie's	Natalies	0
+AC	Natasha's	Natashas	0
+AC	Nathan's	Nathans	0
+AC	Neal's	Neals	0
+AC	Neil's	Neils	0
+AC	Nellie's	Nellies	0
+AC	Nelson's	Nelsons	0
+AC	Nick's	Nicks	0
+AC	Nicole's	Nicoles	0
+AC	Nina's	Ninas	0
+AC	Noah's	Noahs	0
+AC	Noel's	Noels	0
+AC	Nora's	Noras	0
+AC	Norman's	Normans	0
+AC	Obama's	obamas	0
+AC	Olga's	Olgas	0
+AC	Oliver's	Olivers	0
+AC	Olivia's	Olivias	0
+AC	Ollie's	Ollies	0
+AC	Omar's	Omars	0
+AC	Orlando's	Orlandos	0
+AC	Oscar's	Oscars	0
+AC	Owen's	Owens	0
+AC	Pablo's	Pablos	0
+AC	Pamela's	Pamelas	0
+AC	Pam's	Pams	0
+AC	Patricia's	Patricias	0
+AC	Patrick's	Patricks	0
+AC	Pat's	Pats	0
+AC	Patti's	Pattis	0
+AC	Patty's	Pattys	0
+AC	Paula's	Paulas	0
+AC	Paul's	Pauls	0
+AC	Pearl's	Pearls	0
+AC	Pedro's	Pedros	0
+AC	Peggy's	Peggys	0
+AC	Penny's	Pennys	0
+AC	Percy's	Percys	0
+AC	Perry's	Perrys	0
+AC	Peter's	Peters	0
+AC	Pete's	Petes	0
+AC	Philip's	Philips	0
+AC	Phillip's	Phillips	0
+AC	Phil's	Phils	0
+AC	Preston's	Prestons	0
+AC	Rachael's	Rachaels	0
+AC	Rachel's	Rachels	0
+AC	Ralph's	Ralphs	0
+AC	Randall's	Randalls	0
+AC	Randy's	Randys	0
+AC	Raymond's	Raymonds	0
+AC	Ray's	Rays	0
+AC	Rebecca's	Rebeccas	0
+AC	Regina's	Reginas	0
+AC	region	lack regio	0
+AC	region	lake regio	0
+AC	Renee's	Renees	0
+AC	Rex's	Rexs	0
+AC	Richard's	Richards	0
+AC	Rick's	Ricks	0
+AC	Ricky's	Rickys	0
+AC	Rita's	Ritas	0
+AC	Robert's	Roberts	0
+AC	Robin's	Robins	0
+AC	Robyn's	Robyns	0
+AC	Rodney's	Rodneys	0
+AC	Roger's	Rogers	0
+AC	Roland's	Rolands	0
+AC	Roman's	Romans	0
+AC	Ronnie's	Ronnies	0
+AC	Ron's	Rons	0
+AC	Roosevelt's	Roosevelts	0
+AC	Rosa's	Rosas	0
+AC	Rosemary's	Rosemarys	0
+AC	Rose's	Roses	0
+AC	Rosie's	Rosies	0
+AC	Ross's	Rosss	0
+AC	Roy's	Roys	0
+AC	Ruby's	Rubys	0
+AC	Rudolph's	Rudolphs	0
+AC	Rudy's	Rudys	0
+AC	Russell's	Russells	0
+AC	Ruth's	Ruths	0
+AC	Ryan's	Ryans	0
+AC	Sabrina's	Sabrinas	0
+AC	Sadie's	Sadies	0
+AC	Sally's	Sallys	0
+AC	Samantha's	Samanthas	0
+AC	Sammy's	Sammys	0
+AC	Sam's	Sams	0
+AC	Samuel's	Samuels	0
+AC	Sandra's	Sandras	0
+AC	Sandy's	Sandys	0
+AC	Sarah's	Sarahs	0
+AC	Sara's	Saras	0
+AC	Saul's	Sauls	0
+AC	Scott's	Scotts	0
+AC	Sean's	Seans	0
+AC	Seth's	Seths	0
+AC	Shane's	Shanes	0
+AC	Shannon's	Shannons	0
+AC	Shari's	Sharis	0
+AC	Sharon's	Sharons	0
+AC	Shaun's	Shauns	0
+AC	Shawn's	Shawns	0
+AC	Shelley's	Shelleys	0
+AC	Shelly's	Shellys	0
+AC	Sherman's	Shermans	0
+AC	Shirley's	Shirleys	0
+AC	Simon's	Simons	0
+AC	Smith's	Smiths	0
+AC	Sophia's	Sophias	0
+AC	Sophie's	Sophies	0
+AC	Spencer's	Spencers	0
+AC	Stacey's	Staceys	0
+AC	Stacy's	Stacys	0
+AC	Stanley's	Stanleys	0
+AC	Stella's	Stellas	0
+AC	Stephanie's	Stephanies	0
+AC	Stephen's	Stephens	0
+AC	Steven's	Stevens	0
+AC	Steve's	Steves	0
+AC	Stewart's	Stewarts	0
+AC	Stuart's	Stuarts	0
+AC	Sue's	Sues	0
+AC	Susan's	Susans	0
+AC	Susie's	Susies	0
+AC	Suzanne's	Suzannes	0
+AC	Sylvia's	Sylvias	0
+AC	Tammy's	Tammys	0
+AC	Tanya's	Tanyas	0
+AC	Tara's	Taras	0
+AC	Taylor's	Taylors	0
+AC	Ted's	Teds	0
+AC	Teresa's	Teresas	0
+AC	Terri's	Terris	0
+AC	Terry's	Terrys	0
+AC	that's	thats	0
+AC	there're	therere	0
+AC	Theresa's	Theresas	0
+AC	Thomas's	Thomass	0
+AC	Tiffany's	Tiffanys	0
+AC	Timmy's	Timmys	0
+AC	Timothy's	Timothys	0
+AC	Tim's	Tims	0
+AC	Tina's	Tinas	0
+AC	Toby's	Tobys	0
+AC	Todd's	Todds	0
+AC	Tommy's	Tommys	0
+AC	Tom's	Toms	0
+AC	Toni's	Tonis	0
+AC	Tony's	Tonys	0
+AC	Tracy's	Tracys	0
+AC	Trevor's	Trevors	0
+AC	Troy's	Troys	0
+AC	Tyler's	Tylers	0
+AC	Valerie's	Valeries	0
+AC	Vanessa's	Vanessas	0
+AC	Van's	Vans	0
+AC	Vera's	Veras	0
+AC	Veronica's	Veronicas	0
+AC	Vicki's	Vickis	0
+AC	Vicky's	Vickys	0
+AC	Victoria's	Victorias	0
+AC	Victor's	Victors	0
+AC	Vincent's	Vincents	0
+AC	Virginia's	Virginias	0
+AC	Wade's	Wades	0
+AC	Wallace's	Wallaces	0
+AC	Walter's	Walters	0
+AC	Wanda's	Wandas	0
+AC	Warren's	Warrens	0
+AC	Wayne's	Waynes	0
+AC	Wendy's	Wendys	0
+AC	Wesley's	Wesleys	0
+AC	what's	whats	0
+AC	Whitney's	Whitneys	0
+AC	who's	whos	0
+AC	William's	Williams	0
+AC	Willie's	Willies	0
+AC	Wilson's	Wilsons	0
+AC	Winston's	Winstons	0
+AC	you'll	youll	0
+AC	I'd	id	0
+AC	they're	theyre	0
+AC	you're	youre	0
+AC	you've	youve	0
+AC	will	wil	0
+C	!	.	0
+C	?	.	0
+CP	tomorrow	day after to	0
+P	trump	donald	0
+CP	trump	donald t	0
+CP	trump	donald tr	0
+P	Electronics	samsung	0
+P	Galaxy	samsung	0
+P	Note	galaxy	0
+P	phone	samsung	0
+P	Tab	galaxy	0
+AC	Bixby	bixby	0
+AC	Staines	Staines	0
+C	please	plz	0
+C	fine	f9	0
+C	thanks	thx	0
+C	thanks	tnx	0

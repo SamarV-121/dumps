@@ -1,0 +1,90 @@
+P	gmail.com	@	0		
+P	docomo.ne.jp	@	0		
+P	ezweb.ne.jp	@	0		
+P	auone.jp	@	0		
+P	softbank.ne.jp	@	0		
+P	i.softbank.jp	@	0		
+P	disney.ne.jp	@	0		
+P	willcom.com	@	0		
+P	emnet.ne.jp	@	0		
+CP	@gmail.com	@	0		
+CP	@docomo.ne.jp	@	0		
+CP	@ezweb.ne.jp	@	0		
+CP	@auone.jp	@	0		
+CP	@softbank.ne.jp	@	0		
+CP	@i.softbank.jp	@	0		
+CP	@disney.ne.jp	@	0		
+CP	@willcom.com	@	0		
+CP	@emnet.ne.jp	@	0		
+CP	gmail.com	<email>	0		
+CP	docomo.ne.jp	<email>	0		
+CP	ezweb.ne.jp	<email>	0		
+CP	auone.jp	<email>	0		
+CP	softbank.ne.jp	<email>	0		
+CP	i.softbank.jp	<email>	0		
+CP	disney.ne.jp	<email>	0		
+CP	willcom.com	<email>	0		
+CP	emnet.ne.jp	<email>	0		
+P	.com	. <s>	0	<email>	1
+P	.co.jp	. <s>	0	<email>	1
+P	.ne.jp	. <s>	0	<email>	1
+P	.net	. <s>	0	<email>	1
+P	.NET	. <s>	0	<email>	1
+P	.jp	. <s>	0	<email>	1
+P	.or.jp	. <s>	0	<email>	1
+P	.org	. <s>	0	<email>	1
+P	.ac.jp	. <s>	0	<email>	1
+P	.ed.jp	. <s>	0	<email>	1
+P	.go.jp	. <s>	0	<email>	1
+P	.gr.jp	. <s>	0	<email>	1
+P	.ad.jp	. <s>	0	<email>	1
+P	.lg.jp	. <s>	0	<email>	1
+P	.html	. <s>	0	<email>	1
+P	.com	. <s>	0	<url>	1
+P	.co.jp	. <s>	0	<url>	1
+P	.ne.jp	. <s>	0	<url>	1
+P	.net	. <s>	0	<url>	1
+P	.NET	. <s>	0	<url>	1
+P	.jp	. <s>	0	<url>	1
+P	.or.jp	. <s>	0	<url>	1
+P	.org	. <s>	0	<url>	1
+P	.ac.jp	. <s>	0	<url>	1
+P	.ed.jp	. <s>	0	<url>	1
+P	.go.jp	. <s>	0	<url>	1
+P	.gr.jp	. <s>	0	<url>	1
+P	.ad.jp	. <s>	0	<url>	1
+P	.lg.jp	. <s>	0	<url>	1
+P	.html	. <s>	0	<url>	1
+CP	com	<url>	0	<url>	1
+CP	co.jp	<url>	0	<url>	1
+CP	ne.jp	<url>	0	<url>	1
+CP	net	<url>	0	<url>	1
+CP	NET	<url>	0	<url>	1
+CP	jp	<url>	0	<url>	1
+CP	or.jp	<url>	0	<url>	1
+CP	org	<url>	0	<url>	1
+CP	ac.jp	<url>	0	<url>	1
+CP	ed.jp	<url>	0	<url>	1
+CP	go.jp	<url>	0	<url>	1
+CP	gr.jp	<url>	0	<url>	1
+CP	ad.jp	<url>	0	<url>	1
+CP	lg.jp	<url>	0	<url>	1
+CP	http://	<s> h	0	<url>	1
+CP	http://	<s> ht	0	<url>	1
+CP	http://	<s> htt	0	<url>	1
+CP	http://www.	<s> h	0	<url>	1
+CP	http://www.	<s> ht	0	<url>	1
+CP	http://www.	<s> htt	0	<url>	1
+CP	https://	<s> h	0	<url>	1
+CP	https://	<s> ht	0	<url>	1
+CP	https://	<s> htt	0	<url>	1
+CP	html	<url>	0	<url>	1
+CP	html	<s> h	0	<url>	1
+CP	html	<s> ht	0	<url>	1
+CP	html	<s> htm	0	<url>	1
+CP	www.	<s> w	0	<url>	1
+CP	www.	<s> ww	0	<url>	1
+P	http://	<s>	0	<url>	1
+P	http://www.	<s>	0	<url>	1
+P	https://	<s>	0	<url>	1
+P	www.	<s>	0	<url>	1

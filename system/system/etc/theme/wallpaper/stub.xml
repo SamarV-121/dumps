@@ -1,0 +1,23 @@
+<!-- stub information for MultiPack WallPaper -->
+<stub>
+    <wallpaper>
+        <packageName>SamsungUX.DW.Artistictouch.wallpapermulti</packageName>
+        <title>Artistic touch</title>
+        <thumbnail>ArtisticTouch_thumb.jpg</thumbnail>
+    </wallpaper>
+    <wallpaper>
+        <packageName>SamsungUX.DW.Tilt_shift.wallpapermulti</packageName>
+        <title>Tilt_shift</title>
+        <thumbnail>Tilt-shift_thumb.jpg</thumbnail>
+    </wallpaper>
+    <wallpaper>
+        <packageName>SamsungUX.DW.Delicateblossoms.wallpapermulti</packageName>
+        <title>Delicate blossoms</title>
+        <thumbnail>DelicateBlossoms_thumb.jpg</thumbnail>
+    </wallpaper>
+    <wallpaper>
+        <packageName>SamsungUX.DW.Beautifulearth.wallpapermulti</packageName>
+        <title>Beautiful earth</title>
+        <thumbnail>BeautifulEarth_thumb.jpg</thumbnail>
+    </wallpaper>
+</stub>

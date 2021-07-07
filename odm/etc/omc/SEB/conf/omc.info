@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-M205FN_OXM_SEB_QQ_0002</version>
+  <model>
+    <name>SM-M205FN</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0002</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>9</carrierCount>
+    <carrier>
+      <mcc>246</mcc>
+      <mnc>01</mnc>
+      <networkName>LT Omnitel</networkName>
+    </carrier>
+    <carrier>
+      <mcc>246</mcc>
+      <mnc>02</mnc>
+      <networkName>LT BITE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>246</mcc>
+      <mnc>03</mnc>
+      <networkName>LT TELE2</networkName>
+    </carrier>
+    <carrier>
+      <mcc>247</mcc>
+      <mnc>01</mnc>
+      <networkName>LMT GSM</networkName>
+    </carrier>
+    <carrier>
+      <mcc>247</mcc>
+      <mnc>02</mnc>
+      <networkName>LV TELE2</networkName>
+    </carrier>
+    <carrier>
+      <mcc>247</mcc>
+      <mnc>05</mnc>
+      <networkName>LV BITE</networkName>
+    </carrier>
+    <carrier>
+      <mcc>248</mcc>
+      <mnc>01</mnc>
+      <networkName>EE Telia</networkName>
+    </carrier>
+    <carrier>
+      <mcc>248</mcc>
+      <mnc>02</mnc>
+      <networkName>EE ELISA</networkName>
+    </carrier>
+    <carrier>
+      <mcc>248</mcc>
+      <mnc>03</mnc>
+      <networkName>EE TELE2</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>
