@@ -42,9 +42,7 @@ vendor.samsung.frameworks.security.dsms::ISehDsms     u:object_r:hal_dsms_server
 vendor.samsung.hardware.tlc.payment::ISehTlcPayment                            u:object_r:hal_payment_hwservice:s0
 vendor.samsung.hardware.tlc.ddar::ISehDdar                            u:object_r:hal_ddar_hwservice:s0
 vendor.samsung.hardware.tlc.tima::ISehTima						u:object_r:hal_tima_hwservice:s0
-vendor.samsung.hardware.tlc.tima::ISehKeyStore						u:object_r:hal_tima_hwservice:s0
 vendor.samsung.hardware.tlc.iccc::ISehIccc                          u:object_r:hal_iccc_hwservice:s0
-vendor.samsung.hardware.tlc.snap::ISehSnapSec                       u:object_r:hal_snapsec_hwservice:s0
 vendor.samsung.hardware.tlc.atn::ISehAtn                          u:object_r:hal_atn_hwservice:s0
 vendor.samsung.hardware.media.converter::ISehColorConverterStore                u:object_r:hal_converter_hwservice:s0
 vendor.samsung.hardware.base::ISehBase                u:object_r:hal_base_hwservice:s0
@@ -56,11 +54,9 @@ vendor.samsung.hardware.mpsd::ISmlMpsd                   u:object_r:hal_mpsd_hws
 vendor.samsung.hardware.sysint.mpsd::ISmlMpsd               u:object_r:hal_mpsd_hwservice:s0
 android.hardware.uwb::IUwb                   u:object_r:hal_uwb_hwservice:s0
 vendor.samsung.hardware.uwb::IUwb                   u:object_r:hal_uwb_hwservice:s0
-vendor.samsung.hardware.uwb::ISehUwb                   u:object_r:hal_uwb_hwservice:s0
 vendor.samsung.hardware.authfw@1.0::ISehAuthenticationFramework                            u:object_r:hal_authfw_hwservice:s0
 vendor.samsung.hardware.authfw::ISehAuthenticationFramework                             u:object_r:hal_authfw_hwservice:s0
 vendor.samsung.hardware.bluetooth.audio::ISehBluetoothAudioProvidersFactory             u:object_r:hal_audio_hwservice:s0
-vendor.samsung.hardware.tlc.mpos_tui::ISehmpostui                            u:object_r:hal_mpostui_hwservice:s0
 vendor.samsung.hardware.digitaltv.fullseg::IFullseg      u:object_r:digitaltv_fullseg_hwservice:s0
 vendor.samsung.hardware.dtvtuner::IDtvTuner               u:object_r:digitaltv_fullseg_hwservice:s0
 com.qualcomm.qti.ant::IAntHci              u:object_r:hal_bluetooth_hwservice:s0

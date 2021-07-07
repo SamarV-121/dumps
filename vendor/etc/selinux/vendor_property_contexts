@@ -125,10 +125,6 @@ vendor.display.sf.                                    u:object_r:vendor_display_
 # https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-3467
 vendor.sys.mobicoredaemon.      u:object_r:mobicore_prop:s0
 
-# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-4010
-persist.vendor.service.bdroid.bdaddr                     u:object_r:wifi_log_prop:s0
-
-
 #line 1 "vendor/samsung/system/sepolicy/BSP/slsi/common/property_contexts"
 ##########################
 # property service keys
@@ -149,9 +145,6 @@ vendor.wlan.firmware.version     u:object_r:vendor_wifi_version:s0
 
 # https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-2790
 vendor.teegris.							u:object_r:vendor_teegris_prop:s0
-
-# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-4137
-persist.vendor.bluetooth.            u:object_r:vendor_bluetooth_prop:s0
 
 #line 1 "device/samsung/sepolicy/common/property_contexts"
 # Reference: /system/sepolicy/private/property_contexts

@@ -1538,18 +1538,6 @@
             <apn apnName="supl" ratPriority="LTE" />
             <apn apnName="dun" ratPriority="LTE" />
         </operator>
-        <!-- Vietnam : Vinaphone : XXV -->
-        <operator mnoname="Vinaphone_VN">
-            <apn apnName="ims" ratPriority="IWLAN:LTE" />
-            <apn apnName="mms" ratPriority="LTE" />
-            <apn apnName="xcap" ratPriority="IWLAN:LTE" />
-            <apn apnName="cbs" ratPriority="LTE" />
-            <apn apnName="emergency" ratPriority="LTE" />
-            <apn apnName="default" ratPriority="LTE" />
-            <apn apnName="hipri" ratPriority="LTE" />
-            <apn apnName="supl" ratPriority="LTE" />
-            <apn apnName="dun" ratPriority="LTE" />
-        </operator>
         <!-- Vietnam : Vietnamobile : XXV -->
         <operator mnoname="Vietnamobile_VN">
             <apn apnName="ims" ratPriority="IWLAN:LTE" />
@@ -1962,78 +1950,6 @@
         </operator>
         <!-- Argentina : Claro : CTU -->
         <operator mnoname="Claro_UY">
-            <apn apnName="ims" ratPriority="LTE:IWLAN" />
-            <apn apnName="mms" ratPriority="LTE" />
-            <apn apnName="xcap" ratPriority="LTE" />
-            <apn apnName="cbs" ratPriority="LTE" />
-            <apn apnName="emergency" ratPriority="LTE" />
-            <apn apnName="default" ratPriority="LTE" />
-            <apn apnName="hipri" ratPriority="LTE" />
-            <apn apnName="supl" ratPriority="LTE" />
-            <apn apnName="dun" ratPriority="LTE" />
-        </operator>
-        <!-- Costa Rica: Claro: CRC -->
-        <operator mnoname="Claro_CR">
-            <apn apnName="ims" ratPriority="LTE:IWLAN" />
-            <apn apnName="mms" ratPriority="LTE" />
-            <apn apnName="xcap" ratPriority="LTE" />
-            <apn apnName="cbs" ratPriority="LTE" />
-            <apn apnName="emergency" ratPriority="LTE" />
-            <apn apnName="default" ratPriority="LTE" />
-            <apn apnName="hipri" ratPriority="LTE" />
-            <apn apnName="supl" ratPriority="LTE" />
-            <apn apnName="dun" ratPriority="LTE" />
-        </operator>
-        <!-- El Salvador: Claro: PER -->
-        <operator mnoname="Claro_SV">
-            <apn apnName="ims" ratPriority="LTE:IWLAN" />
-            <apn apnName="mms" ratPriority="LTE" />
-            <apn apnName="xcap" ratPriority="LTE" />
-            <apn apnName="cbs" ratPriority="LTE" />
-            <apn apnName="emergency" ratPriority="LTE" />
-            <apn apnName="default" ratPriority="LTE" />
-            <apn apnName="hipri" ratPriority="LTE" />
-            <apn apnName="supl" ratPriority="LTE" />
-            <apn apnName="dun" ratPriority="LTE" />
-        </operator>
-        <!-- Guatemala: Claro: PGU -->
-        <operator mnoname="Claro_GT">
-            <apn apnName="ims" ratPriority="LTE:IWLAN" />
-            <apn apnName="mms" ratPriority="LTE" />
-            <apn apnName="xcap" ratPriority="LTE" />
-            <apn apnName="cbs" ratPriority="LTE" />
-            <apn apnName="emergency" ratPriority="LTE" />
-            <apn apnName="default" ratPriority="LTE" />
-            <apn apnName="hipri" ratPriority="LTE" />
-            <apn apnName="supl" ratPriority="LTE" />
-            <apn apnName="dun" ratPriority="LTE" />
-        </operator>
-        <!-- Honduras: Claro: HME -->
-        <operator mnoname="Claro_HN">
-            <apn apnName="ims" ratPriority="LTE:IWLAN" />
-            <apn apnName="mms" ratPriority="LTE" />
-            <apn apnName="xcap" ratPriority="LTE" />
-            <apn apnName="cbs" ratPriority="LTE" />
-            <apn apnName="emergency" ratPriority="LTE" />
-            <apn apnName="default" ratPriority="LTE" />
-            <apn apnName="hipri" ratPriority="LTE" />
-            <apn apnName="supl" ratPriority="LTE" />
-            <apn apnName="dun" ratPriority="LTE" />
-        </operator>
-        <!-- Nicaragua: Claro: NEN -->
-        <operator mnoname="Claro_NI">
-            <apn apnName="ims" ratPriority="LTE:IWLAN" />
-            <apn apnName="mms" ratPriority="LTE" />
-            <apn apnName="xcap" ratPriority="LTE" />
-            <apn apnName="cbs" ratPriority="LTE" />
-            <apn apnName="emergency" ratPriority="LTE" />
-            <apn apnName="default" ratPriority="LTE" />
-            <apn apnName="hipri" ratPriority="LTE" />
-            <apn apnName="supl" ratPriority="LTE" />
-            <apn apnName="dun" ratPriority="LTE" />
-        </operator>
-        <!-- Panama: Claro: CPA -->
-        <operator mnoname="Claro_PA">
             <apn apnName="ims" ratPriority="LTE:IWLAN" />
             <apn apnName="mms" ratPriority="LTE" />
             <apn apnName="xcap" ratPriority="LTE" />

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-M205FN_OXM_SKZ_QQ_0002</version>
+  <model>
+    <name>SM-M205FN</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0002</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>4</carrierCount>
+    <carrier>
+      <mcc>401</mcc>
+      <mnc>01</mnc>
+      <networkName>Beeline</networkName>
+    </carrier>
+    <carrier>
+      <mcc>401</mcc>
+      <mnc>02</mnc>
+      <networkName>Kcell</networkName>
+    </carrier>
+    <carrier>
+      <mcc>401</mcc>
+      <mnc>07</mnc>
+      <networkName>ALTEL 4G</networkName>
+    </carrier>
+    <carrier>
+      <mcc>401</mcc>
+      <mnc>77</mnc>
+      <networkName>Tele2</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

@@ -8,8 +8,6 @@ GR COSMOTE"C-OTE
 20209WIND GR"WIND
 
 20210WIND GR"WIND
-
-20217NOVA GR"NOVA GR
 
 20404vodafone NL"voda NL
 
@@ -610,8 +608,6 @@ NetGenuity"NetGenui
 34001F-Orange"Orange
 
 34002SFR"SFR
-
-34009Free"Free
 
 34020Digicel"DigicelF
 
@@ -1807,6 +1803,8 @@ TelkomSA-R"Telkom-R
 72410VIVO"VIVO
 
 72411VIVO"VIVO
+
+72415BRA SCTL"SCTL
 
 72416Oi"Oi
 
@@ -1905,4 +1903,4 @@ AeroMobile"AeroMob
 
 90146	Telecom26"T26
 
-90150EchoStar Mobile"EML%Published TS.25 Database 20 July 2020
+90150EchoStar Mobile"EML&Published TS.25 Database 13 April 2020

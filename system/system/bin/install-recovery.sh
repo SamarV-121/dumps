@@ -1,9 +1,9 @@
 #!/system/bin/sh
-if ! applypatch --check EMMC:/dev/block/platform/13500000.dwmmc0/by-name/RECOVERY:32623136:d76e2e3e932263abb305723309a718509f59e063; then
+if ! applypatch --check EMMC:/dev/block/platform/13500000.dwmmc0/by-name/RECOVERY:32653856:a4f28fb554e88b48086f101aacc9f39c3c196557; then
   applypatch \
           --patch /system/recovery-from-boot.p \
-          --source EMMC:/dev/block/platform/13500000.dwmmc0/by-name/BOOT:20001312:704d517c2ed9a50e1d24416ab4e4675be3872137 \
-          --target EMMC:/dev/block/platform/13500000.dwmmc0/by-name/RECOVERY:32623136:d76e2e3e932263abb305723309a718509f59e063 && \
+          --source EMMC:/dev/block/platform/13500000.dwmmc0/by-name/BOOT:20034080:2f829db982330081db232a116d280c4d9aa4e17b \
+          --target EMMC:/dev/block/platform/13500000.dwmmc0/by-name/RECOVERY:32653856:a4f28fb554e88b48086f101aacc9f39c3c196557 && \
       log -t install_recovery "Installing new recovery image: succeeded" || \
       echo 454 > /cache/fota/fota.status
 else

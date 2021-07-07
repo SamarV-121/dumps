@@ -43,7 +43,5 @@ applications that come with the platform
 		<permission name="com.samsung.android.mdecservice.nms.CMC_PUSH_PERMISSION"/>
 		<permission name="android.permission.CONNECTIVITY_INTERNAL"/>
 		<permission name="com.samsung.android.permission.SEM_UPDATE_NOTIFICATION_CHANNELS"/>
-		<permission name="com.samsung.android.samsungaccount.permission.PROFILE_PROVIDER"/>
-		<permission name="android.permission.BATTERY_STATS"/>
     </privapp-permissions>
 </permissions>

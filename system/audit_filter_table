@@ -873,13 +873,3 @@ auditfilter hal_wifi_supplicant_default hal_wifi_supplicant_default:capability s
 # https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-3865
 auditfilter wcnss_service proc_wifi_dbg:file read;
 
-# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-4033
-auditfilter surfaceflinger platform_app:fifo_file getattr;
-
-# P200626-04897 
-auditfilter freecessmonitor shell:fd use;
-
-# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-4094
-auditfilter platform_app sysfs_scsi_host:dir search;
-auditfilter platform_app app_efs_file:dir search;
-

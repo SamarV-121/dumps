@@ -1,5 +1,5 @@
-ro.omc.build.version=M205FODM6CTK2
-ro.omc.build.id=35657665
+ro.omc.build.version=M205FNOXM7CUB3
+ro.omc.build.id=38464811
 ro.omc.changetype=DATA_RESET_ON,TRUE
 ro.simbased.changetype=NO_DFLT_CSC,OMC
 ro.omc.disabler=FALSE

@@ -452,10 +452,6 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="71606" mtu="1300" profile="2"/>
     <mtuTableEntry numeric="71606" mtu="1300" rat="4"/>
 
-<!-- Claro Panama -->
-    <mtuTableEntry numeric="71403" mtu="1280" profile="2"/>
-    <mtuTableEntry numeric="71403" mtu="1280" rat="4"/>
-
 <!-- Claro Uruguay -->
     <mtuTableEntry numeric="74810" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="74810" mtu="1280" rat="4"/>

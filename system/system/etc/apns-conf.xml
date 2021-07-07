@@ -31008,8 +31008,7 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_visible="0"
+      user_editable="0"
   />
 
   <apn carrier="Internet"
@@ -31142,16 +31141,6 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-  />
-
-  <apn carrier="SOS APN"
-      mcc="334"
-      mnc="140"
-      apn="sos"
-      type="Emergency"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_visible="0"
   />
 
   <apn carrier="Digicel LTE"
@@ -31927,14 +31916,12 @@
       type="mms"
   />
 
-  <apn carrier="Modem"
-      mcc="334"
-      mnc="090"
-      apn="modem.attmex.mx"
-      authtype="0"
-      type="dun"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
+  <apn carrier="FLOW Internet Prepaid"
+      mcc="365"
+      mnc="840"
+      apn="ppinternet"
+      authtype="1"
+      type="default,supl"
   />
 
   <apn carrier="FLOW Prepaid MMS"
@@ -32002,36 +31989,13 @@
       mmsc="http://mms.cubacel.cu"
       type="mms"
   />
-  
+
   <apn carrier="Altice"
       mcc="370"
       mnc="01"
       apn="altice"
       authtype="1"
       type="default,supl"
-  />
-
-  <apn carrier="Digicel Web"
-      mcc="338"
-      mnc="05"
-      authtype="1"
-      apn="web"
-      type="default,supl"
-      mvno_match_data="3380505"
-      mvno_type="imsi"
-  />
-
- 
-  <apn carrier="Digicel MMS"
-      mcc="338"
-      mnc="05"
-      apn="wap"
-      mmsproxy="172.16.7.12"
-      mmsport="8080"
-      mmsc="http://mms.digicelgroup.com"
-      authtype="1"
-      type="mms"
-      mvno_match_data="3380506"
   />
 
   <apn carrier="IMS"
@@ -32042,220 +32006,70 @@
       protocol="IPV4V6"
   />
 
-  <apn carrier="Digicel MMS"
-      mcc="338"
-      mnc="05"
-      apn="wap"
-      mmsproxy="172.16.7.12"
+  <apn carrier="INTERNET CLARO"
+      mcc="370"
+      mnc="02"
+      apn="internet.ideasclaro.com.do"
+      type="default,supl,xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+   <apn carrier="IMS"
+      mcc="370"
+      mnc="02"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+	  roaming_protocol="IPV4V6"
+	  user_editable="0"
+  />
+
+  <apn carrier="SOS APN"
+      mcc="370"
+      mnc="02"
+      apn="sos"
+      type="Emergency"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="0"
+      user_visible="0"
+  />
+  
+  <apn carrier="MMS CLARO"
+      mcc="370"
+      mnc="02"
+      apn="mms.ideasclaro.com.do"
+      mmsc="http://mms.ideasclaro.com.do/mms/wapenc"
+      mmsproxy="190.80.147.8"
       mmsport="8080"
-      mmsc="http://mms.digicelgroup.com"
-      authtype="1"
       type="mms"
-      mvno_match_data="338050833"
-      mvno_type="imsi"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="Viva Movil"
+      mcc="370"
+      mnc="04"
+      apn="data.viva.do"
+      port="9401"
+      user="viva"
+      password="viva"
+      authtype="1"
+      type="default"
   />
 
   <apn carrier="Digicel LTE"
-      mcc="338"
-      mnc="05"
-      apn="internet.ag"
-      authtype="1"
-      type="default,supl"
-      mvno_match_data="338050834"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Digicel MMS"
-      mcc="338"
-      mnc="05"
-      apn="wap"
-      mmsproxy="172.16.7.12"
-      mmsport="8080"
-      mmsc="http://mms.digicelgroup.com"
-      authtype="1"
-      type="mms"
-      mvno_match_data="338050834"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Digicel LTE"
-      mcc="338"
-      mnc="050"
-      apn="web.digiceljamaica.com"
-      authtype="1"
-      type="default,supl"
-      mvno_match_data="3380500"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Digicel MMS"
-      mcc="338"
-      mnc="050"
-      apn="wap"
-      mmsproxy="172.16.7.12"
-      mmsport="8080"
-      mmsc="http://mms.digicelgroup.com"
-      authtype="1"
-      type="mms"
-      mvno_match_data="3380500"
-      mvno_type="imsi"
-  />
-
-
-  <apn carrier="Digicel Web"
-      mcc="338"
-      mnc="050"
-      authtype="1"
-      apn="web"
-      type="default,supl"
-      mvno_match_data="3380502"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Digicel MMS"
-      mcc="338"
-      mnc="050"
-      apn="wap"
-      mmsproxy="172.16.7.12"
-      mmsport="8080"
-      mmsc="http://mms.digicelgroup.com"
-      authtype="1"
-      type="mms"
-      mvno_match_data="3380502"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Digicel Web"
-      mcc="338"
-      mnc="050"
-      authtype="1"
-      apn="web"
-      type="default,supl"
-      mvno_match_data="3380503"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Digicel LTE"
-      mcc="338"
-      mnc="050"
-      apn="internet"
-      authtype="1"
-      type="default,supl"
-      mvno_match_data="3380506"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Digicel MMS"
-      mcc="338"
-      mnc="050"
-      apn="wap"
-      mmsproxy="172.16.7.12"
-      mmsport="8080"
-      mmsc="http://mms.digicelgroup.com"
-      authtype="1"
-      type="mms"
-      mvno_match_data="3380506"
-  />
-
-  <apn carrier="Digicel Web"
-      mcc="338"
-      mnc="050"
-      apn="web"
-      type="default,supl"
-      mvno_match_data="338050830"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Digicel MMS"
-      mcc="338"
-      mnc="050"
-      apn="wap"
-      mmsproxy="172.16.7.12"
-      mmsport="8080"
-      mmsc="http://mms.digicelgroup.com"
-      authtype="1"
-      type="mms"
-      mvno_match_data="338050830"
-  />
-
-  <apn carrier="Digicel Web"
-      mcc="338"
-      mnc="050"
-      apn="web"
-      type="default,supl"
-      mvno_match_data="338050831"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Digicel MMS"
-      mcc="338"
-      mnc="050"
-      apn="wap"
-      mmsproxy="172.16.7.12"
-      mmsport="8080"
-      mmsc="http://mms.digicelgroup.com"
-      authtype="1"
-      type="mms"
-      mvno_match_data="338050833"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Digicel LTE"
-      mcc="338"
-      mnc="050"
-      apn="web.digiceljamaica.com"
-      authtype="1"
-      type="default,supl"
-      mvno_match_data="3380500"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Digicel LTE"
-      mcc="338"
-      mnc="050"
-      apn="internet.tc"
-      authtype="1"
-      type="default,supl"
-      mvno_match_data="338050837"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Digicel LTE"
-      mcc="338"
-      mnc="050"
-      apn="internet.vg"
-      authtype="1"
-      type="default,supl"
-      mvno_match_data="338050842"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Digicel MMS"
-      mcc="338"
-      mnc="050"
-      apn="wap"
-      mmsproxy="172.16.7.12"
-      mmsport="8080"
-      mmsc="http://mms.digicelgroup.com"
-      authtype="1"
-      type="mms"
-      mvno_match_data="338050842"
-      mvno_type="imsi"
-  />
-
-  <apn carrier="Digicel LTE"
-      mcc="338"
-      mnc="050"
+      mcc="372"
+      mnc="01"
       apn="internet.ha"
       authtype="1"
       type="default,supl"
-      mvno_match_data="3380509"
-      mvno_type="imsi"
   />
 
   <apn carrier="Digicel MMS"
-      mcc="338"
-      mnc="050"
+      mcc="372"
+      mnc="01"
       apn="wap.digicelha.com"
       mmsproxy="172.20.134.12"
       mmsport="8080"
@@ -32264,7 +32078,77 @@
       user="wapha"
       password="wap01ha"
       type="mms"
-      mvno_match_data="3380509"
+  />
+
+  <apn carrier="Haiti:Digicel:Internet"
+      mcc="372"
+      mnc="02"
+      apn="wap.digicelha.com"
+      authtype="1"
+      type="default"
+  />
+
+  <apn carrier="Haiti:Digicel:Mms"
+      mcc="372"
+      mnc="02"
+      apn="wap.digicelha.com"
+      authtype="1"
+      mmsc="http://mmc.digicelhaiti.com/servlets/mms"
+      mmsproxy="172.20.200.12"
+      mmsport="9201"
+      type="mms"
+      user="wapha"
+      password="wap01ha"
+  />
+
+  <apn carrier="Haiti:Digicel:Modem"
+      mcc="372"
+      mnc="02"
+      apn="wap.digicelha.com"
+      port="8080"
+      authtype="1"
+      proxy="172.20.200.12"
+      mmsc="http://wapdigicel.com"
+      type="dun"
+      user="wapha"
+      password="wap01ha"
+  />
+
+  <apn carrier="bmobile internet"
+      mcc="374"
+      mnc="12"
+      apn="internet"
+      authtype="1"
+      type="default,supl"
+  />
+
+  <apn carrier="bmobile prepaid"
+      mcc="374"
+      mnc="12"
+      apn="bconnected"
+      authtype="0"
+      type ="default"  
+  />
+  
+  <apn carrier="bmobile LTE"
+      mcc="374"
+      mnc="12"
+      apn="bmobile"
+      authtype="0"
+      type ="default"  
+  />
+  
+  <apn carrier="bmobile mms"
+      mcc="374"
+      mnc="12"
+      apn="mms"
+      user=""
+      password=""
+      mmsproxy="192.168.210.104"
+      mmsport="8080"
+      mmsc="http://192.168.210.104/mmrelay.app"
+      authtype="1"
+      type="mms"
   />
 
   <apn carrier="bmobile internet"
@@ -50002,16 +49886,6 @@
       type="mms"
   />
 
-  <apn carrier="Claro_GT IMS"
-      mcc="704"
-      mnc="01"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="0"
-  />
-
   <apn carrier="BROADBAND TIGO GT"
       mcc="704"
       mnc="02"
@@ -50087,16 +49961,6 @@
       mmsport="8080"
       mmsc="http://mms.ideasclaro.com:8002"
       type="mms"
-  />
-
-  <apn carrier="Claro_SV IMS"
-      mcc="706"
-      mnc="01"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="0"
   />
 
   <apn carrier="Digicel Web"
@@ -50176,16 +50040,6 @@
       type="mms"
   />
 
-  <apn carrier="Claro_HN IMS"
-      mcc="708"
-      mnc="001"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="0"
-  />
-
   <apn carrier="INTERNET TIGO"
       mcc="708"
       mnc="02"
@@ -50241,16 +50095,6 @@
       mmsc="http://10.6.32.27/servlets/mms"
       authtype="1"
       type="mms"
-  />
-
-  <apn carrier="Claro_NI IMS"
-      mcc="710"
-      mnc="21"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="0"
   />
 
   <apn carrier="Movistar INTERNET"
@@ -50339,16 +50183,6 @@
       mmsport="8080"
       mmsc="http://mms.ideasclaro.com:8002"
       type="mms"
-  />
-
-  <apn carrier="Claro_CR IMS"
-      mcc="712"
-      mnc="03"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="0"
   />
 
   <apn carrier="INTERNET CLARO"
@@ -50442,16 +50276,6 @@
       type="mms"
   />
 
-  <apn carrier="Claro_PA IMS"
-      mcc="714"
-      mnc="03"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="0"
-  />
-
   <apn carrier="Digicel Web"
       mcc="714"
       mnc="04"
@@ -50530,8 +50354,8 @@
       mnc="10"
       apn="ims"
       type="ims"
-      protocol="IP"
-      roaming_protocol="IP"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
       user_editable="0"
   />
 
@@ -50590,7 +50414,7 @@
       password="internet"
       authtype="1"
       type="default,supl"
-      protocol="IPV4V6"
+	  protocol="IPV4V6"
   />
 
   <apn carrier="Servicio_MMS"
@@ -50615,7 +50439,7 @@
       password="internet"
       authtype="1"
       type="default,supl"
-      protocol="IPV4V6"
+	  protocol="IPV4V6"
   />
 
   <apn carrier="Servicio_MMS"
@@ -50906,17 +50730,14 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_visible="0"
   />
 
   <apn carrier="Claro XCAP"
       mcc="724"
       mnc="05"
       apn="xcap"
-      type="xcap"
+      type="xcap"	
       protocol="IPV4V6"
-      user_visible="0"
   />
 
   <apn carrier="Vivo MMS"
@@ -51432,9 +51253,8 @@
       password="clarochile"
       authtype="1"
       type="default,supl,xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="0"
+      protocol="IP"
+      roaming_protocol="IP"
   />
 
   <apn carrier="MMS Claro"
@@ -51457,7 +51277,37 @@
       type="ims"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
+      user_editable="0"
       user_visible="0"
+  />
+
+  <apn carrier="IMS Claro"
+      mcc="730"
+      mnc="23"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      user_editable="0"
+      user_visible="0"
+  />
+
+  <apn carrier="XCAP Claro"
+      mcc="730"
+      mnc="03"
+      apn="bam.clarochile.cl"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
+  <apn carrier="XCAP Claro"
+      mcc="730"
+      mnc="23"
+      apn="bam.clarochile.cl"
+      type="xcap"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="web"
@@ -51617,29 +51467,6 @@
       type="ims"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="BAM Claro"
-      mcc="730"
-      mnc="23"
-      apn="bam.clarochile.cl"
-      user="clarochile"
-      password="clarochile"
-      authtype="1"
-      type="default,supl,xcap"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_editable="0"
-  />
-
-  <apn carrier="IMS Claro"
-      mcc="730"
-      mnc="23"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      user_visible="0"
   />
 
   <apn carrier="WEB Comcel 3GSM"

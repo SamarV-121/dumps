@@ -1,12 +1,12 @@
 libSribStarEffect.camera.samsung.so
 libxcv.camera.samsung.so
-libImageScreener.camera.samsung.so
-libObjectAndSceneClassification_2.5_OD.camera.samsung.so
-libBarcode.camera.samsung.so
-libImageSequenceStabilizer.camera.samsung.so
-libsmart_cropping.camera.samsung.so
 libFacePreProcessing_jni.camera.samsung.so
 libInteractiveSegmentation.camera.samsung.so
+libImageScreener.camera.samsung.so
+libImageSequenceStabilizer.camera.samsung.so
+libBarcode.camera.samsung.so
+libsmart_cropping.camera.samsung.so
+libObjectAndSceneClassification_2.5_OD.camera.samsung.so
 libFace_Landmark_API.camera.samsung.so
 libhumantracking_util.camera.samsung.so
 libFacePreProcessing.camera.samsung.so

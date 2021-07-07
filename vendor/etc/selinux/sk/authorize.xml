@@ -172,12 +172,6 @@
             <seinfo value="shared" />
         </method>
 
-        <method name="updateProfileActivityTimeFromKnox">
-            <seinfo value="platform" />
-            <seinfo value="shared" />
-            <package name="com.samsung.android.knox.containeragent" seinfo="platform" />
-        </method>
-
         <method name="resetPersonaPassword">
             <seinfo value="platform" />
             <seinfo value="shared" />
@@ -2033,7 +2027,6 @@
 
     <service name="BlockchainTZService">
         <package name="com.samsung.android.coldwalletservice" seinfo="platform" />
-        <package name="com.samsung.android.digitalkey" seinfo="platform" />
     </service>
 
 
@@ -2162,10 +2155,6 @@
             <package name="com.samsung.android.spayfw" seinfo="spay"/>
             <package name="com.samsung.android.lxd" seinfo="platform"/>
             <package name="com.sec.indiaidentity" seinfo="platform"/>
-        </method>
-
-        <method name="setAttestationData">
-            <package name="com.samsung.android.knox.attestation" seinfo="platform"/>
         </method>
     </service>
 

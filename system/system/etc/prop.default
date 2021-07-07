@@ -44,6 +44,6 @@ setupwizard.theme=glif_v3_light
 ro.setupwizard.wifi_on_exit=false
 ro.setupwizard.mode=OPTIONAL
 ro.opa.eligible_device=true
-ro.com.google.gmsversion=10_202005
+ro.com.google.gmsversion=10_202001
 persist.sys.usb.config=none
 

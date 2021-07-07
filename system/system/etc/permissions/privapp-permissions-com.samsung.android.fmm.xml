@@ -9,6 +9,5 @@
 		<permission name="com.samsung.android.security.permission.SAMSUNG_KEYSTORE_PERMISSION"/>
 		<permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
 		<permission name="android.permission.READ_SEARCH_INDEXABLES"/>
-		<permission name="android.permission.INTERACT_ACROSS_USERS"/>
     </privapp-permissions>
 </permissions>

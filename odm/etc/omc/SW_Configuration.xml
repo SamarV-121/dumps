@@ -1,27 +1,57 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <SW-Configuration>
     <MobileData>
-        <PublicName>SM-M205F</PublicName>
+        <PublicName>SM-M205FN</PublicName>
     </MobileData>
     <OmcYn>Y</OmcYn>
-    <MultiCode>ODM</MultiCode>
+    <MultiCode>OXM</MultiCode>
     <CustomerDataSet>
-        <CSCName>M205FODM</CSCName>
-        <CSCVersion>6CTK2</CSCVersion>
-        <NbCustomer>7</NbCustomer>
-        <CustomerData src="/Customer/INS/customer.xml" />
-        <CustomerData src="/Customer/BNG/customer.xml" />
-        <CustomerData src="/Customer/NPL/customer.xml" />
-        <CustomerData src="/Customer/SLK/customer.xml" />
-        <CustomerData src="/Customer/BKD/customer.xml" />
-        <CustomerData src="/Customer/SLI/customer.xml" />
-        <CustomerData src="/Customer/NPB/customer.xml" />
+        <CSCName>M205FNOXM</CSCName>
+        <CSCVersion>7CUB3</CSCVersion>
+        <NbCustomer>22</NbCustomer>
+        <CustomerData src="/Customer/SEK/customer.xml" />
+        <CustomerData src="/Customer/SKZ/customer.xml" />
+        <CustomerData src="/Customer/CAC/customer.xml" />
+        <CustomerData src="/Customer/CAU/customer.xml" />
+        <CustomerData src="/Customer/CPW/customer.xml" />
+        <CustomerData src="/Customer/DBT/customer.xml" />
+        <CustomerData src="/Customer/ITV/customer.xml" />
+        <CustomerData src="/Customer/PHE/customer.xml" />
+        <CustomerData src="/Customer/ROM/customer.xml" />
+        <CustomerData src="/Customer/TPH/customer.xml" />
+        <CustomerData src="/Customer/XEZ/customer.xml" />
+        <CustomerData src="/Customer/XEF/customer.xml" />
+        <CustomerData src="/Customer/XEO/customer.xml" />
+        <CustomerData src="/Customer/BTU/customer.xml" />
+        <CustomerData src="/Customer/ATO/customer.xml" />
+        <CustomerData src="/Customer/AUT/customer.xml" />
+        <CustomerData src="/Customer/EUR/customer.xml" />
+        <CustomerData src="/Customer/LUX/customer.xml" />
+        <CustomerData src="/Customer/NEE/customer.xml" />
+        <CustomerData src="/Customer/ORX/customer.xml" />
+        <CustomerData src="/Customer/PHN/customer.xml" />
+        <CustomerData src="/Customer/SEB/customer.xml" />
     </CustomerDataSet>
     <OmcInfo>
         <OmcCode>
-            <CustomerCode>BKD</CustomerCode>
-            <Version>SAOMC_SM-M205F_ODM_BKD_QQ_0021</Version>
-            <CustomerEdition>ED0007</CustomerEdition>
+            <CustomerCode>ATO</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_ATO_QQ_0003</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+            <Packages>
+                <package name="com.hrs.b2c.android" />
+                <package name="b2b.hrs.android.lib" />
+                <package name="com.sec.android.app.popupcalculator" />
+                <package name="com.samsung.android.email.provider" />
+                <package name="com.sec.android.app.sbrowser" />
+                <package name="com.samsung.android.voc" />
+                <package name="com.samsung.android.app.notes" />
+                <package name="com.sec.android.app.voicenote" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>AUT</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_AUT_QQ_0006</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
             <Packages>
                 <package name="com.sec.android.app.popupcalculator" />
                 <package name="com.samsung.android.email.provider" />
@@ -32,8 +62,21 @@
             </Packages>
         </OmcCode>
         <OmcCode>
-            <CustomerCode>BNG</CustomerCode>
-            <Version>SAOMC_SM-M205F_ODM_BNG_QQ_0011</Version>
+            <CustomerCode>BTU</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_BTU_QQ_0007</Version>
+            <CustomerEdition>ED0005</CustomerEdition>
+            <Packages>
+                <package name="com.sec.android.app.popupcalculator" />
+                <package name="com.samsung.android.email.provider" />
+                <package name="com.sec.android.app.sbrowser" />
+                <package name="com.samsung.android.voc" />
+                <package name="com.samsung.android.app.notes" />
+                <package name="com.sec.android.app.voicenote" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>CAC</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_CAC_QQ_0002</Version>
             <CustomerEdition>ED0002</CustomerEdition>
             <Packages>
                 <package name="com.sec.android.app.popupcalculator" />
@@ -45,9 +88,9 @@
             </Packages>
         </OmcCode>
         <OmcCode>
-            <CustomerCode>INS</CustomerCode>
-            <Version>SAOMC_SM-M205F_ODM_INS_QQ_0043</Version>
-            <CustomerEdition>ED0012</CustomerEdition>
+            <CustomerCode>CAU</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_CAU_QQ_0002</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
             <Packages>
                 <package name="com.sec.android.app.popupcalculator" />
                 <package name="com.samsung.android.email.provider" />
@@ -58,9 +101,9 @@
             </Packages>
         </OmcCode>
         <OmcCode>
-            <CustomerCode>NPB</CustomerCode>
-            <Version>SAOMC_SM-M205F_ODM_NPB_QQ_0017</Version>
-            <CustomerEdition>ED0006</CustomerEdition>
+            <CustomerCode>CPW</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_CPW_PP_0003</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
             <Packages>
                 <package name="com.sec.android.app.popupcalculator" />
                 <package name="com.samsung.android.email.provider" />
@@ -71,8 +114,8 @@
             </Packages>
         </OmcCode>
         <OmcCode>
-            <CustomerCode>NPL</CustomerCode>
-            <Version>SAOMC_SM-M205F_ODM_NPL_QQ_0010</Version>
+            <CustomerCode>DBT</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_DBT_QQ_0004</Version>
             <CustomerEdition>ED0003</CustomerEdition>
             <Packages>
                 <package name="com.sec.android.app.popupcalculator" />
@@ -84,9 +127,9 @@
             </Packages>
         </OmcCode>
         <OmcCode>
-            <CustomerCode>SLI</CustomerCode>
-            <Version>SAOMC_SM-M205F_ODM_SLI_QQ_0026</Version>
-            <CustomerEdition>ED0014</CustomerEdition>
+            <CustomerCode>EUR</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_EUR_QQ_0004</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
             <Packages>
                 <package name="com.sec.android.app.popupcalculator" />
                 <package name="com.samsung.android.email.provider" />
@@ -97,9 +140,171 @@
             </Packages>
         </OmcCode>
         <OmcCode>
-            <CustomerCode>SLK</CustomerCode>
-            <Version>SAOMC_SM-M205F_ODM_SLK_QQ_0025</Version>
-            <CustomerEdition>ED0012</CustomerEdition>
+            <CustomerCode>ITV</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_ITV_QQ_0004</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+            <Packages>
+                <package name="com.sec.android.app.popupcalculator" />
+                <package name="com.samsung.android.email.provider" />
+                <package name="com.sec.android.app.sbrowser" />
+                <package name="com.samsung.android.voc" />
+                <package name="com.samsung.android.app.notes" />
+                <package name="com.sec.android.app.voicenote" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>LUX</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_LUX_QQ_0003</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+            <Packages>
+                <package name="com.sec.android.app.popupcalculator" />
+                <package name="com.samsung.android.email.provider" />
+                <package name="com.sec.android.app.sbrowser" />
+                <package name="com.samsung.android.voc" />
+                <package name="com.samsung.android.app.notes" />
+                <package name="com.sec.android.app.voicenote" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>NEE</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_NEE_QQ_0003</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+            <Packages>
+                <package name="com.sec.android.app.popupcalculator" />
+                <package name="com.samsung.android.email.provider" />
+                <package name="com.sec.android.app.sbrowser" />
+                <package name="com.samsung.android.voc" />
+                <package name="com.samsung.android.app.notes" />
+                <package name="com.sec.android.app.voicenote" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>ORX</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_ORX_QQ_0003</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+            <Packages>
+                <package name="com.sec.android.app.popupcalculator" />
+                <package name="com.samsung.android.email.provider" />
+                <package name="com.sec.android.app.sbrowser" />
+                <package name="com.samsung.android.voc" />
+                <package name="com.samsung.android.app.notes" />
+                <package name="com.sec.android.app.voicenote" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>PHE</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_PHE_QQ_0005</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+            <Packages>
+                <package name="com.sec.android.app.popupcalculator" />
+                <package name="com.samsung.android.email.provider" />
+                <package name="com.sec.android.app.sbrowser" />
+                <package name="com.samsung.android.voc" />
+                <package name="com.samsung.android.app.notes" />
+                <package name="com.sec.android.app.voicenote" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>PHN</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_PHN_QQ_0002</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+            <Packages>
+                <package name="com.samsung.intrafficreply" />
+                <package name="com.sec.android.app.popupcalculator" />
+                <package name="com.samsung.android.email.provider" />
+                <package name="com.sec.android.app.sbrowser" />
+                <package name="com.samsung.android.voc" />
+                <package name="com.samsung.android.app.notes" />
+                <package name="com.sec.android.app.voicenote" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>ROM</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_ROM_QQ_0003</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+            <Packages>
+                <package name="com.sec.android.app.popupcalculator" />
+                <package name="com.samsung.android.email.provider" />
+                <package name="com.sec.android.app.sbrowser" />
+                <package name="com.samsung.android.voc" />
+                <package name="com.samsung.android.app.notes" />
+                <package name="com.sec.android.app.voicenote" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SEB</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_SEB_QQ_0002</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SEK</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_SEK_QQ_0002</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+            <Packages>
+                <package name="com.sec.android.app.popupcalculator" />
+                <package name="com.samsung.android.email.provider" />
+                <package name="com.sec.android.app.sbrowser" />
+                <package name="com.samsung.android.voc" />
+                <package name="com.samsung.android.app.notes" />
+                <package name="com.sec.android.app.voicenote" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SKZ</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_SKZ_QQ_0002</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+            <Packages>
+                <package name="com.sec.android.app.popupcalculator" />
+                <package name="com.samsung.android.email.provider" />
+                <package name="com.sec.android.app.sbrowser" />
+                <package name="com.samsung.android.voc" />
+                <package name="com.samsung.android.app.notes" />
+                <package name="com.sec.android.app.voicenote" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>TPH</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_TPH_QQ_0003</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+            <Packages>
+                <package name="com.sec.android.app.popupcalculator" />
+                <package name="com.samsung.android.email.provider" />
+                <package name="com.sec.android.app.sbrowser" />
+                <package name="com.samsung.android.voc" />
+                <package name="com.samsung.android.app.notes" />
+                <package name="com.sec.android.app.voicenote" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XEF</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_XEF_QQ_0003</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+            <Packages>
+                <package name="com.sec.android.app.voicenote" />
+                <package name="com.samsung.android.app.notes" />
+                <package name="com.samsung.android.voc" />
+                <package name="com.samsung.android.email.provider" />
+                <package name="com.sec.android.app.popupcalculator" />
+                <package name="com.sec.android.app.sbrowser" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XEO</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_XEO_QQ_0003</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+            <Packages>
+                <package name="com.sec.android.app.popupcalculator" />
+                <package name="com.samsung.android.email.provider" />
+                <package name="com.sec.android.app.sbrowser" />
+                <package name="com.samsung.android.voc" />
+                <package name="com.samsung.android.app.notes" />
+                <package name="com.sec.android.app.voicenote" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XEZ</CustomerCode>
+            <Version>SAOMC_SM-M205FN_OXM_XEZ_QQ_0004</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
             <Packages>
                 <package name="com.sec.android.app.popupcalculator" />
                 <package name="com.samsung.android.email.provider" />

@@ -282,7 +282,6 @@ ro.csc.facebook.partnerid                u:object_r:exported_config_prop:s0
 # http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23226025/?page=1
 # denial notice : audit.ondenial
 audit.ondenial                           u:object_r:system_prop:s0
-audit.restore_package                    u:object_r:system_prop:s0
 
 # http://mobilerndhub.sec.samsung.net/hub/site/seandroid/board/P_review_request/view/23226493/?page=1
 persist.ril.                             u:object_r:radio_prop:s0
@@ -667,8 +666,6 @@ ro.sys.zram                  u:object_r:vendor_zram_prop:s0
 
 # https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-3013
 nedi.ut_mode                 u:object_r:exported_system_prop:s0
-# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-4072
-nedi.grm_mode                 u:object_r:exported_system_prop:s0
 
 # https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-2995
 persist.vendor.camera.adjustfps              u:object_r:exported_system_prop:s0
@@ -678,8 +675,7 @@ ro.trackingId.                       u:object_r:exported_config_prop:s0
 ro.channelId.                      u:object_r:exported_config_prop:s0
 
 # https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-3213
-# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-4097
-ro.channel.                        u:object_r:exported_config_prop:s0
+ro.channel.officehubrow              u:object_r:exported_config_prop:s0
 
 # https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-3222
 vendor.tmfd                    u:object_r:vendor_tmfd_prop:s0
@@ -703,23 +699,3 @@ camera.secure.mode                 u:object_r:sec_camera_prop:s0
 # https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-3847
 ro.sf.sub_display_orientation      u:object_r:exported3_default_prop:s0
 
-# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-3784
-sec.vold.ext_encrypted_type                   u:object_r:vold_prop:s0
-
-# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-3892
-sec.mel.                      u:object_r:exported_system_prop:s0
-
-# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-3820
-knoxsdk.tac.                  u:object_r:exported_system_prop:s0
-
-# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-3947
-persist.galaxy_store.badge.					u:object_r:exported_system_prop:s0
-
-# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-3998
-# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-3848
-persist.log.level       		u:object_r:debug_prop:s0
-# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-3943
-persist.log.semlevel      		u:object_r:debug_prop:s0
-
-# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-4188
-ro.debug_level                      u:object_r:debug_level_prop:s0

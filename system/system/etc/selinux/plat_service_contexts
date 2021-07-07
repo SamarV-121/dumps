@@ -341,6 +341,7 @@ log_manager_service                         u:object_r:log_manager_service:s0
 mdm.remotedesktop                           u:object_r:remotedesktop_service:s0
 multi_user_manager_service                  u:object_r:multi_user_manager_service:s0
 remoteinjection                             u:object_r:remoteinjection_service:s0
+knoxpslte                                   u:object_r:knoxpslte_service:s0
 ESEMDMService                                 u:object_r:platform_app_service:s0
 bluetooth_secure_mode_manager               u:object_r:bluetooth_manager_service:s0
 spengestureservice                          u:object_r:spengesture_service:s0
@@ -398,9 +399,6 @@ lazy_service                u:object_r:lazy_service:s0
 uwb                         u:object_r:uwb_service:s0
 remoteappmode                         u:object_r:remoteappmode_service:s0
 semprivilege            u:object_r:privilege_service:s0
-kpcc                                        u:object_r:kpcc_service:s0
-cmfa                                        u:object_r:cmfa_service:s0
-snapsec                                     u:object_r:snapsec_service:s0
 AAS                                         u:object_r:AAS_service:s0
 ABTPersistenceService                       u:object_r:abt_persistence_service:s0
 AODManagerService                           u:object_r:aod_manager_service:s0
@@ -507,7 +505,6 @@ sd.service                                  u:object_r:dtvserver_service:s0
 sdp                                         u:object_r:sdp_service:s0
 sec_location                                u:object_r:sec_location_service:s0
 sedenial                                    u:object_r:sedenial_service:s0
-auditd                                      u:object_r:auditd_service:s0
 sensor                                      u:object_r:sensor_service:s0
 sensorhub                                   u:object_r:sensorhub_service:s0
 sensorhubservice                            u:object_r:sensorhubservice_service:s0

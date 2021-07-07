@@ -5,7 +5,6 @@
 		<permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
 		<permission name="android.permission.INTERNET"/>
 		<permission name="android.permission.PACKAGE_USAGE_STATS"/>
-		<permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
 		<permission name="com.samsung.android.launcher.permission.READ_SETTINGS"/>
 		<permission name="com.samsung.android.launcher.permission.WRITE_SETTINGS"/>
     </privapp-permissions>

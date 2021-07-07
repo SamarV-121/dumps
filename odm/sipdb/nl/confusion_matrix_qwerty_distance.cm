@@ -1,0 +1,39 @@
+	left	right	up	left_up	right_up	down	left_down	right_down	shift
+aàáâãäåæăāąĄĀÀÁÂÃÄÅÆĂ		s		q	w				a
+b	v	n	h			 			b
+cçćčÇĆČ	x	v	f			 			c
+dđďÐĎ	s	f		e	r	x			d
+eęèéêëēėěĕəĘÈÉÊËĒĖĚĔƏ	w	r	3				s	d	e
+f	d	g		r	t	c			f
+gǵğGǴĞ	f	h		t	y	v			g
+h	g	j		y	u	b			h
+iìíîïįıīÏÎÌÍĮĪİ	u	o	8				j	k	i
+j	h	k		u	i	n			j
+kķĶ	j	l		i	o	m			k
+lļľĺłLĻĽŁĹ	k			o	p				l
+m	n		k						m
+nñńňņÑŃŇŅ	b	m	j			 			n
+oòóôõöøœőÒÓÔÕÖØŒŐ	i	p	9				k	l	o
+p	o		0				l		p
+q		w	1					a	q
+rŕŔŘř	e	t	4				d	f	r
+sß§şšśșŚŞŠȘ	a	d		w	e	z			s
+tťţțþÞŢŤȚ	r	y	5				f	g	t
+uùúûüűųūůŲÙÚÛÜŰŪŮ	y	i	7				h	j	u
+v	c	b	g			 			v
+w	q	e	2				a	s	w
+x	z	c	d			 			x
+yýÝ	t	u	6				g	h	y
+zžźżŻŹŽ		x	s						z
+1		2				q			
+2	1	3				w			
+3	2	4				e			
+4	3	5				r			
+5	4	6				t			
+6	5	7				y			
+7	6	8				u			
+8	7	9				i			
+9	8	0				o			
+0	9					p			
+ 			xcvbn						
+		z	a	s					

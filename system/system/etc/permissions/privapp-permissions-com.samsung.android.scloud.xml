@@ -45,6 +45,5 @@ applications that come with the platform
 	<permission name="com.sec.permission.preconfig" />
 	<permission name="android.permission.LOCAL_MAC_ADDRESS" />
 	<permission name="android.permission.REAL_GET_TASKS"/>
-	<permission name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
 </privapp-permissions>
 </permissions>
