@@ -1,0 +1,7 @@
+# Australia OPTUS_POSTPAID
+persist.sys.oppo.region=AU
+ro.com.google.clientidbase=android-oppo
+ro.com.google.clientidbase.am=android-optus-au
+ro.vendor.oplus.regionmark=AU
+ro.vendor.oplus.operator=OPTUS_POSTPAID
+ro.com.google.clientidbase.ms=android-optus-au-revc

@@ -1,0 +1,7 @@
+# New Zealand 2DEGREES
+persist.sys.oppo.region=NZ
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.regionmark=NZ
+ro.vendor.oplus.operator=2DEGREES
+ro.com.google.clientidbase.ms=android-oppo-rev1
+ro.vendor.oppo.sim_operator_switch=true

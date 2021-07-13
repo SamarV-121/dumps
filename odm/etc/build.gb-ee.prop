@@ -1,0 +1,10 @@
+# GB EE
+persist.sys.oppo.region=GB
+ro.vendor.oppo.opt_enabled=true
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.euex.country=GB
+ro.com.google.clientidbase.cr=android-oppo
+ro.vendor.oplus.regionmark=EUEX
+ro.vendor.oplus.operator=EE
+ro.vendor.oppo.version_suffix=EE
+ro.com.google.clientidbase.ms=android-ee-uk-revc

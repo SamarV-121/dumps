@@ -1,8 +1,8 @@
 <!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
 <permissions>
-    <feature name="oppo.phone.hide.call.harass.intercept" />
     <feature name="oppo.commcenter.mms.remove.oppo.mms"/>
     <feature name="oppo.mms.replace.google.mms"/>
     <feature name="oppo.default.sms.application.google.messages"/>
     <feature name="oppo.contacts.speeddial"/>
+    <feature name="oppo.phone.hide.call.harass.intercept" />
 </permissions>

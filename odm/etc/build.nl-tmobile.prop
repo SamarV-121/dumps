@@ -1,0 +1,8 @@
+# Netherlands TMOBILE
+persist.sys.oppo.region=NL
+ro.vendor.oppo.opt_enabled=true
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.euex.country=NL
+ro.vendor.oplus.regionmark=EUEX
+ro.vendor.oplus.operator=TMOBILE
+ro.com.google.clientidbase.ms=android-oppo-rev1

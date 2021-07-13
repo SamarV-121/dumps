@@ -355,6 +355,9 @@
 
         <name>com.baidu.BaiduMap</name>
         <attribute>null</attribute>
+
+        <name>com.instagram.android</name>
+        <attribute>null</attribute>
     </speakerOff-in-scoOn>
 
     <google-default-logic>
@@ -631,6 +634,8 @@
         <name>com.tencent.ig</name>
         <attribute>1</attribute>
         <name>com.dts.freefireth</name>
+        <attribute>1</attribute>
+        <name>com.ngame.allstar.eu</name>
         <attribute>1</attribute>
 
         <name>com.qiyi.video</name>

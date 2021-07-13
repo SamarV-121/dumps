@@ -57,6 +57,7 @@
     <Param path="Default,Camera recording,Headset" param_id="6"/>
     <Param path="Default,Sound recording,Handset" param_id="7"/>
     <Param path="Default,Camera recording,Handset" param_id="8"/>
+    <Param path="Default,VR,Handset" param_id="9"/>
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">
@@ -85,6 +86,9 @@
     </ParamUnit>
     <ParamUnit param_id="8">
       <Param name="ul_gain" value="18"/>
+    </ParamUnit>
+    <ParamUnit param_id="9">
+      <Param name="ul_gain" value="16"/>
     </ParamUnit>
   </ParamUnitPool>
 </AudioParam>

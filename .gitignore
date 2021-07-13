@@ -1,9 +1,7 @@
-my_heytap/priv-app/Velvet/Velvet.apk
-vendor/lib64/libMegviiHumBokehPost-mtk.so
-vendor/etc/camera/license.lic
-my_stock/priv-app/OppoGallery2/OppoGallery2.apk
-.git/objects/pack/pack-f826a4ae1874e59f7a6d8bbc3c3a104b7123562a.pack
-system/system/system_ext/priv-app/SystemUI/SystemUI.apk
-system/system/system_ext/priv-app/Settings/Settings.apk
 system/system/app/OppoCamera/OppoCamera.apk
 system/system/apex/com.android.vndk.current.apex
+system/system/system_ext/priv-app/Settings/Settings.apk
+system/system/system_ext/priv-app/SystemUI/SystemUI.apk
+.git/objects/pack/pack-45943c61f2faf0441639dcd367766d866bbee8f8.pack
+vendor/etc/camera/license.lic
+vendor/lib64/libMegviiHumBokehPost-mtk.so

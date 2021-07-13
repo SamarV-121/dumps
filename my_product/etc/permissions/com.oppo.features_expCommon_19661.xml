@@ -4,5 +4,7 @@
   <feature name="oppo.version.exp" />
   <feature name="android.software.managed_users" />
   <feature name="oppo.runtime.permission.alert.support" />
+  <!-- Enable Zero Touch Provisioning support. -->
+  <feature name="com.google.android.feature.ZERO_TOUCH" />
 
 </permissions>

@@ -24,6 +24,8 @@ persist.odm.dirac.vendor    u:object_r:vendor_oppo_prop:s0
 odm.dirac.qem.              u:object_r:vendor_oppo_prop:s0
 #persist.sys.record.     u:object_r:exported_system_prop:s0
 #endif /* VENDOR_EDIT */
+#Meilong.Zhang@MULTIMEDIA.AUDIOSERVER.EFFECT, 2021/02/21, Add dirac effect for sia
+odm.dirac.path                  u:object_r:exported_system_prop:s0
 #Xianfeng.Fu@PSW.MM.AudioServer, 2017/12/26, Add for AP dirac property
 odm.dirac.                  u:object_r:vendor_oppo_prop:s0
 ro.odm.dirac.               u:object_r:vendor_oppo_prop:s0

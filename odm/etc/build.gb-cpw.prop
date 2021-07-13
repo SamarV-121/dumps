@@ -1,0 +1,9 @@
+# GB CPW
+persist.sys.oppo.region=GB
+ro.vendor.oppo.opt_enabled=true
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.euex.country=GB
+ro.vendor.oplus.regionmark=EUEX
+ro.vendor.oplus.operator=CPW
+ro.vendor.oppo.version_suffix=CPW
+ro.com.google.clientidbase.ms=android-oppo-rev1

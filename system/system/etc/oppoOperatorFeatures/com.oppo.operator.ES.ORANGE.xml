@@ -1,11 +1,5 @@
 <!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
 <permissions>
-  <feature name="oppo.ota.specialneeds.orange" />
-  <feature name="oppo.permission.orange" />
-  <feature name="oppo.securitykeyboard.orange" />
-  <feature name="systemui.statusbar.show.operator.name" />
-  <feature name="coloros.customize.systemui.airplanemode.confirm" />
-  <feature name="coloros.customize.systemui.vowifi.tile.first" />
   <feature name="oppo.mms.max.size.1m" />
   <feature name="oppo.mms.mms.http.timeout.1min" />
   <feature name="oppo.mms.si.push.low.no.notify" />
@@ -26,4 +20,10 @@
   <feature name="oppo.phone.display.vowifi.icon" />
   <feature name="oppo.phone.display.single.party.conference.call" />
   <feature name="oppo.contacts.android.backup.restore.support"/>
+  <feature name="oppo.ota.specialneeds.orange" />
+  <feature name="oppo.permission.orange" />
+  <feature name="oppo.securitykeyboard.orange" />
+  <feature name="systemui.statusbar.show.operator.name" />
+  <feature name="coloros.customize.systemui.airplanemode.confirm" />
+  <feature name="coloros.customize.systemui.vowifi.tile.first" />
 </permissions>

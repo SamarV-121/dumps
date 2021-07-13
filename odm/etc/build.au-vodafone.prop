@@ -1,0 +1,6 @@
+# Australia VODAFONE
+ro.vendor.oplus.operator=VODAFONE
+persist.sys.oppo.region=AU
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.regionmark=AU
+ro.com.google.clientidbase.ms=android-vf-au-revc

@@ -250,7 +250,7 @@ service slabinfoforhealth /system/system_ext/bin/autochmod.sh "slabinfoforhealth
 on post-fs-data
     mkdir /data/oppo_log 777
     mkdir /data/oppo_log/anr_binder_info 777 system system
-    mkdir /data/ramdump 770 system system
+    mkdir /data/ramdump 775 system system
 
 #Deliang.Peng 2017/7/7,add for native watchdog
 service nativedump /system/system_ext/bin/autochmod.sh "nativedump"
@@ -263,7 +263,8 @@ service nativedump /system/system_ext/bin/autochmod.sh "nativedump"
 #QiLong.Ao@PSW.AD.OppoDebug.LogKit.1067207, 2019/04/03, Add for clean pcm dump file.
 service cleanpcmdump /system/system_ext/bin/autochmod.sh "cleanpcmdump"
     class core
-    user root
+    user audioserver
+    group shell audio audioserver log
     disabled
     oneshot
 
@@ -651,6 +652,33 @@ service packWifiP2pFailLog /system/system_ext/bin/autochmod.sh "packWifiP2pFailL
 
 on property:sys.oppo.wifi.p2p.log.stop=1
     start packWifiP2pFailLog
+
+#ifdef OPLUS_FEATURE_WIFI_CONNECTFAILED
+#Add for collect wifi connect fail log
+service collectWifiConnectLog /system/system_ext/bin/autochmod.sh "collectWifiConnectLog"
+    class main
+    user system
+    group system
+    disabled
+    oneshot
+
+service packWifiConnectLog /system/system_ext/bin/autochmod.sh "packWifiConnectLog"
+    class main
+    user system
+    group system
+    disabled
+    oneshot
+
+on property:sys.oplus.wifi.connect.log.capturing=1
+    start collectWifiConnectLog
+
+on property:sys.oplus.wifi.connect.log.capturing=0
+    stop collectWifiConnectLog
+
+on property:sys.oplus.wifi.connect.log.stop=1
+    start packWifiConnectLog
+#endif  /* OPLUS_FEATURE_WIFI_CONNECTFAILED */
+
 #Xuefeng.Peng@PSW.AD.Performance.Storage.1721598, 2018/12/26, Add for customize version to control sdcard
 on property:persist.sys.exStorage_support=*
    start exstorage_support

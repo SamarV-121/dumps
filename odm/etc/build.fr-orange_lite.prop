@@ -1,0 +1,10 @@
+# France ORANGE_LITE
+persist.sys.oppo.region=FR
+ro.vendor.oppo.opt_enabled=true
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.euex.country=FR
+ro.product.brand1=Orange
+ro.com.google.clientidbase.cr=android-oppo
+ro.vendor.oplus.regionmark=EUEX
+ro.vendor.oplus.operator=ORANGE_LITE
+ro.com.google.clientidbase.ms=android-orange-{country}-revc

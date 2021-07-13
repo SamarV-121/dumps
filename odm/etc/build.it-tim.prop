@@ -1,0 +1,8 @@
+# Italy TIM
+persist.sys.oppo.region=IT
+ro.vendor.oppo.opt_enabled=true
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.euex.country=IT
+ro.vendor.oplus.regionmark=EUEX
+ro.vendor.oplus.operator=TIM
+ro.com.google.clientidbase.ms=android-tim-it-revc

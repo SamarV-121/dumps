@@ -1,0 +1,7 @@
+# VODAFONE_NONEEA
+ro.vendor.oppo.opt_enabled=true
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oppo.non.eea=NONEEA
+ro.vendor.oplus.operator=VODAFONE_NONEEA
+ro.vendor.oppo.version_suffix=VF
+ro.com.google.clientidbase.ms=android-vf-{country}-revc

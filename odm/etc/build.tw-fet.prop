@@ -1,0 +1,7 @@
+# Taiwan FET
+persist.sys.oppo.region=TW
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.regionmark=TW
+ro.vendor.oplus.operator=FET
+ro.com.google.clientidbase.ms=android-oppo-rev1
+ro.vendor.oppo.sim_operator_switch=true

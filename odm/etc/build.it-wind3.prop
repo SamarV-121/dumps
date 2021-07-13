@@ -1,0 +1,9 @@
+# IT WIND3
+persist.sys.oppo.region=IT
+ro.vendor.oppo.opt_enabled=true
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.euex.country=IT
+ro.com.google.clientidbase.ms=android-h3g-{country}-revc
+ro.vendor.oplus.regionmark=EUEX
+ro.vendor.oplus.operator=WIND3
+ro.oem.key1=WIND3

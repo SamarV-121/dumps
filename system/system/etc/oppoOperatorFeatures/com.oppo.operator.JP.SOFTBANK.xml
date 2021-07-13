@@ -1,8 +1,5 @@
 <!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
 <permissions>
-  <feature name="oppo.multiuser.entry.unsupport" />
-  <feature name="coloros.customize.guardelf.jp.softbank.keepalive" />
-  <feature name="coloros.customize.systemui.virtualkey_recent_right_of_home" />
   <feature name="oppo.opposimsettings.forbid.edit.sim.number" />
   <feature name="oppo.phone.forbid.edit.voicemail.number" />
   <feature name="oppo.phone.roam.call.show.dialog" />
@@ -25,6 +22,9 @@
   <feature name="coloros.customize.cellbroadcast.show_cbs_fullscreen"/>
   <feature name="coloros.customize.phone.end_call_out_of_service"/>
   <feature name="coloros.customize.simsettings.disable_carrier_location_notification" />
+  <feature name="oppo.multiuser.entry.unsupport" />
+  <feature name="coloros.customize.guardelf.jp.softbank.keepalive" />
+  <feature name="coloros.customize.systemui.virtualkey_recent_right_of_home" />
   <feature name="oppo.settings.mms.emergency.support" />
   <feature name="oppo.customize.oppo_backup_restore.disable" />
   <feature name="oppo.launcher.drawer_mode.default" />

@@ -2,14 +2,13 @@
 <res>
     <default_wallpaper_name>inlay_wallpaper1</default_wallpaper_name>
     <default_lock_wallpaper_name>inlay_wallpaper1</default_lock_wallpaper_name>
-    <versionCode>700040</versionCode>
+    <versionCode>700042</versionCode>
     <wallpaper_file_name_array>
         <item>inlay_wallpaper1</item>
         <item>inlay_wallpaper2</item>
         <item>inlay_wallpaper3</item>
         <item>inlay_wallpaper4</item>
         <item>inlay_wallpaper5</item>
-        <item>inlay_wallpaper6</item>
         <item>inlay_wallpaper7</item>
         <item>inlay_wallpaper8</item>
         <item>inlay_wallpaper9</item>
@@ -42,7 +41,6 @@
         <item>inlay_wallpaper3</item>
         <item>inlay_wallpaper4</item>
         <item>inlay_wallpaper5</item>
-        <item>inlay_wallpaper6</item>
         <item>inlay_wallpaper7</item>
         <item>inlay_wallpaper8</item>
         <item>inlay_wallpaper9</item>

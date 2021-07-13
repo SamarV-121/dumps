@@ -1,0 +1,7 @@
+# Singapore SGOP
+persist.sys.oppo.region=SG
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oppo.operator_normalize=true
+ro.vendor.oplus.regionmark=SG
+ro.vendor.oplus.operator=SGOP
+ro.com.google.clientidbase.ms=android-oppo-rev1

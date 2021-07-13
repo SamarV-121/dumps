@@ -1,0 +1,6 @@
+# Kenya SAFARICOM
+ro.vendor.oplus.operator=SAFARICOM
+persist.sys.oppo.region=KE
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.regionmark=KE
+ro.com.google.clientidbase.ms=android-oppo-rev1

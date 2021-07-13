@@ -1,0 +1,60 @@
+##################################################################################
+### Copyright 2014 OPPO Mobile Comm Corp., Ltd.
+### All rights reserved.
+###
+### Description     : Provide a function to critical service
+### History          :( ID, Date, Author, Description)
+### Author: Chunbo.Gao@ANDROID.DEBUG
+##################################################################################
+
+on post-fs-data
+    mkdir /data/debugging 0755 system system
+    mkdir /data/persist_log 0755 system system
+    mkdir /data/persist_log/backup 0755 system system
+    mkdir /data/persist_log/config 0755 system system
+    mkdir /data/persist_log/config/logkit 0755 system system
+    mkdir /data/persist_log/config/modem 0755 system system
+    mkdir /data/persist_log/config/rus 0755 system system
+    mkdir /data/persist_log/criticallog 0755 system system
+    mkdir /data/persist_log/DCS 0755 system system
+    mkdir /data/persist_log/DCS/de 0755 system system
+    mkdir /data/persist_log/DCS/de/OTRTA 0755 system system
+    mkdir /data/persist_log/DCS/en 0755 system system
+    mkdir /data/persist_log/DCS/en/OTRTA 0755 system system
+    mkdir /data/persist_log/TMP 0755 system system
+
+#-----------------------# collect method #-----------------------#
+service logcat_main /system/system_ext/bin/debuglog_common.sh "logcat_main"
+    class core
+    user system
+    group root system sdcard_rw
+    disabled
+
+service logcat_radio /system/system_ext/bin/debuglog_common.sh "logcat_radio"
+    class core
+    user system
+    group root system
+    disabled
+
+service logcat_event /system/system_ext/bin/debuglog_common.sh "logcat_event"
+    class core
+    user system
+    group root system
+    disabled
+
+service logcat_kernel /system/system_ext/bin/debuglog_common.sh "logcat_kernel"
+    class core
+    user root
+    group root system
+    disabled
+
+#-----------------------# transfer method #-----------------------#
+service transfer_log /system/system_ext/bin/debuglog_common.sh "transfer_log"
+    class core
+    user root
+    group root system bluetooth wifi everybody log
+    disabled
+    oneshot
+
+#-----------------------# test method #-----------------------#
+

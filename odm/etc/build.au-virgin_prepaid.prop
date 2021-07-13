@@ -1,0 +1,6 @@
+# Australia VIRGIN_PREPAID
+ro.vendor.oplus.operator=VIRGIN_PREPAID
+persist.sys.oppo.region=AU
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.regionmark=AU
+ro.com.google.clientidbase.ms=android-oppo-rev1

@@ -13,6 +13,7 @@
 /(system_ext|system/system_ext)/bin/criticallog u:object_r:criticallog_exec:s0
 /(system_ext|system/system_ext)/bin/asserttip u:object_r:oppoasserttip_exec:s0
 /(system_ext|system/system_ext)/bin/autochmod.sh     u:object_r:oppodebugtool_exec:s0
+/(system_ext|system/system_ext)/bin/debuglog_common.sh      u:object_r:debuglog_exec:s0
 /(system|system_ext|system/system_ext)/bin/resize_ext4   u:object_r:resize_ext4_exec:s0
 /(system|system_ext|system/system_ext)/bin/oppo_adbd  u:object_r:adbd_exec:s0
 /(system_ext|system/system_ext)/bin/oiface(/.*)?   u:object_r:oiface_exec:s0
@@ -73,6 +74,7 @@
 /data/oppo/oae(/.*)?              u:object_r:oae_data_file:s0
 /data/logswitch(/.*)? u:object_r:oppo_logswitch_file:s0
 /data/theme_bak(/.*)? u:object_r:oppo_theme_data_file:s0
+/data/debugging(/.*)?   u:object_r:debuglog_data_file:s0
 /data/etc/GBoard(/.*)?   u:object_r:gboard_data_file:s0
 /data/oppo/oae/s(/.*)?            u:object_r:oae_sdata_file:s0
 /data/oppo/oae/c(/.*)?            u:object_r:oae_cdata_file:s0
@@ -83,6 +85,7 @@
 /data/oppo/common(/.*)?  u:object_r:oppo_public_data_file:s0
 /data/system/orms(/.*)?  u:object_r:oppo_orms_data_file:s0
 /data/media/fbe_0(/.*)?       u:object_r:media_rw_data_file:s0
+/data/persist_log(/.*)?  u:object_r:debuglog_data_file:s0
 /dev/block/mntlblk(.*)?     u:object_r:mtd_device:s0
 /system/bin/resize.f2fs u:object_r:resize_exec:s0
 /system/bin/midasd(/.*)?   u:object_r:midasd_exec:s0
@@ -168,6 +171,7 @@
 /system/bin/pcba_diag	u:object_r:pcba_diag_exec:s0
 /system/bin/quickboot u:object_r:quickboot_exec:s0
 /data/system/indicate  u:object_r:data_system_indicate:s0
+/my_product/bin/alexa   u:object_r:vold_exec:s0
 /system/bin/terservice u:object_r:terservice_exec:s0
 /system/bin/wifirftest   u:object_r:wifirftest_exec:s0
 /system/bin/oae_server            u:object_r:oae_server_exec:s0

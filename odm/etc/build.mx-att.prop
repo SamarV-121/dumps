@@ -1,0 +1,6 @@
+# Mexico ATT
+ro.vendor.oplus.operator=ATT
+persist.sys.oppo.region=MX
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.regionmark=MX
+ro.com.google.clientidbase.ms=android-attmexico-mx-revc

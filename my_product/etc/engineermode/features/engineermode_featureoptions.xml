@@ -19,11 +19,12 @@
     <feature name="com.oppo.eng.ship.mode.support" />
     <feature name="com.oppo.eng.battery.flag.support" />
     <feature name="com.oppo.eng.drm.widevine.support" />
-    <feature name="com.oppo.eng.hdcp.key.support" />
 
     <!-- Network feature -->
     <feature name="com.oppo.eng.sim.hot.swap.support" />
     <feature name="com.oppo.eng.network.air.interface.detect.support" />
+    <feature name="com.oppo.eng.sar.body" value="0.586" />
+    <feature name="com.oppo.eng.sar.head" value="1.138" />
     <!-- Multimedia feature -->
     <feature name="com.oppo.eng.smart.pa.calibrate.support" />
 

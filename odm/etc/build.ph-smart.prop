@@ -1,0 +1,6 @@
+# Philippines SMART
+ro.vendor.oplus.operator=SMART
+persist.sys.oppo.region=PH
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.regionmark=PH
+ro.com.google.clientidbase.ms=android-oppo-rev1

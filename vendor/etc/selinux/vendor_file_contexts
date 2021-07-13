@@ -231,6 +231,9 @@
 /(vendor|odm)/lib(64)?/android\.hardware\.graphics\.allocator@2\.0\.so       u:object_r:same_process_hal_file:s0
 /(vendor|odm)/lib(64)?/android\.hardware\.graphics\.allocator@3\.0\.so       u:object_r:same_process_hal_file:s0
 /(vendor|odm)/lib(64)?/android\.hardware\.graphics\.allocator@4\.0\.so       u:object_r:same_process_hal_file:s0
+/(vendor|odm)/lib(64)?/libarcsoft_dualcam_wt_calibration\.so                 u:object_r:same_process_hal_file:s0
+/(vendor|odm)/lib(64)?/libarcsoft_dualcam_wt_verification\.so                u:object_r:same_process_hal_file:s0
+/(vendor|odm)/lib(64)?/libcalibverifyW_T\.so                                 u:object_r:same_process_hal_file:s0
 /(vendor|odm|system/vendor)/bin/hw/vendor\.oplus\.hardware\.biometrics\.fingerprint@2\.1-service          u:object_r:hal_fingerprint_oppo_exec:s0
 /(vendor|odm|system/vendor)/bin/init\.oppo\.fingerprints\.sh  u:object_r:oppo_fingerprints_init_shell_exec:s0
 /(system_ext|system/system_ext)/bin/(do_replace_splash_logo.sh|CLGen) u:object_r:replace_splash_logo_exec:s0

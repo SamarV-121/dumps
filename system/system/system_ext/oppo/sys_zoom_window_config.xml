@@ -20,6 +20,7 @@
         <pkg>com.coloros.note</pkg>
         <pkg>com.android.mms</pkg>
         <pkg>com.coloros.filemanager</pkg>
+        <pkg>com.coloros.video</pkg>
         <!-- third party app BEGIN -->
         <pkg>com.whatsapp</pkg>
         <pkg>jp.naver.line.android</pkg>
@@ -177,9 +178,11 @@
     <!-- unsupport package list -->
     <unsupport_pkg_list>
         <!-- oplus self app BEGIN -->
+        <pkg>com.android.wallpaper.livepicker</pkg>
         <pkg>com.oplus.ocrscanner</pkg>
         <pkg>com.android.launcher</pkg>
         <pkg>com.oppo.launcher</pkg>
+        <pkg>com.coloros.uxdesign</pkg>
         <pkg>com.coloros.aicall</pkg>
         <pkg>com.android.server.telecom</pkg>
         <pkg>com.android.phone</pkg>
@@ -220,7 +223,6 @@
         <pkg>com.coloros.backuprestore</pkg>
         <pkg>com.android.settings</pkg>
         <pkg>com.oppo.camera</pkg>
-        <pkg>com.coloros.video</pkg>
         <pkg>com.standardar.service</pkg>
         <pkg>com.coloros.providers.downloads.ui</pkg>
         <pkg>com.coloros.alarmclock</pkg>
@@ -272,6 +274,7 @@
         <pkg>com.letv.android.client</pkg>
         <pkg>com.wepie.snake.nearme.gamecenter</pkg>
         <pkg>com.gbits.atm.nearme.gamecenter</pkg>
+        <pkg>com.qqgame.hlddz</pkg>
         <pkg>com.cpic.sxbxxe</pkg>
         <pkg>com.google.android.youtube</pkg>
         <pkg>com.autonavi.minimap</pkg>

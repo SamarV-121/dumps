@@ -1,9 +1,5 @@
 <!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
 <permissions>
-  <feature name="oppo.ota.specialneeds.orange" />
-  <feature name="oppo.permission.orange" />
-  <feature name="oppo.securitykeyboard.orange" />
-  <feature name="systemui.statusbar.show.operator.name" />
   <feature name="oppo.mms.mms.deliver.report.open" />
   <feature name="oppo.mms.mms.http.timeout.2min" />
   <feature name="oppo.mms.max.size.500k" />
@@ -19,4 +15,8 @@
   <feature name="oppo.simsettings.show.sim.change.dialog.in.welcome" />
   <feature name="oppo.wirelesssetting.show.toast.when.change.nfc.defpayapp" />
   <feature name="oppo.write.calllog.vowifi" />
+  <feature name="oppo.ota.specialneeds.orange" />
+  <feature name="oppo.permission.orange" />
+  <feature name="oppo.securitykeyboard.orange" />
+  <feature name="systemui.statusbar.show.operator.name" />
 </permissions>

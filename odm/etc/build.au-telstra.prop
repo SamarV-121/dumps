@@ -1,0 +1,8 @@
+# Australia TELSTRA
+persist.sys.oppo.region=AU
+ro.com.google.clientidbase=android-oppo
+ro.com.google.clientidbase.am=android-telstra-au
+ro.com.google.clientidbase.wal=android-telstra-au
+ro.vendor.oplus.regionmark=AU
+ro.vendor.oplus.operator=TELSTRA
+ro.com.google.clientidbase.ms=android-telstra-au-revc

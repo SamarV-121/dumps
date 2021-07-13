@@ -1,0 +1,9 @@
+# DE O2
+persist.sys.oppo.region=DE
+ro.vendor.oppo.opt_enabled=true
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.euex.country=DE
+ro.vendor.oplus.regionmark=EUEX
+ro.vendor.oplus.operator=O2
+ro.vendor.oppo.version_suffix=O2
+ro.com.google.clientidbase.ms=android-tef-{country}-revc

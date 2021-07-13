@@ -1,0 +1,6 @@
+# Australia VODAFONE_POSTPAID
+ro.vendor.oplus.operator=VODAFONE_POSTPAID
+persist.sys.oppo.region=AU
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.regionmark=AU
+ro.com.google.clientidbase.ms=android-vf-au-revc

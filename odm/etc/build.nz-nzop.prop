@@ -1,0 +1,8 @@
+# New Zealand NZOP
+persist.sys.oppo.region=NZ
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oppo.operator_normalize=true
+ro.vendor.oplus.regionmark=NZ
+ro.vendor.oplus.operator=NZOP
+ro.setupwizard.wifi_on_exit=false
+ro.com.google.clientidbase.ms=android-oppo-rev1

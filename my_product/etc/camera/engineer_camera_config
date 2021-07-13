@@ -63,13 +63,6 @@
     },
 
     {
-        "VendorTag": "com.oplus.engineercamera.configure.second.front.camera.support",
-        "Type": "Byte",
-        "Count": "1",
-        "Value": "0"
-    },
-
-    {
         "VendorTag": "com.oplus.engineercamera.configure.new.triple.calibrate.support",
         "Type": "Byte",
         "Count": "1",
@@ -199,14 +192,14 @@
         "VendorTag": "com.oplus.engineercamera.configure.dual.calibrate.support",
         "Type": "Byte",
         "Count": "1",
-        "Value": "1"
+        "Value": "0"
     },
 
     {
         "VendorTag": "com.oplus.engineercamera.configure.dual.verificate.support",
         "Type": "Byte",
         "Count": "1",
-        "Value": "1"
+        "Value": "0"
     },
 
     {
@@ -283,12 +276,12 @@
         "VendorTag": "com.oplus.engineercamera.configure.dual.calibrate.aftersale.support",
         "Type": "Byte",
         "Count": "1",
-        "Value": "1"
+        "Value": "0"
     },
 
     {
         "VendorTag": "com.oplus.engineercamera.configure.front.dualcam.calibrate.aftersale.support",
-        "Value": "1"
+        "Value": "0"
     },
 
     {
@@ -580,4 +573,19 @@
         "VendorTag": "com.oplus.engineercamera.configure.front.sfr.crop.size",
         "Value": "400"
     },
+
+    {
+        "VendorTag": "com.oplus.engineercamera.configure.arcsoft.dual.calibrate.aftersale.support",
+        "Value": "1"
+    },
+
+    {
+        "VendorTag": "com.oplus.engineercamera.configure.arcsoft.dual.cal.support",
+        "Value": "1"
+    },
+
+    {
+        "VendorTag": "com.oplus.engineercamera.configure.arcsoft.dual.ver.support",
+        "Value": "1"
+    }
 ]

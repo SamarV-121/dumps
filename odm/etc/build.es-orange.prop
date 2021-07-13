@@ -1,0 +1,11 @@
+# Spain ORANGE
+persist.sys.oppo.region=ES
+ro.vendor.oppo.opt_enabled=true
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.euex.country=ES
+ro.product.brand1=Orange
+ro.vendor.oplus.operator=ORANGE
+ro.com.google.clientidbase.cr=android-oppo
+ro.vendor.oplus.regionmark=EUEX
+ro.vendor.oplus.sim_operator_switch=true
+ro.com.google.clientidbase.ms=android-orange-{country}-revc

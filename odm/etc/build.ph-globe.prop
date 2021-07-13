@@ -1,0 +1,6 @@
+# Philippines GLOBE
+ro.vendor.oplus.operator=GLOBE
+persist.sys.oppo.region=PH
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.regionmark=PH
+ro.com.google.clientidbase.ms=android-oppo-rev1

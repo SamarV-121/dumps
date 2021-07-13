@@ -328,7 +328,11 @@
     <!--216 Hungary-->
 
     <!--219 Croatia-->
-
+    <EccEntry Ecc="192" Category="0" Condition="2" Plmn = "219 FFF" />
+    <EccEntry Ecc="193" Category="0" Condition="2" Plmn = "219 FFF" />
+    <EccEntry Ecc="194" Category="0" Condition="2" Plmn = "219 FFF" />
+    <EccEntry Ecc="195" Category="0" Condition="2" Plmn = "219 FFF" />
+    <EccEntry Ecc="1987" Category="0" Condition="2" Plmn = "219 FFF" />
     <!--220 Serbia and Montenegro-->
 
     <!--222 Italy-->
@@ -588,9 +592,9 @@
 
     <!-- 415 Lebanon  -->
     <!-- Huangkaihui@NETWORK.CALL.2335734, 2019-09-17 -->
-    <EccEntry Ecc="125" Category="0" Condition="1" Plmn = "415 FFF" />
-    <EccEntry Ecc="175" Category="0" Condition="1" Plmn = "415 FFF" />
-    <EccEntry Ecc="140" Category="0" Condition="1" Plmn = "415 FFF" />
+    <EccEntry Ecc="125" Category="0" Condition="2" Plmn = "415 FFF" />
+    <EccEntry Ecc="175" Category="0" Condition="2" Plmn = "415 FFF" />
+    <EccEntry Ecc="140" Category="0" Condition="2" Plmn = "415 FFF" />
 
     <!--416 Jordan-->
 
@@ -980,9 +984,7 @@
 
     <!--716 Peru-->
     <EccEntry Ecc="105" Category="0" Condition="1" Plmn = "716 FFF" />
-    <EccEntry Ecc="115" Category="0" Condition="1" Plmn = "716 FFF" />
-    <EccEntry Ecc="116" Category="0" Condition="1" Plmn = "716 FFF" />
-    <EccEntry Ecc="117" Category="0" Condition="1" Plmn = "716 FFF" />
+
     <!--722 Argentine-->
 
     <!--724 Brazil-->
@@ -997,16 +999,17 @@
     <EccEntry Ecc="134" Category="0" Condition="2" Plmn = "730 FFF" />
 
     <!--732 Colombia-->
-    <EccEntry Ecc="119" Category="0" Condition="1" Plmn="732 FFF"/>
-    <EccEntry Ecc="123" Category="0" Condition="1" Plmn="732 FFF"/>
 
     <!--734 Venezuela-->
     <EccEntry Ecc="171" Category="0" Condition="1" Plmn = "734 FFF" />
 
     <!--736 Bolivia-->
-    <EccEntry Ecc="110" Category="0" Condition="1" Plmn = "736 FFF" />
-    <EccEntry Ecc="129" Category="0" Condition="1" Plmn = "736 FFF" />
-
+    <EccEntry Ecc="104" Category="0" Condition="2" Plmn = "736 FFF" />
+    <EccEntry Ecc="110" Category="0" Condition="2" Plmn = "736 FFF" />
+    <EccEntry Ecc="114" Category="0" Condition="2" Plmn = "736 FFF" />
+    <EccEntry Ecc="119" Category="0" Condition="2" Plmn = "736 FFF" />
+    <EccEntry Ecc="129" Category="0" Condition="2" Plmn = "736 FFF" />
+    <EccEntry Ecc="911" Category="0" Condition="2" Plmn = "736 FFF" />
     <!--738 Guyana-->
 
     <!--740 Ecuador-->

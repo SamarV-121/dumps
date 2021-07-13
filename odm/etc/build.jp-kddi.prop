@@ -1,0 +1,7 @@
+# Japan KDDI
+persist.sys.oppo.region=JP
+ro.com.google.clientidbase=android-oppo
+ro.com.google.clientidbase.am=android-kddi-jp
+ro.vendor.oplus.regionmark=JP
+ro.vendor.oplus.operator=KDDI
+ro.com.google.clientidbase.ms=android-kddi-jp-revc

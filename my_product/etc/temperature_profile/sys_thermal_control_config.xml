@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sys_thermal_control_list>
-    <version>202101041036</version>
+    <version>2021041621</version>
     <filter-name>sys_thermal_control_list</filter-name>
     <featureConfigItem>
         <feature_enable_item booleanVal="true"/>
@@ -69,9 +69,13 @@
 
                 <gear_config tempGear="12"
                 cpu="4" gpu="3" restrict="2" brightness="7" charge="1" modem="0" disFlashlight="1"
+                stopCameraVideo="0" cameraBrightness="100" disCamera="0" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0"/>
+
+                <gear_config tempGear="15"
+                cpu="4" gpu="3" restrict="2" brightness="7" charge="1" modem="0" disFlashlight="1"
                 stopCameraVideo="1" cameraBrightness="100" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0"/>
-				
-				<gear_config tempGear="16"
+			
+                <gear_config tempGear="16"
                 cpu="9" gpu="4" restrict="5" brightness="8" charge="1" modem="3" disFlashlight="1"
                 stopCameraVideo="1" cameraBrightness="50" disCamera="1" disWifiHotSpot="1" disTorch="1" disFrameInsert="0" fps="0" refreshRate="0"/>
             </common_config>

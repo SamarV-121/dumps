@@ -1,0 +1,8 @@
+# Spain TELEFONIA
+persist.sys.oppo.region=ES
+ro.vendor.oppo.opt_enabled=true
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.euex.country=ES
+ro.vendor.oplus.regionmark=EUEX
+ro.vendor.oplus.operator=TELEFONIA
+ro.com.google.clientidbase.ms=android-oppo-rev1

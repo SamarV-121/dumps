@@ -1,0 +1,10 @@
+# Italy VODAFONE_EUEX
+persist.sys.oppo.region=IT
+ro.vendor.oppo.opt_enabled=true
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.euex.country=IT
+ro.vendor.oplus.operator=VODAFONE_EUEX
+ro.com.google.clientidbase.cr=android-oppo
+ro.vendor.oplus.regionmark=EUEX
+ro.vendor.oplus.sim_operator_switch=true
+ro.com.google.clientidbase.ms=android-vf-{country}-revc

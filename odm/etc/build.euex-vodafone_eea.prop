@@ -1,0 +1,8 @@
+# VODAFONE_EEA
+ro.vendor.oppo.opt_enabled=true
+ro.com.google.clientidbase=android-oppo
+ro.com.google.clientidbase.ms=android-vf-{country}-revc
+ro.vendor.oplus.regionmark=EUEX
+ro.vendor.oplus.operator=VODAFONE_EEA
+ro.vendor.oppo.version_suffix=VF
+ro.oem.key1=VODAFONE

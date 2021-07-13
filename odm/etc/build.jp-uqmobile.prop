@@ -1,0 +1,6 @@
+# Japan UQMOBILE
+ro.vendor.oplus.operator=UQMOBILE
+persist.sys.oppo.region=JP
+ro.com.google.clientidbase=android-oppo
+ro.vendor.oplus.regionmark=JP
+ro.com.google.clientidbase.ms=android-oppo-rev1

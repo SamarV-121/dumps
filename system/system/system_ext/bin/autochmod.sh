@@ -517,6 +517,7 @@ function do_check_systemserver_futexwait_block() {
 function cleanpcmdump() {
     rm -rf /data/vendor/audiohal/audio_dump/*
     rm -rf /data/vendor/audiohal/aurisys_dump/*
+    rm -rf /data/debuglogger/audio_dump/*
     rm -rf /sdcard/mtklog/audio_dump/*
 }
 
@@ -1075,7 +1076,6 @@ function transferDataOppoLog(){
     fi
 
     transferDataDCS
-    #transferDataVendor
 }
 
 function transferDataDCS(){
@@ -1087,6 +1087,16 @@ function transferDataDCS(){
         for SUB_DIR in ${ALL_SUB_DIR};do
             if [ -d ${DATA_DCS_LOG}/${SUB_DIR} ] || [ -f ${DATA_DCS_LOG}/${SUB_DIR} ]; then
                 checkNumberSizeAndCopy "${DATA_DCS_LOG}/${SUB_DIR}" "${TARGET_DATA_DCS_LOG}/${SUB_DIR}"
+            fi
+        done
+    fi
+
+    DATA_DCS_OTRTA_LOG=/data/persist_log/backup
+    if [ -d  ${DATA_DCS_LOG} ]; then
+        ALL_SUB_DIR=`ls ${DATA_DCS_OTRTA_LOG}`
+        for SUB_DIR in ${ALL_SUB_DIR};do
+            if [ -d ${DATA_DCS_OTRTA_LOG}/${SUB_DIR} ] || [ -f ${DATA_DCS_OTRTA_LOG}/${SUB_DIR} ]; then
+                checkNumberSizeAndCopy "${DATA_DCS_OTRTA_LOG}/${SUB_DIR}" "${TARGET_DATA_DCS_LOG}/${SUB_DIR}"
             fi
         done
     fi
@@ -1114,7 +1124,9 @@ function getSystemStatus() {
     stoptime=`getprop sys.oppo.log.stoptime`;
     newpath="${SDCARD_LOG_BASE_PATH}/log@stop@${stoptime}"
     SYSTEM_STATUS_PATH=${newpath}/SI_stop
-    mkdir -p ${SYSTEM_STATUS_PATH}
+    if [[ ! -d ${SYSTEM_STATUS_PATH} ]];then
+        mkdir -p ${SYSTEM_STATUS_PATH}
+    fi
     rm -f ${SYSTEM_STATUS_PATH}/finish_system
     echo "${CURTIME_FORMAT} GETSYSTEMSTATUS:${SYSTEM_STATUS_PATH}" >> ${SDCARD_LOG_BASE_PATH}/logkit_transfer.log
 
@@ -1140,13 +1152,23 @@ function getSystemStatus() {
     dumpsys -t 15 meminfo > ${SYSTEM_STATUS_PATH}/dumpsys_meminfo.txt &
 
     #dumpsys package
-    dumpsys package  > ${SYSTEM_STATUS_PATH}/dumpsys_package.txt
+    traceTransferState "dumpSystem:package start"
+    dumpsys package --da > ${SYSTEM_STATUS_PATH}/dumpsys_package_da.txt
+    traceTransferState "dumpSystem:package end"
 
+    dumpsys location > ${SYSTEM_STATUS_PATH}/dumpsys_location.txt
     dumpsys power > ${SYSTEM_STATUS_PATH}/dumpsys_power.txt
     dumpsys alarm > ${SYSTEM_STATUS_PATH}/dumpsys_alarm.txt
     dumpsys batterystats > ${SYSTEM_STATUS_PATH}/dumpsys_batterystats.txt
     dumpsys batterystats -c > ${SYSTEM_STATUS_PATH}/battersystats_for_bh.txt
     dumpsys activity exit-info > ${SYSTEM_STATUS_PATH}/dumpsys_exit_info.txt
+    dumpsys dropbox --print > ${SYSTEM_STATUS_PATH}/dumpsys_dropbox_all.txt
+
+    #yong8.huang@ANDROID.AMS, 2020/12/30, Add for dumpsys activity info
+    dumpsys activity processes > ${SYSTEM_STATUS_PATH}/dumpsys_processes.txt
+    dumpsys activity broadcasts > ${SYSTEM_STATUS_PATH}/dumpsys_broadcasts.txt
+    dumpsys activity providers > ${SYSTEM_STATUS_PATH}/dumpsys_providers.txt
+    dumpsys activity services > ${SYSTEM_STATUS_PATH}/dumpsys_services.txt
 
     ##kevin.li@ROM.Framework, 2019/11/5, add for hans freeze manager(for protection)
     hans_enable=`getprop persist.sys.enable.hans`
@@ -1565,6 +1587,70 @@ function wcnfirmwareupdatedump(){
     fi
 }
 
+#ifdef OPLUS_FEATURE_WIFI_CONNECTFAILED
+#Add for collect wifi connect fail log
+function collectWifiConnectLog() {
+    boot_completed=`getprop sys.boot_completed`
+    while [ x${boot_completed} != x"1" ];do
+        sleep 2
+        boot_completed=`getprop sys.boot_completed`
+    done
+    wifiConnectLogPath="/data/oppo_log/wifi_connect_log"
+    if [ -d  ${wifiConnectLogPath} ];then
+        rm -rf ${wifiConnectLogPath}
+    fi
+
+    if [ ! -d  ${wifiConnectLogPath} ];then
+        mkdir -p ${wifiConnectLogPath}
+    fi
+
+    # collect driver and firmware log
+    cnss_pid=`getprop vendor.oppo.wifi.cnss_diag_pid`
+    if [[ "w${cnss_pid}" != "w" ]];then
+        kill -s SIGUSR1 $cnss_pid
+        sleep 2
+        mv /data/vendor/wifi/buffered_wlan_logs/* $wifiConnectLogPath
+        chmod 666 ${wifiConnectLogPath}/buffered*
+    fi
+
+    dmesg > ${wifiConnectLogPath}/dmesg.txt
+    /system/bin/logcat -b main -b system -f ${wifiConnectLogPath}/android.txt -r10240 -v threadtime *:V
+}
+
+function packWifiConnectLog() {
+    wifiConnectLogPath="/data/oppo_log/wifi_connect_log"
+    DCS_WIFI_LOG_PATH="/data/oppo/coloros/dcs/netlog"
+    logType=`getprop sys.oplus.wifi.connect.log.type`
+    logReason=`getprop sys.oplus.wifi.connect.log.reason`
+    logFid=`getprop sys.oplus.wifi.connect.log.fid`
+    version=`getprop ro.build.version.ota`
+
+    if [ ! -d  ${wifiConnectLogPath} ] || [ ! -d ${DCS_WIFI_LOG_PATH} ];then
+        return
+    fi
+
+    if [ "w${logReason}" == "w" ] || [ "w${logFid}" == "w" ] || [ "w${logType}" == "w" ];then
+        rm -rf ${wifiConnectLogPath}
+        return
+    fi
+
+    dumpsys wifi > ${wifiConnectLogPath}/dumpsys_wifi.txt
+
+    $XKIT tar -czvf  ${wifiConnectLogPath}/${logReason}.tar.gz -C ${wifiConnectLogPath} ${wifiConnectLogPath}
+    abs_file=${wifiConnectLogPath}/${logReason}.tar.gz
+    targetFile="${logType}@${logFid}@${version}@${logReason}.tar.gz"
+    mv ${abs_file} ${DCS_WIFI_LOG_PATH}/${targetFile}
+
+    chmod 777 ${DCS_WIFI_LOG_PATH}/${targetFile}
+
+    setprop sys.oplus.wifi.connect.log.stop 0
+    setprop sys.oplus.wifi.connect.log.fid 0
+    setprop sys.oplus.wifi.connect.log.reason 0
+    setprop sys.oplus.wifi.connect.log.type 0
+    rm -rf ${wifiConnectLogPath}
+}
+#end  /* OPLUS_FEATURE_WIFI_CONNECTFAILED */
+
 #Guotian.Wu add for wifi p2p connect fail log
 function collectWifiP2pLog() {
     boot_completed=`getprop sys.boot_completed`
@@ -1680,21 +1766,64 @@ function oplussync() {
 #endif
 
 #add for oidt begin
+#PanZhuan@BSP.Tools, 2020/10/21, modify for way of OIDT log collection changed, please contact me for new reqirement in the future, or your new requiement may not be applied in OIDT correctly
 function oidtlogs() {
+    # this prop is set means the value path will be removed
+    removed_path=`getprop sys.oidt.remove_path`
+    if [ "$removed_path" ];then
+        traceTransferState "remove path ${removed_path}"
+        rm -rf ${removed_path}
+        setprop sys.oidt.remove_path ''
+        return
+    fi
+
+    traceTransferState "oidtlogs start... "
     setprop sys.oppo.oidtlogs 0
+
     logTypes=`getprop sys.oppo.logTypes`
-    mkdir -p sdcard/OppoStamp
-    mkdir -p sdcard/OppoStamp/db
+    if [ "$logTypes" = "" ];then
+        logTypes=`getprop sys.oidt.log_types`
+    fi
 
-    mkdir -p sdcard/OppoStamp/config
-    cp system/etc/sys_stamp_config.xml sdcard/OppoStamp/config/
-    cp data/system/sys_stamp_config.xml sdcard/OppoStamp/config/
+    log_path=`getprop sys.oidt.log_path`
 
-    if [ "$logTypes" = "" ] || [ "$logTypes" = "100" ];then
+    if [ "$log_path" ];then
+        oidt_root=${log_path}
+    else
+        oidt_root="sdcard/OppoStamp"
+    fi
+
+    mkdir -p ${oidt_root}
+    traceTransferState "oidt root: ${oidt_root}"
+
+    log_config_file=`getprop sys.oidt.log_config`
+    traceTransferState "log config file: ${log_config_file} "
+
+    if [ "$log_config_file" ];then
+        setprop sys.oidt.log_ready 0
+        paths=`cat ${log_config_file}`
+
+        for file_path in ${paths};do
+            # create parent directory of each path
+            dest_path=${oidt_root}${file_path%/*}
+            # replace dunplicate character '//' with '/' in directory
+            dest_path=${dest_path//\/\//\/}
+            mkdir -p ${dest_path}
+            traceTransferState "copy ${file_path} "
+            cp -rf ${file_path} ${dest_path}
+        done
+
+        chmod -R 777 ${oidt_root}
+
+        setprop sys.oidt.log_ready 1
+        setprop sys.oidt.log_config ''
+    elif [ "$logTypes" = "" ] || [ "$logTypes" = "100" ];then
+        collect_stamp_config
         logStable
         logPerformance
         logPower
     else
+        collect_stamp_config
         arr=${logTypes//,/ }
         for each in ${arr[*]}
         do
@@ -1709,41 +1838,48 @@ function oidtlogs() {
     fi
 
     setprop sys.oppo.logTypes ''
+    setprop sys.oidt.log_types ''
+    setprop sys.oidt.log_path ''
     setprop sys.oppo.oidtlogs 1
+    traceTransferState "oidtlogs end "
+}
+
+function collect_stamp_config() {
+    mkdir -p ${oidt_root}/config
+    cp system/etc/sys_stamp_config.xml ${oidt_root}/config/
+    cp data/system/sys_stamp_config.xml ${oidt_root}/config/
 }
 
 function logStable(){
-    mkdir -p sdcard/OppoStamp/log/stable
-    cp -r data/oppo/log/DCS/de/minidump/ sdcard/OppoStamp/log/stable
-    cp -r data/oppo/log/DCS/en/minidump/ sdcard/OppoStamp/log/stable
-    cp -r data/oppo/log/DCS/de/AEE_DB/ sdcard/OppoStamp/log/stable
-    cp -r data/oppo/log/DCS/en/AEE_DB/ sdcard/OppoStamp/log/stable
-    cp -r data/vendor/aee_exp/ sdcard/OppoStamp/log/stable
+    mkdir -p ${oidt_root}/log/stable
+    cp -r data/oppo/log/DCS/de/minidump/ ${oidt_root}/log/stable
+    cp -r data/oppo/log/DCS/en/minidump/ ${oidt_root}/log/stable
+    cp -r data/oppo/log/DCS/en/AEE_DB/ ${oidt_root}/log/stable
+    cp -r data/vendor/mtklog/aee_exp/ ${oidt_root}/log/stable
+    cp -r data/oppo/log/DCS/en/hang_oppo ${oidt_root}/log/stable
+    cp -r data/oppo/log/opporeserve/media/log/hang_oppo ${oidt_root}/log/stable
 }
 
 function logPerformance(){
-    mkdir -p sdcard/OppoStamp/log/performance
-    cat /proc/meminfo > sdcard/OppoStamp/log/performance/meminfo_fs.txt
-    dumpsys -t 15 meminfo > sdcard/OppoStamp/log/performance/meminfo_dump.txt
-    cat proc/slabinfo > sdcard/OppoStamp/log/performance/slabinfo_fs.txt
+    mkdir -p ${oidt_root}/log/performance
+    cat /proc/meminfo > ${oidt_root}/log/performance/meminfo_fs.txt
+    dumpsys meminfo > ${oidt_root}/log/performance/meminfo_dump.txt
+    cat proc/slabinfo > ${oidt_root}/log/performance/slabinfo_fs.txt
 }
 
 function logPower(){
-    mkdir -p sdcard/OppoStamp/log/power
-    #ifdef COLOROS_EDIT
-    #SunYi@Rom.Framework, 2019/11/25, add for collect trace_viewer log
-    mkdir -p sdcard/OppoStamp/log/power/trace_viewer/de
-    mkdir -p sdcard/OppoStamp/log/power/trace_viewer/en
-    cp -r /data/oppo/log/DCS/de/trace_viewer sdcard/OppoStamp/log/power/trace_viewer/de
-    cp -r /data/oppo/log/DCS/en/trace_viewer sdcard/OppoStamp/log/power/trace_viewer/en
-    #endif /* COLOROS_EDIT */
-    #SunYi@Rom.Framework, 2020/01/10, modify for collect powermonitor log
-    #am broadcast --user all -a android.intent.action.ACTION_OPPO_SAVE_BATTERY_HISTORY_TO_SD  com.oppo.oppopowermonitor
-    #sleep 3
-    cp /data/oppo/psw/powermonitor_backup  -r sdcard/OppoStamp/log/power
-    #endif /* COLOROS_EDIT */
-    dumpsys batterystats --thermalrec > sdcard/OppoStamp/log/power/thermalrec.txt
-    dumpsys batterystats --thermallog > sdcard/OppoStamp/log/power/thermallog.txt
+    mkdir -p ${oidt_root}/log/power
+    mkdir -p ${oidt_root}/log/power/trace_viewer/de
+    mkdir -p ${oidt_root}/log/power/trace_viewer/en
+    mkdir -p ${oidt_root}/log/power/trace_viewer_bp/de
+    mkdir -p ${oidt_root}/log/power/Otrace
+    cp -r /data/oppo/log/DCS/de/trace_viewer ${oidt_root}/log/power/trace_viewer/de
+    cp -r /data/oppo/log/DCS/en/trace_viewer ${oidt_root}/log/power/trace_viewer/en
+    cp -r /data/oppo/log/DCS/de/trace_viewer_bp ${oidt_root}/log/power/trace_viewer_bp/de
+    cp -r /storage/emulated/0/Android/data/com.coloros.athena/files/Documents ${oidt_root}/log/power/Otrace
+    cp -r /data/oppo/psw/powermonitor_backup ${oidt_root}/log/power
+    dumpsys batterystats --thermalrec > ${oidt_root}/log/power/thermalrec.txt
+    dumpsys batterystats --thermallog > ${oidt_root}/log/power/thermallog.txt
 }
 #add for oidt end
 
@@ -1774,6 +1910,7 @@ function dumpWm() {
         dumpsys window -a > ${DIR}/windows.txt
         dumpsys activity a > ${DIR}/activities.txt
         dumpsys activity -v top > ${DIR}/top_activity.txt
+        dumpsys input > ${DIR}/input.txt
         ps -A > ${DIR}/ps.txt
     fi
 }
@@ -1927,6 +2064,19 @@ function logObserver() {
     settings put global logkit_observer_size "${FreeSize}|${LOG_COUNT_SIZE}"
     # settings get global logkit_observer_size
     traceTransferState " log observer:data free and log size: ${FreeSize}|${LOG_COUNT_SIZE}"
+}
+
+function traceTransferState() {
+    if [ ! -d ${SDCARD_LOG_BASE_PATH} ]; then
+        mkdir -p ${SDCARD_LOG_BASE_PATH}
+        chmod 770 ${SDCARD_LOG_BASE_PATH} -R
+        echo "${CURTIME_FORMAT} TRACETRANSFERSTATE:${SDCARD_LOG_BASE_PATH} " >> ${SDCARD_LOG_BASE_PATH}/logkit_transfer.log
+    fi
+
+    content=$1
+    currentTime=`date "+%Y-%m-%d %H:%M:%S"`
+    echo "${currentTime} ${content} " >> ${SDCARD_LOG_BASE_PATH}/logkit_transfer.log
+    log -p d -t Debuglog ${content}
 }
 
 case "$config" in
@@ -2222,6 +2372,15 @@ case "$config" in
     "logobserver")
         logObserver
     ;;
+#ifdef OPLUS_FEATURE_WIFI_CONNECTFAILED
+#Add for collect wifi connect fail log
+    "collectWifiConnectLog")
+        collectWifiConnectLog
+    ;;
+    "packWifiConnectLog")
+        packWifiConnectLog
+    ;;
+#endif  /* OPLUS_FEATURE_WIFI_CONNECTFAILED */
        *)
 
       ;;

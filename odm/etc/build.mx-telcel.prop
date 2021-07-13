@@ -1,0 +1,8 @@
+# Mexico TELCEL
+persist.sys.oppo.region=MX
+persist.sys.forbiduninstall.packagelist=com.celltick.lockscreen,com.facebook.katana
+ro.com.google.clientidbase=android-oppo
+ro.com.google.clientidbase.am=android-americamovil-{country}
+ro.vendor.oplus.regionmark=MX
+ro.vendor.oplus.operator=TELCEL
+ro.com.google.clientidbase.ms=android-americamovil-{country}-revc

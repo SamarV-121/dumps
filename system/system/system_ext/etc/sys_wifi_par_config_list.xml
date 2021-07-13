@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <wifiromupdate>
-    <version>2020122421</version>
+    <version>2021022810</version>
     <isOpen>1</isOpen>
     <!-- WIFI CONNECT TEAM -->
     <!-- WIFI CONNECT TEAM :WifiStateMachine.java -->
@@ -38,7 +38,7 @@
     <!-- WIFI NETWORK TEAM -->
     <NETWORK_CHECK_INTERNET_AFTER_DRIVER_ROAMING>true</NETWORK_CHECK_INTERNET_AFTER_DRIVER_ROAMING>
     <!-- WiFi.Network.internet.N18 873764 -->
-    <NETWORK_MTU>1460</NETWORK_MTU>
+    <NETWORK_MTU>1500</NETWORK_MTU>
     <NETWORK_MTU_SERVER>conn3.coloros.com,conn4.coloros.com,conn5.coloros.com</NETWORK_MTU_SERVER>
     <NETWORK_MTU_SERVER_EXP>www.google.com</NETWORK_MTU_SERVER_EXP>
 
